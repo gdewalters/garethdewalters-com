@@ -1,0 +1,44 @@
+          <!-- Article promo card -->
+
+        <article class="card post-card h-100 border-0 bg-transparent">
+          <div class="card-body">
+            <a class="d-block" href="{{ post.url }}" title="{{post.data.title}}">
+              <div class="post-image position-relative">
+                <img class="w-100 h-auto rounded" src="{{post.data.featuredImage}}" alt="{{post.data.title}}" width="970" height="500">
+              </div>
+            </a>
+            <ul class="card-meta list-inline mb-3">
+              <li class="list-inline-item mt-2">
+                <i class="ti ti-calendar-event"></i>
+                <span>{{ post.data.date | readableDate }}</span>
+              </li>
+              <li class="list-inline-item mt-2">—</li>
+              <li class="list-inline-item mt-2">
+                <i class="ti ti-clock"></i>
+                <span>{{ post | readingTime }} read</span>
+              </li>
+            </ul>
+            <a class="d-block" href="{{ post.url }}"
+              title="{{post.data.title}}">
+              <h3 class="mb-3 post-title">
+                {{ post.data.title }}
+              </h3>
+            </a>
+            <p>{{ post.data.description90Chars }}</p>
+
+          </div>
+          <div class="card-footer border-top-0 bg-transparent p-0">
+            <ul class="card-meta list-inline">
+              <li class="list-inline-item mt-2">
+                <ul class="card-meta-tag list-inline">
+                  {% set comma = joiner() %}
+                  {%- for tag in post.data.tags | filterTagList %}
+                  <li class="list-inline-item small"><a href="/topic/{{ tag | slugify }}">{{ tag | capitalize }}</a></li>
+                  {%- endfor %}
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </article>
+      
+      <!-- End article promo card -->      

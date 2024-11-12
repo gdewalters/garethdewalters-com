@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: Gareth de Walters' personal website
+metaTitle60Chars: Gareth de Walters' personal website
+description: Gareth de Walters' personal website
+metaDescription155Chars: Gareth de Walters' personal website
+eleventyExcludeFromCollections: true
+eleventyNavigation:
+  key: Home
+  order: 1
+eleventyImport:
+  collections: ["post"]
+numberOfLatestPostsToShow: 3
+---
+
+<!-- Get recent posts -->
+
+{% include "partials/recent-posts-card.njk" %}
+
+<!-- // End get recent posts -->

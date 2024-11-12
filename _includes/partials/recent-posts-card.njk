@@ -1,0 +1,37 @@
+<!-- Get recent posts -->
+<section>
+
+  <!-- Intro header -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">
+          <span>Recent posts</span>
+        </h2>
+      </div>
+    </div>
+
+    <!-- Display article promo cards -->
+    <div class="row gy-5 gx-4 g-xl-5">
+
+      {% set postsCount = collections.post | length %}
+      {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+
+      {% set postslist = collections.post | head(-1 * numberOfLatestPostsToShow) %}
+      {% set postslistCounter = postsCount %}
+
+      {% for post in postslist | reverse %}
+      <div class="col-lg-6">
+      {% include "partials/card.njk" %}
+      </div>
+      {% endfor %}
+
+      <div class="col-12 text-center">
+        <a class="btn btn-primary mt-5" href="/archive" aria-label="View all posts"><i class="ti ti-new-section me-2"></i>View all posts</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- // End get recent posts -->

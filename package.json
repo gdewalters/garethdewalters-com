@@ -1,0 +1,31 @@
+{
+	"name": "garethdewalters-website",
+	"version": "0.0.1",
+	"description": "The repository for Gareth de Walters' personal website.",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/gdewalters/dewalters-website.git"
+	},
+	"author": {
+		"name": "Gareth de Walters",
+		"email": "gareth@dewalters.net",
+		"url": "https://dewalters.net/"
+	},
+	"keywords": [],
+	"license": "ISC",
+	"dependencies": {
+		"@11ty/eleventy": "^3.0.0",
+		"@11ty/eleventy-img": "^5.0.0",
+		"eleventy-plugin-reading-time": "^0.0.1",
+		"luxon": "^3.5.0",
+		"pagefind": "^1.2.0"
+	}
+}

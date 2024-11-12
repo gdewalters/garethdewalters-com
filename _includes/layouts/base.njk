@@ -1,0 +1,9 @@
+{% include "partials/head.njk" %}
+  <body>
+    {% include "partials/header.njk" %}
+
+    {{ content | safe }}
+
+    {% include "partials/footer.njk" %}
+  </body>
+</html>

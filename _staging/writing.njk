@@ -1,0 +1,12 @@
+---
+layout: layouts/level-1.njk
+title: Writing
+metaTitle60Chars: Section meta title
+description: Here’re a few words I’ve written. If you like them, you can subscribe to my RSS feed.
+eleventyExcludeFromCollections: true
+eleventyNavigation:
+  key: Writing
+  order: 2
+---
+{% set postslist = collections.posts %}
+{% include "partials/writing-list.njk" %}

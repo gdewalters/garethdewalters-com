@@ -1,0 +1,31 @@
+
+<ol reversed class="" style="list-style: none; margin: 0; padding: 0;">
+
+{% for post in postslist | reverse %}
+	
+	<li class="mb-5">
+
+		<h2 class="mb-1">
+			<a href="{{ post.url }}" class="" rel="bookmark">{{ post.data.title }}</a>
+		</h2>
+
+		<div class="">
+			<time class="" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("dd LLLL yyyy") }}</time>
+			<span aria-hidden="true">&sdot;</span>
+			{%- for tag in post.data.tags | filterTagList %}
+			<span class="is-size-7">{{ tag | upper }}{%- if not loop.last %}, {% endif %}</span>
+			{%- endfor %}
+		</div>
+
+		<p class="mt-4 is-size-5 has-text-grey-darker has-text-weight-light is-family-sans-serif">
+			{{ post.data.description }}
+		</p>
+	
+	</li>
+
+{% endfor %}
+
+</ol>
+
+
+

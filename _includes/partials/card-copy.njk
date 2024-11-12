@@ -1,0 +1,70 @@
+                        <div class="tarjeta">
+
+                            <figure class="image is-5by3">
+                                <a href="{{ post.url }}">
+                                <img src="{{post.data.featuredImage}}" alt="{{post.data.title}}" loading="lazy">
+                                </a>
+                            </figure>
+
+                            <div class="p-3">
+                                {% set comma = joiner() %}
+                                {%- for tag in post.data.tags | filterTagList %}
+                                {{ comma() }} <a href="/topic/{{ tag }}" class="is-uppercase is-size-7 has-text-grey-dark">{{ tag }}</a>
+                                {%- endfor %}
+                                <h3 class="tarjeta-title mt-0 mb-4 is-size-4 has-text-weight-bold has-text-grey-dark">
+                                    <a href="{{ post.url }}" class="has-text-dark">{{ post.data.title }}</a>
+                                </h3>
+                                <p class="has-text-grey-dark">
+                                    {{ post.data.description90Chars }}
+                                </p>
+                            </div>
+
+                        </div>        
+
+
+      <!-- Article promo card -->
+      <div class="col-lg-6">
+        <article class="card post-card h-100 border-0 bg-transparent">
+          <div class="card-body">
+            <a class="d-block" href="{{ post.url }}" title="{{post.data.title}}">
+              <div class="post-image position-relative">
+                <img class="w-100 h-auto rounded" src="{{post.data.featuredImage}}" alt="{{post.data.title}}" width="970" height="500">
+              </div>
+            </a>
+            <ul class="card-meta list-inline mb-3">
+              <li class="list-inline-item mt-2">
+                <i class="ti ti-calendar-event"></i>
+                <span>05 Dec, 2021</span>
+              </li>
+              <li class="list-inline-item mt-2">—</li>
+              <li class="list-inline-item mt-2">
+                <i class="ti ti-clock"></i>
+                <span>02 min read</span>
+              </li>
+            </ul>
+            <a class="d-block" href="blog-single.html"
+              title="The AGI hype train is running out of steam">
+              <h3 class="mb-3 post-title">
+                {{ post.data.title }}
+              </h3>
+            </a>
+            <p>{{ post.data.description90Chars }}</p>
+          </div>
+          <div class="card-footer border-top-0 bg-transparent p-0">
+            <ul class="card-meta list-inline">
+              <li class="list-inline-item mt-2">
+                <a href="author-single.html" class="card-meta-author" title="Read all posts by - Thomas Macaulay">
+                  <img class="w-auto" src="assets/images/author/thomas-macaulay.jpg" alt="Thomas Macaulay" width="26" height="26"> by <span>Thomas</span>
+                </a>
+              </li>
+              <li class="list-inline-item mt-2">•</li>
+              <li class="list-inline-item mt-2">
+                <ul class="card-meta-tag list-inline">
+                  <li class="list-inline-item small"><a href="tag-single.html">Machine</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <!-- End article promo card -->      

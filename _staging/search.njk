@@ -1,0 +1,27 @@
+---
+layout: layouts/level-1.njk
+sectionTitle: Search
+pageTitle: A bit about Gareth de Walters
+metaTitle: About Gareth de Walters
+metaDescription: Gareth is web manager who loves history, archaeolgy and linguistics.
+---
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="archive-block">
+
+          <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+          <script src="/pagefind/pagefind-ui.js"></script>
+          <div id="search"></div>
+          <script>
+              window.addEventListener('DOMContentLoaded', (event) => {
+                  new PagefindUI({ element: "#search", showSubResults: true });
+              });
+          </script>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,20 @@
+<!-- Get recent posts -->
+
+    <!-- Display full article -->
+      {% set postsCount = collections.post | length %}
+      {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+
+      {% set postslist = collections.post | head(-1 * numberOfLatestPostsToShow) %}
+      {% set postslistCounter = postsCount %}
+
+      {% for post in postslist | reverse %}
+
+      {% include "partials/article.njk" %}
+
+      {% endfor %}
+
+      <div class="col-12 text-center">
+        <a class="btn btn-primary mt-5" href="blog.html" aria-label="View all posts"><i class="ti ti-new-section me-2"></i>View all posts</a>
+      </div>
+
+<!-- // End get recent posts -->
