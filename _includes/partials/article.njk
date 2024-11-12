@@ -48,7 +48,7 @@
             <script type="text/javascript">
               var pageLink = window.location.href;
               var pageTitle = String(document.title).replace(/\&/g, '%26');
-              function tbs_click(){pageLink = 'https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageLink}';socialWindow(pageLink, 570, 570);}
+              function tbs_click(){pageLink = 'https://twitter.com/intent/tweet?text=${title}&url=${pageLink}';socialWindow(pageLink, 570, 570);}
               function fbs_click(){pageLink = 'https://www.facebook.com/sharer.php?u=${pageLink}&quote=${pageTitle}';socialWindow(pageLink, 570, 570);}
               function ins_click(){pageLink = 'https://www.linkedin.com/sharing/share-offsite/?url=${pageLink}';socialWindow(pageLink, 570, 570);}
               function red_click(){pageLink = 'https://www.reddit.com/submit?url=${pageLink}';socialWindow(pageLink, 570, 570);}
