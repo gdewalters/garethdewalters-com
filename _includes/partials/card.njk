@@ -33,7 +33,7 @@
                 <ul class="card-meta-tag list-inline">
                   {% set comma = joiner() %}
                   {%- for tag in post.data.tags | filterTagList %}
-                  <li class="list-inline-item small"><a href="/topic/{{ tag | slugify }}">{{ tag | capitalize }}</a></li>
+                  <li class="list-inline-item small"><a href="/topics/{{ tag | slugify }}">{{ tag | capitalize }}</a></li>
                   {%- endfor %}
                 </ul>
               </li>

@@ -16,7 +16,7 @@ pagination:
   addAllPagesToCollections: true
 eleventyComputed:
   title: Tagged “{{ tag }}”
-permalink: /topic/{{ tag | slugify }}/
+permalink: /topics/{{ tag | slugify }}/
 ---
 <section class="page-header section-sm">
   <div class="container">
@@ -28,8 +28,8 @@ permalink: /topic/{{ tag | slugify }}/
         </h1>
         <ul class="list-inline breadcrumb-menu mb-3">
           <li class="list-inline-item"><a href="/"><i class="ti ti-home"></i>  <span>Home</span></a></li>
-          <li class="list-inline-item">• &nbsp; <a href="tags.html"><span>Tags</span></a></li>
-          <li class="list-inline-item">• &nbsp; <a href="tag-single.html"><span>{{ tag | capitalize }}</span></a></li>
+          <li class="list-inline-item">• &nbsp; <a href="/topics"><span>Topics</span></a></li>
+          <li class="list-inline-item">• &nbsp; <a href=""><span>{{ tag | capitalize }}</span></a></li>
         </ul>
       </div>
     </div>

@@ -48,11 +48,11 @@
             <script type="text/javascript">
               var pageLink = window.location.href;
               var pageTitle = String(document.title).replace(/\&/g, '%26');
-              function tbs_click(){pageLink = 'https://twitter.com/intent/tweet?text=${title}&url=${pageLink}';socialWindow(pageLink, 570, 570);}
-              function fbs_click(){pageLink = 'https://www.facebook.com/sharer.php?u=${pageLink}&quote=${pageTitle}';socialWindow(pageLink, 570, 570);}
-              function ins_click(){pageLink = 'https://www.linkedin.com/sharing/share-offsite/?url=${pageLink}';socialWindow(pageLink, 570, 570);}
-              function red_click(){pageLink = 'https://www.reddit.com/submit?url=${pageLink}';socialWindow(pageLink, 570, 570);}
-              function pin_click(){pageLink = 'https://www.pinterest.com/pin/create/button/?&text=${pageTitle}&url=${pageLink}&description=${pageTitle}';socialWindow(pageLink, 570, 570);}
+              function tbs_click(){pageLink = 'https://twitter.com/intent/tweet?text={{title}}&url={{ metadata.url }}{{ page.url }}';socialWindow(pageLink, 570, 570);}
+              function fbs_click(){pageLink = 'https://www.facebook.com/sharer.php?u={{ metadata.url }}{{ page.url }}&quote={{title}}';socialWindow(pageLink, 570, 570);}
+              function ins_click(){pageLink = 'https://www.linkedin.com/sharing/share-offsite/?url={{ metadata.url }}{{ page.url }}';socialWindow(pageLink, 570, 570);}
+              function red_click(){pageLink = 'https://www.reddit.com/submit?url={{ metadata.url }}{{ page.url }}';socialWindow(pageLink, 570, 570);}
+              function pin_click(){pageLink = 'https://www.pinterest.com/pin/create/button/?&text={{title}}&url={{ metadata.url }}{{ page.url }}&description={{metadescription}}';socialWindow(pageLink, 570, 570);}
               function socialWindow(pageLink, width, height){var left = (screen.width - width) / 2;var top = (screen.height - height) / 2;var params = "menubar=no,toolbar=no,status=no,width=" + width + ",height=" + height + ",top=" + top + ",left=" + left;window.open(pageLink,"",params);}
             </script>
           </div>
@@ -61,10 +61,16 @@
               {{ content | safe }}
             </div>
 
+
+
+
             <ul class="post-meta-tag list-unstyled list-inline mt-5">
-              <li class="list-inline-item">Tags: </li>
-              <li class="list-inline-item"><a class="bg-white" href="tag-single.html">Life</a></li>
-              <li class="list-inline-item"><a class="bg-white" href="tag-single.html">Lighting</a></li>
+              <li class="list-inline-item">Topics: </li>
+              {% for tag in tags -%}
+                  {% if tag !== 'post' %}
+                      <li class="list-inline-item"><a class="bg-white" href="/topics/{{ tag | slugify}}">{{ tag | capitalize }}</a></li>
+                  {% endif %}
+              {%- endfor %}
             </ul>
           </div>
         </div>
@@ -78,6 +84,9 @@
                 </h2>
               </div>
               <div class="row gy-5 gx-4 g-xl-5">
+
+
+
                 
                   
                 <div class="col-lg-6">
