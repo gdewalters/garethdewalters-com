@@ -63,7 +63,7 @@ I'm particularly interested in:
 5. Any Thomas family connections to the Llanelli area in the 1880s
 
 ## How to contact me
-If any of these details spark a connection with your own family research, or if you have information about domestic servants in late Victorian Llanelli, please message me on [Threads](https://www.threads.net/@gdewalters) or [Bluesky](https://bsky.app/profile/gdewalters.bsky.social).
+If any of these details spark a connection with your own family research, or if you have information about domestic servants in late Victorian Llanelli who could be Gwenllian, please message me on [Threads](https://www.threads.net/@gdewalters) or [Bluesky](https://bsky.app/profile/gdewalters.bsky.social).
 
 *Every piece of information, no matter how small, could help solve the mystery of what happened to Gwenllian Walters.*
 
