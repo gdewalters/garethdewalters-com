@@ -51,7 +51,7 @@ After registering her son's birth, Gwenllian disappears from historical records.
 
 ## Possible later sighting
 
-A tantalizing clue appears in the 1891 census: a "G. Walters" working as a housemaid at the Thomas Arms Hotel, Mount Pleasant, Llanelli (a pub that still operates today). While this person listed their birthplace as Aberavon (10km from Margam), such discrepancies were common in Victorian record-keeping.
+A tantalising clue appears in the 1891 census: a "G. Walters" working as a housemaid at the Thomas Arms Hotel, Mount Pleasant, Llanelli (a pub that still operates today). While this person listed their birthplace as Aberavon (10km from Margam), such discrepancies were common in Victorian record-keeping.
 
 ## Do you have information about Gwenllian?
 I'm particularly interested in:
@@ -62,7 +62,7 @@ I'm particularly interested in:
 4. Records from other workhouses or institutions that might mention her
 5. Any Thomas family connections to the Llanelli area in the 1880s
 
-## How to Contact Me
+## How to contact me
 If any of these details spark a connection with your own family research, or if you have information about domestic servants in late Victorian Llanelli, please message me on [Threads](https://www.threads.net/@gdewalters) or [Bluesky](https://bsky.app/profile/gdewalters.bsky.social).
 
 *Every piece of information, no matter how small, could help solve the mystery of what happened to Gwenllian Walters.*
