@@ -1,8 +1,8 @@
 ---
 layout: layouts/article.njk
 title: How to make Neapolitan-style pizza at home
-metaTitle60Chars: How to make Neapolitan-style pizza at home
-description: Making a delicious Neapolitan-style pizza at home is perfectly achievable if you follow these tips from the expert pizzaioli.
+metatitle: How to make Neapolitan-style pizza at home
+metadescription: Making a delicious Neapolitan-style pizza at home is perfectly achievable if you follow these tips from the expert pizzaioli.
 metaDescription155Chars: Follow these steps to making a delicious Neapolitan-style pizza at home.
 description90Chars: Follow these steps to making a delicious Neapolitan-style pizza at home.
 articleID: 4038be77-7abc-48ec-93b6-354fd66f4f0d

@@ -6,8 +6,8 @@
 
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
 
-    <title>{{ metaTitle60Chars }}</title>
-    <meta name="description" content="{{ description or site.description }}">
+    <title>{{ metatitle or metaTitle60Chars }}</title>
+    <meta name="description" content="{{ metadescription or site.description }}">
 
     <!-- DNS Prefetch: Current domain and any external resources, eg: fonts -->
     <link rel="dns-prefetch" href="{{ metadata.url }}">
