@@ -142,7 +142,7 @@ Slide the pizza on to the pizza stone or baking tray and cook for 6-12 minutes d
 Serve the pizza with a drizzle of olive oil, cracked pepper or or a dash of a mild chilli sauce.
 
 <figure>
-    <img src="pizza-on-a-plate.jpg" alt="Photo of a pizza served on a plate."></img>
+    <img data-pagefind-meta="image[src], image_alt[alt]" src="pizza-on-a-plate.jpg" alt="Photo of a pizza served on a plate."></img>
     <figcaption>Delicious pizza!.</figcaption>
 </figure>
 

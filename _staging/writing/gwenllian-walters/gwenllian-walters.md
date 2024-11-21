@@ -24,7 +24,7 @@ Born in 1867 in Margam, Glamorganshire, Gwenllian worked as a domestic servant i
 
 Gwenllian (from Welsh gwen "fair, blessed, white" and llian "flaxen") was born at home on Constant Row, Margam, on September 6, 1867. She was the fourth child and second daughter of Lewis Walter(s), a coal miner, and his wife Ann (née John).
 <figure>
-    <img src="walters-gwenllian-birth-registration.png" alt="opy of Gwenllian Walters birth registration." class="">
+    <img data-pagefind-meta="image[src], image_alt[alt]" src="walters-gwenllian-birth-registration.png" alt="Copy of Gwenllian Walters birth registration." class="">
     <figcaption>The civil birth registration details for Gwenllian Walters. Image credit: Private collection.</figcaption>
 </figure>
 Tragedy struck early in Gwenllian's life. Her mother Ann died before April 1871, when we find three-year-old Gwenllian living at 3 Greenfield Row, Margam, with her:
