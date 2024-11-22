@@ -103,9 +103,14 @@ module.exports = async function(eleventyConfig) {
 		return Array.from(tagSet);
 	});
 
+	// Return the keys used in an object
+	eleventyConfig.addFilter("getKeys", target => {
+		return Object.keys(target);
+	});
+
 	// Filter tags 
 	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-		return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+		return (tags || []).filter(tag => ["all", "post", "postsByYearDescVersion21"].indexOf(tag) === -1);
 	});
 
   	/* 
