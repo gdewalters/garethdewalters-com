@@ -7,7 +7,7 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
 
     <title>{{ metatitle or metaTitle60Chars }}</title>
-    <meta name="description" content="{{ metadescription or site.description }}">
+    <meta name="description" content="{{ metadescription or data.siteDescription }}">
 
     <!-- DNS Prefetch: Current domain and any external resources, eg: fonts -->
     <link rel="dns-prefetch" href="{{ metadata.url }}">
@@ -22,13 +22,11 @@
 
     <!-- Me -->
     <meta name="author" content="{{ metadata.author.name }}" />
-    <link href="mailto:{{ metadata.author.email }}" rel="me">
-    <!-- <link href="sms:+640210000000" rel="me" /> -->
-    <link href="{{metadata.social.twitter}}" rel="me">
     <link href="{{metadata.social.linkedin}}" rel="me">
     <link href="{{metadata.social.github}}" rel="me">
     <link href="{{metadata.social.instagram}}" rel="me">
     <link href="{{metadata.social.bluesky}}" rel="me">
+    <link href="{{metadata.social.threads}}" rel="me">
 
     <!-- Manifest and browserconfig -->
     <link rel="manifest" href="/site.webmanifest?v=zX7lz2GQ2G">

@@ -3,14 +3,14 @@ export default {
 	url: "https://garethdewalters.com",
 	domain: "https://garethdewalters.com",
 	language: "en-NZ",
-	description: "I am writing about my experiences as a [...].",
+	siteDescription: "I'm a web manager and web production specialist from Auckland, New Zealand. I write about making websites, food and drink, genealogy, linguistics, history and music.",
 	author: {
 		name: "Gareth de Walters",
 		occupation: "Website manager and producer",
 		expertise: "Websites, food, music, history",
 		email: "gareth@dewalters.net",
-		personalUrl: "https://dewalters.net/about/",
-		personalWebsite: "https://dewalters.net/"
+		personalUrl: "https://garethdewalters.com/",
+		personalWebsite: "https://garethdewalters.com/"
 	},
 	logoUrl: "",
 	search: false,
@@ -64,7 +64,7 @@ export default {
 	social: {
 	  bluesky: "https://bsky.app/profile/gdewalters.bsky.social",
 	  facebook: "",
-	  twitter: "http://twitter.com/gdewalters/",
+	  threads: "https://www.threads.net/@gdewalters",
 	  pinterest: "",
 	  instagram: "https://instagram.com/gdewalters/",
 	  github: "https://github.com/gdewalters/",
