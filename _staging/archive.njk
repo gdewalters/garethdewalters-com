@@ -29,9 +29,6 @@ numberOfLatestPostsToShow: 6
   </div>
 </section>
 
-
-
-
 <section>
   <div class="container">
     <div class="row">
@@ -40,7 +37,7 @@ numberOfLatestPostsToShow: 6
             {% for year, posts in collections.postsByYearDescVersion21  %}
               <h2><i class="ti ti-archive"></i>{{ year }}</h2>
               {% for post in posts %}
-              <p class="archive-post-item">{{ post.date | readableDateNoYear }}<span>•</span><a href="{{ post.url }}">{{ post.data.title }}</a></p>
+              <p class="archive-post-item">{{ post.date | readableDateNoYear }}<span>•</span><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></p>
               {% endfor %}
             {% endfor %}
         </div>

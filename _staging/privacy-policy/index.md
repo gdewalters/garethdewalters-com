@@ -1,9 +1,16 @@
 ---
 layout: layouts/level-1.njk
-sectionTitle: Privacy Policy
 pageTitle: Privacy Policy
-metaTitle: Privacy Policy
-metaDescription: Privacy Policy
+pageSummaryDefault:
+pageSummaryMobile: 
+seoTitle: 
+seoDescription: 
+canonicalURL: https://garethdewalters.com/privacy-policy
+opengraphTitle: 
+opengraphDescription: 
+opengraphImage:
+opengraphType: text/html
+opengraphLocale: en_NZ
 eleventyNavigation:
   key: About
   order: 4

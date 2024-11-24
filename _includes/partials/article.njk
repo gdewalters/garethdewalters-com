@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-10">
             <div class="mb-5">
-              <h3 class="h1 mb-4 post-title">{{ title }}</h3>            
+              <h3 class="h1 mb-4 post-title">{{ pageTitle }}</h3>            
 
               <ul class="card-meta list-inline mb-2">
                 <li class="list-inline-item mt-2">
@@ -29,7 +29,7 @@
           <div class="col-lg-12">
           {% if featuredImage %}
             <figure class="mb-5 text-center">
-              <img class="w-100 h-auto rounded" src="{{featuredImage}}" alt="{{title}}" width="970" height="500">
+              <img class="w-100 h-auto rounded" src="{{featuredImage}}" alt="{{featuredImageAltText}}" width="970" height="500">
               <figcaption>{{featuredImageCaption}}</figcaption>
             </figure>
           {% endif %}

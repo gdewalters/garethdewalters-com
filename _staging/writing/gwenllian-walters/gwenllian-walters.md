@@ -1,11 +1,20 @@
 ---
 layout: layouts/article.njk
-title: Gwenllian Walters - the case of the disappearing great grandmother
-metatitle: Gwenllian Walters - the case of the disappearing great grandmother
-metadescription: On 22 September 1888, a young woman gave birth to her illegitimate son in the Llanelly Union Workhouse, South Wales. A month and a half later Gwenllian registered the birth —and with that bureaucratic step completed— she disappeared from the historical record.
+pageTitle: "Gwenllian Walters: The case of the disappearing great grandmother"
+pageSummaryDefault: On 22 September 1888, a young woman gave birth to her illegitimate son in the Llanelly Union Workhouse, South Wales. A month and a half later Gwenllian registered the birth —and with that bureaucratic step completed— she disappeared from the historical record.
+pageSummaryMobile: On 22 September 1888, a young woman gave birth to her illegitimate son in the Llanelly Union Workhouse. A month and a half later she disappeared from the historical record.
+seoTitle: "Gwenllian Walters: The case of the disappearing great grandmother"
+seoDescription: On 22 September 1888, a young woman gave birth to her illegitimate son in the Llanelly Union Workhouse, South Wales. A month and a half later Gwenllian registered the birth —and with that bureaucratic step completed— she disappeared from the historical record.
+canonicalURL: https://garethdewalters.com/writing/gwenllian-walters/
+opengraphTitle: "Gwenllian Walters: The case of the disappearing great grandmother"
+opengraphDescription: On 22 September 1888, a young woman gave birth to her illegitimate son in the Llanelly Union Workhouse, South Wales. A month and a half later Gwenllian registered the birth —and with that bureaucratic step completed— she disappeared from the historical record.
+opengraphImage: /assets/images/featured/f866b945-fa96-4ece-91e2-8f12c5df3261.jpg
+opengraphType: text/html
+opengraphLocale: en_NZ
 articleID: f866b945-fa96-4ece-91e2-8f12c5df3261
 featuredImage: /assets/images/featured/f866b945-fa96-4ece-91e2-8f12c5df3261.jpg
 featuredImageCaption: "A young mother and baby wait for news. Image credit: Amgueddfa Cymru."
+featuredImageAltText: "A young mother and baby wait for news. Image credit: Amgueddfa Cymru."
 date: 2020-05-11
 tags:
   - post

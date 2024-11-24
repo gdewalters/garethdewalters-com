@@ -6,8 +6,9 @@
 
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
 
-    <title>{{ metatitle or metaTitle60Chars }}</title>
-    <meta name="description" content="{{ metadescription or data.siteDescription }}">
+    <title>{{ seoTitle }}</title>
+    <meta name="description" content="{{ seoDescription }}">
+    <link rel="canonical" href="{{ canonicalURL }}" />
 
     <!-- DNS Prefetch: Current domain and any external resources, eg: fonts -->
     <link rel="dns-prefetch" href="{{ metadata.url }}">
@@ -28,6 +29,22 @@
     <link href="{{metadata.social.bluesky}}" rel="me">
     <link href="{{metadata.social.threads}}" rel="me">
 
+    <!-- Open Graph meta -->
+    <meta property="og:site_name" content="{{metadata.title}}" />
+    <meta property="og:type" content="{{ opengraphType }}" />
+    <meta property="og:title" content="{{ opengraphTitle }}" />
+    <meta property="og:description" content="{{ opengraphDescription }}" />
+    {% if permalink %}
+    <meta property="og:url" content="https://{{metadata.domain}}{{ permalink }}" />
+      {% else %}
+    <meta property="og:url" content="https://{{metadata.domain}}{{ page.filePathStem }}/" />
+    {% endif %}
+    {% if featuredImage !== undefined %}
+    <meta property="og:image" content="https://{{metadata.domain}}{{featuredImage}}" />
+      {% else %}
+    <meta property="og:image" content="https://{{metadata.domain}}/img/default.jpg" />
+    {% endif %}
+
     <!-- Manifest and browserconfig -->
     <link rel="manifest" href="/site.webmanifest?v=zX7lz2GQ2G">
     <meta name="msapplication-config" content="browserconfig.xml?v=zX7lz2GQ2G" />
@@ -38,29 +55,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png?v=zX7lz2GQ2G">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png?v=zX7lz2GQ2G">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png?v=zX7lz2GQ2G">
-  
     <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg?v=zX7lz2GQ2G" color="#da532c">
     <link rel="shortcut icon" href="/img/favicon/favicon.ico?v=zX7lz2GQ2G">
 
-    {% if layout === 'post.njk' or layout === 'post-minimal.njk' %}
-      <meta property="og:site_name" content="{{metadata.title}}" />
-      <meta property="og:type" content="article" />
-      <meta name="twitter:card" content="summary" />
-      <meta property="og:title" content="{{ title }}" />
-      <meta property="og:description" content="{{ description }}" />
-      {% if permalink %}
-        <meta property="og:url" content="https://{{metadata.domain}}{{ permalink }}" />
-        {% else %}
-        <meta property="og:url" content="https://{{metadata.domain}}{{ page.filePathStem }}/" />
-      {% endif %}
-
-      {% if featuredImage !== undefined %}
-        <meta property="og:image" content="https://{{metadata.domain}}{{featuredImage}}" />
-        {% else %}
-        <meta property="og:image" content="https://{{metadata.domain}}/img/default.jpg" />
-      {% endif %}
-
-    {% endif %}
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -68,4 +65,5 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NZ8ZK4C3');</script>
     <!-- End Google Tag Manager -->
+    
   </head>

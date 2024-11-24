@@ -1,9 +1,16 @@
 ---
 layout: layouts/about.njk
-sectionTitle: About
-pageTitle: A bit about Gareth de Walters
-metaTitle: About Gareth de Walters
-metaDescription: Gareth is web manager who loves history, archaeolgy and linguistics.
+pageTitle: "Gareth de Walters: About this website"
+pageSummaryDefault: Gareth is web manager who loves history, archaeolgy and linguistics.
+pageSummaryMobile: Gareth is web manager who loves history, archaeolgy and linguistics.
+seoTitle: "Gareth de Walters: About this website"
+seoDescription: Gareth is web manager who loves history, archaeolgy and linguistics.
+canonicalURL: https://garethdewalters.com/about
+opengraphTitle: "Gareth de Walters: About this website"
+opengraphDescription: Gareth is web manager who loves history, archaeolgy and linguistics.
+opengraphImage:
+opengraphType: text/html
+opengraphLocale: en_NZ
 eleventyNavigation:
   key: About
   order: 4

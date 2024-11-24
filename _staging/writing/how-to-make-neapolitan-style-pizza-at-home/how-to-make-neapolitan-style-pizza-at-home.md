@@ -1,13 +1,20 @@
 ---
 layout: layouts/article.njk
-title: How to make Neapolitan-style pizza at home
-metatitle: How to make Neapolitan-style pizza at home
-metadescription: Making a delicious Neapolitan-style pizza at home is perfectly achievable if you follow these tips from the expert pizzaioli.
-metaDescription155Chars: Follow these steps to making a delicious Neapolitan-style pizza at home.
-description90Chars: Follow these steps to making a delicious Neapolitan-style pizza at home.
+pageTitle: How to make Neapolitan-style pizza at home
+pageSummaryDefault: Making a delicious Neapolitan-style pizza at home is perfectly achievable if you follow these tips from the expert pizzaioli.
+pageSummaryMobile: Making a delicious Neapolitan-style pizza at home is perfectly achievable if you follow these tips from the expert pizzaioli.
+seoTitle: How to make Neapolitan-style pizza at home
+seoDescription: Making a delicious Neapolitan-style pizza at home is perfectly achievable if you follow these tips from the expert pizzaioli.
+canonicalURL: https://garethdewalters.com/writing/how-to-make-neapolitan-style-pizza-at-home/
+opengraphTitle: How to make Neapolitan-style pizza at home
+opengraphDescription: Making a delicious Neapolitan-style pizza at home is perfectly achievable if you follow these tips from the expert pizzaioli.
+opengraphImage: /assets/images/featured/4038be77-7abc-48ec-93b6-354fd66f4f0d.jpg
+opengraphType: text/html
+opengraphLocale: en_NZ
 articleID: 4038be77-7abc-48ec-93b6-354fd66f4f0d
 featuredImage: /assets/images/featured/4038be77-7abc-48ec-93b6-354fd66f4f0d.jpg
 featuredImageCaption: ""
+featuredImageAltText: ""
 date: 2020-05-16
 tags:
   - post
