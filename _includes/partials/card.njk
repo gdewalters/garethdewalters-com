@@ -2,9 +2,9 @@
 
         <article class="card post-card h-100 border-0 bg-transparent">
           <div class="card-body">
-            <a class="d-block" href="{{ post.url }}" title="{{post.data.title}}">
+            <a class="d-block" href="{{ post.url }}" title="{{post.data.pageTitle}}">
               <div class="post-image position-relative">
-                <img class="w-100 h-auto rounded" src="{{post.data.featuredImage}}" alt="{{post.data.title}}" width="970" height="500">
+                <img class="w-100 h-auto rounded" src="{{post.data.featuredImage}}" alt="{{post.data.featuredImageAltText}}" width="970" height="500">
               </div>
             </a>
             <ul class="card-meta list-inline mb-3">
@@ -19,12 +19,12 @@
               </li>
             </ul>
             <a class="d-block" href="{{ post.url }}"
-              title="{{post.data.title}}">
+              title="{{post.data.pageTitle}}">
               <h3 class="mb-3 post-title">
-                {{ post.data.title }}
+                {{ post.data.pageTitle }}
               </h3>
             </a>
-            <p>{{ post.data.description90Chars }}</p>
+            <p>{{ post.data.pageSummaryDefault }}</p>
 
           </div>
           <div class="card-footer border-top-0 bg-transparent p-0">

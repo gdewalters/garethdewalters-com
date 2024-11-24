@@ -23,7 +23,9 @@ Rapidsite was bought out by Verio/NTT, and after that I joined the web team and 
 
 You can read more about my experience on [LinkedIn](https://www.linkedin.com/in/gdewalters/).
 
-## Essential apps
+## Colophon
+
+### Essential apps
 
 This site is published in Auckland, New Zealand using the [Eleventy static site generator](https://www.11ty.dev).
 
@@ -40,7 +42,7 @@ This site is produced using:
 
 The site logo incorporates the gules (red) three chevronels argent (silvery white) from the flag of Glamorgan (yn Gymraeg: Baner Morgannwg). That design was in turn taken from the arms of [Iestyn ap Gwrgant](https://en.wikipedia.org/wiki/Iestyn_ap_Gwrgant), the last independent ruler of Glamorgan – the region where many of my Welsh family comes from.
 
-## Code and server set-up
+### Code and server set-up
 
 I use [Git](https://git-scm.com) for version control, [Github to store the repository](https://github.com/), and [Netlify](https://www.netlify.com) for website hosting.
 
