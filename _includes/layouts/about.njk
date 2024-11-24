@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+
+    {% include "partials/banner-byline.njk" %}
+
+    <section>
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="content" data-pagefind-body>
+            {{ content | safe }}
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
