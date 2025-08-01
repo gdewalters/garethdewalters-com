@@ -1,0 +1,171 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Define your custom theme properties using @theme */
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+
+  --color-vividcrimson: #c8102e;
+  --color-huntergreen: #33673b;
+
+  --color-background: #ffffff;
+  --color-foreground: #1a1a1a;
+  --color-muted-foreground: #6b6b6b;
+  --color-primary: #1a73e8;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f7f7f7;
+  --color-secondary-foreground: #1a1a1a;
+}
+
+/* Apply Playfair Display to headings within the prose class */
+/* The @tailwindcss/typography plugin generates styles for elements within .prose */
+/* We can override these by targeting the specific elements within .prose */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  font-family: var(--font-serif);
+}
+
+/* Site custom CSS */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.article-card {
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Active Navigation Link Styling 
+   We target the `.is-active` class that Nunjucks applies.
+*/
+.nav-link {
+  position: relative;
+  color: var(--color-foreground); /* Default link color (black/foreground) */
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none; /* Ensure no default underline */
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  bottom: -4px;
+  left: 0;
+  /* Opaque huntergreen for non-active hover */
+  background-color: rgba(51, 103, 59, 0.2); /* 20% opacity for #33673B */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+/* Active Navigation Link Styling */
+.nav-link.is-active {
+  color: var(
+    --color-foreground
+  ); /* Active text link remains foreground color (black) */
+  font-weight: 700; /* Bold for emphasis */
+}
+
+.nav-link.is-active:after {
+  width: 100%; /* Always show full underline for active link */
+  background-color: var(
+    --color-huntergreen
+  ); /* Underline remains vividcrimson */
+  transition: none; /* Keep instant appearance for active underline */
+}
+
+/* Optional: If you use separate styles for exact page vs. section */
+.nav-link[aria-current="page"] {
+  color: var(
+    --color-foreground
+  ); /* Exact page text link remains foreground color */
+  font-weight: 700;
+}
+.nav-link[aria-current="page"]:after {
+  width: 100%;
+  background-color: var(--color-huntergreen);
+  transition: none;
+}
+
+.nav-link[data-current="section"] {
+  color: var(
+    --color-foreground
+  ); /* Section text link remains foreground color */
+  font-weight: 600; /* Slightly less bold than exact page */
+}
+.nav-link[data-current="section"]:after {
+  width: 100%;
+  /* background-color: rgba(200, 16, 46, 0.7); */ /* Slightly less opaque vividcrimson for section underline */
+  background-color: rgba(51, 103, 59, 0.8); /* 20% opacity for #33673B */
+  transition: none;
+}
+
+/* Animation classes */
+.animate-fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn 1.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Shadow utility */
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* 
+  Hide the screen reader text visually but keep it accessible
+  From www.zeldman.com
+*/
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}

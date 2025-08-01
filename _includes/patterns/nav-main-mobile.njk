@@ -1,0 +1,24 @@
+        {# 
+          Get all navigation items that have "mainNav" as their parent.
+          This ensures consistency with your desktop navigation.
+        #}
+        {% set mainNavItems = collections.all | eleventyNavigation("mainNav") %}
+        
+        {%- for item in mainNavItems %}
+          {% set activeClass = "" %}
+          {% set ariaCurrentAttr = "" %}
+
+            {# Ensure page.url is truthy before using startsWith #}
+            {% if page.url and item.url === page.url %}
+              {% set activeClass = "is-active" %}
+              {% set ariaCurrentAttr = "aria-current=\"page\"" %}
+            {# Ensure page.url is truthy before using startsWith #}
+            {% elif page.url and item.url !== "/" and page.url.startsWith(item.url) %}
+              {% set activeClass = "is-active" %}
+              {% set ariaCurrentAttr = "data-current=\"section\"" %}
+            {% endif %}
+
+          <a href="{{ item.url }}" class="text-2xl font-medium {{ activeClass }}" {{ ariaCurrentAttr | safe }}>
+            {{ item.key }}
+          </a>
+        {%- endfor %}

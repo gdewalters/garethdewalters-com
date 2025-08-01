@@ -1,0 +1,18 @@
+---js
+{
+    // Data for the Eleventy Navigation plugin
+    eleventyNavigation: {
+        key: "Home",
+        order: 1,
+		parent: "mainNav"
+    },
+    
+    // Other page-specific front matter
+    layout: "layouts/home.njk",
+    title: "My home page",
+    permalink: "/index.html",
+    eleventyComputed: {
+        post: async (data) => data.getContentfulPageHome
+    },
+}
+---

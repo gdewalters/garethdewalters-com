@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+---
+      <article class="w-full max-w-7xl mx-auto">
+        <!-- Page meta section -->
+        <section class="mb-16 text-center">
+            <!-- Page title -->
+            <h1 class="font-serif text-4xl leading-tight font-medium md:text-5xl lg:text-6xl mb-6 text-left sm:text-center">{{ post.pageTitle }}</h1>
+        </section>
+
+        <!-- Page content -->
+        <section class="flex justify-center">
+            <!-- The 'prose' class from @tailwindcss/typography plugin will style the content -->
+            <div class="prose max-w-prose w-full">
+
+              {% if post.contentSections %}
+                {% for section in post.contentSections %}
+
+                  {% set typeId = section.sys.contentType.sys.id %}
+
+                  {% if typeId == 'componentRichTextPanel' %}
+                    {% if section.fields.heading %}
+                      <h2>{{ section.fields.heading }}</h2>
+                    {% endif %}
+                    {% if section.fields.standfirst %}
+                      <p>{{ section.fields.standfirst }}</p>
+                    {% endif %}
+
+                    {% if section.fields.body %}
+                      {{ section.fields.body | renderRichTextAsHtml | safe }}
+                    {% endif %}
+
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+
+            </div>
+        </section>
+      </article>

@@ -1,0 +1,138 @@
+---js
+{
+    // Data for the Eleventy Navigation plugin
+    eleventyNavigation: {
+        key: "Writing",
+        order: 2,
+		parent: "mainNav"
+    },
+    
+    // Other page-specific front matter
+    layout: "layouts/base.njk",
+    title: "My Writing",
+    permalink: "/writing/index.html",
+    eleventyComputed: {
+        post: async (data) => data.getContentfulPageWriting
+    },
+}
+---
+
+<div class="w-full max-w-7xl mx-auto">
+    <h1 class="font-serif text-4xl leading-tight font-medium md:text-5xl lg:text-6xl mb-12 text-left">Writing</h1>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- Main Content Column (Article List) -->
+        <section class="lg:col-span-2">
+            <h2 class="font-serif text-3xl font-medium mb-8 text-left">All articles</h2>
+            <div class="grid grid-cols-1 gap-8">
+
+            {% if getContentfulArticles and getContentfulArticles.length > 0 %}
+
+                {% for article in getContentfulArticles %}
+                
+                <!-- Article card  -->
+                <article class="article-card group flex flex-col md:flex-row rounded-lg bg-white shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <a href="/writing/{{ article.slug }}/" class="flex flex-col md:flex-row w-full">
+                        <!-- Image Container -->
+                        <div class="overflow-hidden rounded-t-lg md:rounded-l-lg md:rounded-t-none md:w-1/3">
+                          {% if article.mainImage %}
+                            <img
+                                src="{{ article.mainImage.url }}"
+                                alt="{{ article.mainImage.alt }}"
+                                class="w-full aspect-[4/3] md:aspect-square object-cover transition-transform duration-700 ease-in-out group-hover:scale-105"
+                            />
+                          {% else %}
+                            <!-- Placeholder image or default styling if no image is present -->
+                            <div class="w-full aspect-[4/3] md:aspect-square bg-secondary flex items-center justify-center p-4">
+                                <span class="text-muted-foreground text-sm text-center">Image unavailable</span>
+                            </div>
+                          {% endif %}
+                        </div>
+
+                        <!-- Text Content -->
+                        <div class="p-6 flex flex-col justify-center md:w-2/3">
+                            <div class="mb-3">
+                                <span class="text-huntergreen text-xs font-semibold tracking-wider uppercase"> 
+                                    {{ article.contentTopicTag.fields.entryTitle }} 
+                                </span>
+                            </div>
+                            <h3 class="mb-3 font-serif text-xl font-medium">{{ article.headline }}</h3>
+
+                            {# Optional: display a short snippet of the body #}
+                            {% if article.standfirst %}
+                            <p class="text-muted-foreground mb-4 text-sm">{{ article.standfirst }}</p>
+                            {% endif %}
+
+                            <div class="text-muted-foreground flex items-center justify-between text-xs mt-auto">
+                                <span>{{ article.datePublished | readableDate }}</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+
+                {% endfor %}
+                
+            {% else %}
+                <p>No articles found. Please check your Contentful data or data fetching.</p>
+            {% endif %}
+
+            </div>
+        </section>
+
+        <!-- Sidebar Column -->
+        <aside class="lg:col-span-1 mt-8 lg:mt-0">
+            <div class="bg-white p-6 rounded-lg shadow-sm mb-8">
+                <h3 class="font-serif text-xl font-medium mb-4">About me</h3>
+                <div class="flex items-center mb-4">
+                    <!-- Author author image -->
+                    <img
+                        src="https://images.ctfassets.net/uemz79q6jwml/4ybJXbD47WiRTylxwEQIFT/0860cb7689a3c6c4ce1d28f63d381ef6/garethdewalters-logo.png"
+                        alt="Gareth de Walters"
+                        class="h-12 w-12 rounded-full mr-3 flex-shrink-0 object-cover"
+                    />
+                    <!-- Site suthor name and bio -->
+                    <div>
+                        <p class="font-medium">Gareth de Walters</p>
+                        <p class="text-muted-foreground text-sm">Websites, history, culture</p>
+                    </div>
+                </div>
+                <p class="text-muted-foreground text-sm mb-4">
+                    I’m a digital product owner and web specialist from Tāmaki Makaurau Auckland. This is where I write about the web, unearth stories from the past, and share what I’m building along the way.
+                </p>
+                <a href="/about/" class="inline-flex items-center text-huntergreen font-semibold group text-sm">
+            Read more about this site
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 transition-transform group-hover:translate-x-1">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+            </a>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+                <h3 class="font-serif text-xl font-medium mb-4">Connect with Gareth</h3>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-primary text-gray-600 transition-colors" aria-label="Bluesky">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18.231,3.618c-2.312,1.736-4.785,5.107-5.948,7.244c-0.123,0.226-0.444,0.226-0.567,0	c-1.163-2.137-3.636-5.508-5.948-7.244C3.949,2.252,1,1.195,1,4.559c0,0.672,0.385,5.643,0.611,6.451	c0.606,2.169,2.454,3.089,4.437,3.195c0.19,0.01,0.222,0.261,0.043,0.324c-2.988,1.048-3.518,3.196-1.424,5.344	c3.826,3.894,5.814,0.647,6.733-1.514c0.224-0.525,0.977-0.525,1.2,0c0.92,2.161,2.907,5.408,6.733,1.514	c2.093-2.148,1.564-4.296-1.424-5.344c-0.179-0.063-0.146-0.313,0.043-0.324c1.983-0.106,3.83-1.026,4.437-3.195	C22.615,10.203,23,5.231,23,4.559C23,1.195,20.051,2.252,18.231,3.618z"></path> 
+                </svg>
+                    </a>
+                    <a href="https://www.instagram.com/gdewalters/" class="hover:text-primary text-gray-600 transition-colors" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gdewalters/" class="hover:text-primary text-gray-600 transition-colors" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M 6 3 C 4.3550302 3 3 4.3550302 3 6 L 3 18 C 3 19.64497 4.3550302 21 6 21 L 18 21 C 19.64497 21 21 19.64497 21 18 L 21 6 C 21 4.3550302 19.64497 3 18 3 L 6 3 z M 6 5 L 18 5 C 18.56503 5 19 5.4349698 19 6 L 19 18 C 19 18.56503 18.56503 19 18 19 L 6 19 C 5.4349698 19 5 18.56503 5 18 L 5 6 C 5 5.4349698 5.4349698 5 6 5 z M 8.1855469 6.7851562 C 7.4445469 6.7851563 7 7.2293594 7 7.8183594 C 7 8.4113594 7.444375 8.8574219 8.109375 8.8574219 C 8.850375 8.8574219 9.2910156 8.4113594 9.2910156 7.8183594 C 9.2910156 7.2303594 8.8505469 6.7851562 8.1855469 6.7851562 z M 7.0625 9.9628906 L 7.0625 16 L 9.2363281 16 L 9.2363281 9.9628906 L 7.0625 9.9628906 z M 11.033203 9.9628906 L 11.033203 16 L 13.207031 16 L 13.207031 12.697266 C 13.207031 11.718266 13.908141 11.574219 14.119141 11.574219 C 14.330141 11.574219 14.892578 11.785266 14.892578 12.697266 L 14.892578 16 L 17 16 L 17 12.697266 C 17 10.806266 16.154516 9.9628906 15.103516 9.9628906 C 14.052516 9.9628906 13.490031 10.312641 13.207031 10.806641 L 13.207031 9.9628906 L 11.033203 9.9628906 z"></path>
+                </svg>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+
+</div>

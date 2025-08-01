@@ -1,0 +1,112 @@
+---
+layout: layouts/base.njk
+---
+
+{% set featuredPromo = getContentfulArticleSingle %}
+
+{% if featuredPromo %}
+
+  <section class="pt-8 pb-20">
+    <div class="w-full max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
+        <div class="animate-fade-in">
+          <div class="mb-5">
+            <span class="bg-huntergreen text-white hover:bg-muted-foreground inline-block rounded-full px-3 py-1 text-xs tracking-widest uppercase"> Featured Story </span>
+          </div>
+          <a href="/writing/{{ featuredPromo.link.fields.slug }}/" class="no-underline hover:underline">
+            <h1 class="mb-6 font-serif text-4xl leading-tight font-medium md:text-5xl lg:text-6xl">{{ featuredPromo.desktopHeadline }}</h1>
+          </a>
+          <p class="text-muted-foreground mb-8 max-w-lg text-lg text-balance">{{ featuredPromo.desktopSummary }}</p>
+        </div>
+
+        <div class="animate-scale-in relative">
+          <div class="overflow-hidden rounded-lg">
+            <a href="/writing/{{ featuredPromo.link.fields.slug }}/" class="">
+              <img
+                src="{{ featuredPromo.mainImage.url }}"
+                alt="{{ featuredPromo.mainImage.alt }}"
+                class="w-full aspect-video lg:h-[500px] object-cover transition-transform duration-700 ease-in-out hover:scale-105"
+              />
+            </a>
+          </div>
+          {% if featuredPromo.mainImage.photographer %}
+          <div class="glass-effect absolute right-4 bottom-4 rounded-md p-3 text-xs">
+            Image credit: <span class="font-medium">{{ featuredPromo.mainImage.photographer }}</span>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endif %}
+
+
+{% set cardDeck = getContentfulCardDeck %}
+
+{% if cardDeck and cardDeck.deckContent and cardDeck.deckContent.length > 0 %}
+  <section class="bg-secondary/30 py-20">
+    <div class="w-full max-w-7xl mx-auto">
+      <div class="mb-12 flex items-end justify-between">
+        <div>
+          <h2 class="mb-2 font-serif text-3xl font-medium">{{ cardDeck.headline or 'Latest articles' }}</h2>
+          {% if cardDeck.desktopSummary %}
+          <p class="text-muted-foreground max-w-xl">{{ cardDeck.desktopSummary }}</p>
+          {% endif %}
+        </div>
+        {% if cardDeck.clickThroughLink %}
+        <a href="/{{ cardDeck.clickThroughLink.fields.slug }}/" class="group hidden items-center text-sm font-medium tracking-wider uppercase md:inline-flex">
+          {{ cardDeck.clickThroughLabel or 'View all articles' }}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 transition-transform group-hover:translate-x-1">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        {% endif %}
+      </div>
+
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        {% for article in cardDeck.deckContent %}
+        <article class="article-card overflow-hidden rounded-lg">
+          <a href="/writing/{{ article.slug }}/" class="block">
+            {% if article.mainImage %}
+            <div class="overflow-hidden">
+              <img src="{{ article.mainImage.url }}" alt="{{ article.mainImage.alt }}" class="h-64 w-full object-cover" />
+            </div>
+            {% endif %}
+            <div class="p-6">
+              {% if article.contentTopicTag %}
+              <div class="mb-3">
+                <span class="text-huntergreen text-xs font-semibold tracking-wider uppercase"> 
+                  {{ article.contentTopicTag.fields.entryTitle }}
+                </span>
+              </div>
+              {% endif %}
+              <h3 class="mb-3 font-serif text-xl font-medium">{{ article.headline }}</h3>
+              {% if article.standfirst %}
+              <p class="text-muted-foreground mb-4 text-sm">{{ article.standfirst }}</p>
+              {% endif %}
+              <div class="text-muted-foreground flex items-center justify-between text-xs">
+                {% if article.authorName %}<span>{{ article.authorName }}</span>{% endif %}
+                {% if article.datePublished %}<span>{{ article.datePublished | readableDate }}</span>{% endif %}
+              </div>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
+      </div>
+
+      <div class="mt-12 text-center md:hidden">
+        {% if cardDeck.clickThroughLink %}
+        <a href="/{{ cardDeck.clickThroughLink.fields.slug }}/" class="group inline-flex items-center text-sm font-medium tracking-wider uppercase">
+          {{ cardDeck.clickThroughLabel or 'View all articles' }}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 transition-transform group-hover:translate-x-1">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{% endif %}

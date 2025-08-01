@@ -1,0 +1,55 @@
+{
+  "name": "eleventy-contentful-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:js && npx @11ty/eleventy",
+    "build:js": "node _helpers/build-js.js",
+    "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "start-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/ --serve --quiet",
+    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
+    "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+    "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdewalters/eleventy-contentful-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdewalters/eleventy-contentful-demo/issues"
+  },
+  "homepage": "https://github.com/gdewalters/eleventy-contentful-demo#readme",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
+    "@contentful/rich-text-html-renderer": "^17.0.1",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.16",
+    "@zachleat/heading-anchors": "^1.0.3",
+    "contentful": "^11.7.6",
+    "cross-env": "^7.0.3",
+    "cssnano": "^7.0.7",
+    "dotenv": "^17.2.0",
+    "flatted": "^3.3.3",
+    "luxon": "^3.6.1",
+    "pagefind": "^1.3.0",
+    "postcss": "^8.5.6",
+    "prismjs": "^1.30.0",
+    "tailwindcss": "^4.1.11",
+    "terser": "^5.43.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.8"
+  }
+}

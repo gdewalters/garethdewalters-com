@@ -1,0 +1,39 @@
+---js
+{
+  // Generate one page per Contentful article entry
+  pagination: {
+    data: "getContentfulArticles",
+    size: 1,
+    alias: "post",
+  },
+  // Default layout for article pages
+  layout: "layouts/article.njk",
+  // Compute permalink from each article slug
+  eleventyComputed: {
+    permalink: (data) => {
+      if (data.post) {
+        // Attempt to get slug from 'fields' first, then direct 'post' object
+        const articleSlug = data.post.fields?.slug || data.post.slug;
+
+        if (articleSlug) {
+          const permalinkPath = `/writing/${articleSlug}/index.html`;
+          return permalinkPath;
+        } else {
+          return false; // Slug is missing for a paginated item
+        }
+      } else {
+        // This branch should be hit when article.njk is processed as a standalone file
+        return false; // data.post is undefined, so don't create a page
+      }
+    },
+  },
+
+  // Tag for all article pages
+  tags: [
+    "writing",
+  ],
+}
+---
+
+{# content/writing/article.njk - This file generates individual article post content #}
+{# Pagination and other configuration is defined in the front matter above #}

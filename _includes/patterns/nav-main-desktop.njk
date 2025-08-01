@@ -1,0 +1,27 @@
+          <nav class="hidden items-center space-x-8 md:flex">
+            {# 
+               Get all navigation items that have "mainNav" as their parent.
+               The eleventyNavigation filter on the collection.all (or in this case,
+               the direct access method) will find these relationships.
+            #}
+            {% set mainNavItems = collections.all | eleventyNavigation("mainNav") %}
+            
+            {%- for item in mainNavItems %}
+              {% set activeClass = "" %}
+              {% set ariaCurrentAttr = "" %}
+
+              {# Ensure page.url is truthy before using startsWith #}
+              {% if page.url and item.url === page.url %}
+                {% set activeClass = "is-active" %}
+                {% set ariaCurrentAttr = "aria-current=\"page\"" %}
+              {# Ensure page.url is truthy before using startsWith #}
+              {% elseif page.url and item.url !== "/" and page.url.startsWith(item.url) %}
+                {% set activeClass = "is-active" %}
+                {% set ariaCurrentAttr = "data-current=\"section\"" %}
+              {% endif %}
+
+              <a href="{{ item.url }}" class="nav-link {{ activeClass }}" {{ ariaCurrentAttr | safe }}>
+                {{ item.key }}
+              </a>
+            {%- endfor %}
+          </nav>
