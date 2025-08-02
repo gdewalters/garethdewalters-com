@@ -1,6 +1,6 @@
 # garethdewalters.com
 
-A personal website built with [Eleventy](https://www.11ty.dev/) that pulls content from [Contentful](https://www.contentful.com/). The project demonstrates how to combine Eleventy, Tailwind CSS, and Contentful to generate a fully static site with dynamic content.
+My personal website built with [Eleventy](https://www.11ty.dev/) and Tailwind that pulls content from [Contentful](https://www.contentful.com/) to generate a fully static site with dynamic content.
 
 ---
 
@@ -82,7 +82,7 @@ Access the site at <http://localhost:8080> (default Eleventy dev server port).
 
 ---
 
-## Production Build
+## Production build
 
 ```bash
 npm run build
@@ -149,5 +149,5 @@ This code for this project is licensed under the **ISC License**. See the `LICEN
 
 ---
 
-**Happy building!**
+**Adeilad hapus/ Happy building!**
 
