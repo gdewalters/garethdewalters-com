@@ -17,7 +17,7 @@ A personal website built with [Eleventy](https://www.11ty.dev/) that pulls conte
 
 ---
 
-## Directory Structure
+## Directory structure
 
 ```
 .
@@ -36,7 +36,7 @@ A personal website built with [Eleventy](https://www.11ty.dev/) that pulls conte
 
 ## Prerequisites
 
-- **Node.js 18+** (ES modules are used throughout)
+- **Node.js 20+** (ES modules are used throughout)
 - A Contentful account with a space configured for the site's content
 
 ---
@@ -98,7 +98,7 @@ npx @11ty/eleventy --serve
 
 ---
 
-## Contentful Integration
+## Contentful integration
 
 - `_helpers/contentfulClient.js` instantiates the Contentful SDK using environment variables.
 - `_data` modules (`getContentfulArticles.js`, `getContentfulPageBySlug.js`, etc.) fetch entries and transform them with helpers like `parseSeo` and `parseImageWrapper`.
@@ -106,7 +106,7 @@ npx @11ty/eleventy --serve
 
 ---
 
-## Styling & Assets
+## Styling and assets
 
 - Tailwind CSS configuration in `css/tailwind.css`
 - PostCSS pipeline runs automatically before Eleventy builds
@@ -114,14 +114,14 @@ npx @11ty/eleventy --serve
 
 ---
 
-## JavaScript Bundling
+## JavaScript bundling
 
 - `scripts/main.js` is bundled and minified by `esbuild` via `_helpers/build-js.js`
 - The bundled file outputs to `public/assets/scripts/bundle.js` and is referenced in the base layout
 
 ---
 
-## Templates & Content
+## Templates and content
 
 - `content/` holds Nunjucks templates with front‑matter, powering pages such as `index.njk`, `about.njk`, and the article pagination system in `writing/article.njk`
 - `_includes/layouts/` and `_includes/patterns/` contain reusable components and page layouts
@@ -136,7 +136,7 @@ npx @11ty/eleventy --serve
 
 ---
 
-## RSS Feed
+## RSS feed
 
 - Atom feed available at `/feed/feed.xml` via `@11ty/eleventy-plugin-rss`
 - Feed metadata and styling configured in `eleventy.config.js` and `content/feed/pretty-atom-feed.xsl`
