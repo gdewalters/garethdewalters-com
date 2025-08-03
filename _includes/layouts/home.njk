@@ -49,7 +49,7 @@ layout: layouts/base.njk
     <div class="w-full max-w-7xl mx-auto">
       <div class="mb-12 flex items-end justify-between">
         <div>
-          <h2 class="mb-2 font-serif text-3xl font-medium">{{ cardDeck.headline or 'Latest articles' }}</h2>
+          <h2 class="mb-2 font-serif text-3xl font-medium">{{ cardDeck.headline or 'More articles' }}</h2>
           {% if cardDeck.desktopSummary %}
           <p class="text-muted-foreground max-w-xl">{{ cardDeck.desktopSummary }}</p>
           {% endif %}
@@ -84,7 +84,7 @@ layout: layouts/base.njk
               {% endif %}
               <h3 class="mb-3 font-serif text-xl font-medium">{{ article.headline }}</h3>
               {% if article.standfirst %}
-              <p class="text-muted-foreground mb-4 text-sm">{{ article.standfirst }}</p>
+              <p class="text-muted-foreground mb-4 text-sm">{{ article.summary }}</p>
               {% endif %}
               <div class="text-muted-foreground flex items-center justify-between text-xs">
                 {% if article.authorName %}<span>{{ article.authorName }}</span>{% endif %}

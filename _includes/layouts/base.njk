@@ -39,7 +39,7 @@
 
   <body class="bg-background text-foreground antialiased">
     {% if env.nodeEnv == "production" and env.gtmId %}
-      {% include "patterns/google-tag-manager.njk" %}
+      {% include "patterns/google-tag-manager-no-script.njk" %}
     {% endif %}
     <header class="fixed top-0 right-0 left-0 z-50 bg-transparent py-8 px-8 transition-all duration-300 ease-in-out">
       <div class="w-full max-w-7xl mx-auto">
@@ -50,9 +50,7 @@
             <img
                 src="https://images.ctfassets.net/uemz79q6jwml/66pSjIRnYyjXa2uTWzMZ0t/e28a2138747a70d7ce4a13713d3ef71c/person-portriat-gareth.jpeg"
                 alt="Gareth de Walters"
-                class="h-10 w-10 rounded-full mr-3 flex-shrink-0 object-cover"
-            />
-
+                class="h-10 w-10 rounded-full mr-3 flex-shrink-0 object-cover" />
             <a href="/" class="font-serif text-xl font-medium tracking-tight md:text-2xl decoration-2 underline-offset-3 hover:underline"> Gareth de Walters </a>
           </div>
 
