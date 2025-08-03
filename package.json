@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build-dev": "cross-env NODE_ENV=development npm run build:js && npx @11ty/eleventy",
     "build": "cross-env NODE_ENV=production npm run build:js && npx @11ty/eleventy",
     "build:js": "node _helpers/build-js.js",
     "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
