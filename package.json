@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-dev": "cross-env NODE_ENV=development npm run build:js && npx @11ty/eleventy",
-    "build": "cross-env NODE_ENV=production npm run build:js && npx @11ty/eleventy",
+    "build": "npm run build:js && npx @11ty/eleventy",
+    "build:ppe": "cross-env NODE_ENV=production npm run build:js && cross-env NODE_ENV=production npx @11ty/eleventy",
     "build:js": "node _helpers/build-js.js",
     "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet",
+    "start:ppe": "cross-env NODE_ENV=production npx @11ty/eleventy --serve --quiet",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
     "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
@@ -36,18 +37,17 @@
     "@tailwindcss/typography": "^0.5.16",
     "@zachleat/heading-anchors": "^1.0.3",
     "contentful": "^11.7.6",
-    "cross-env": "^7.0.3",
     "cssnano": "^7.0.7",
     "dotenv": "^17.2.0",
     "flatted": "^3.3.3",
     "luxon": "^3.6.1",
     "postcss": "^8.5.6",
-    "prismjs": "^1.30.0",
     "tailwindcss": "^4.1.11",
     "terser": "^5.43.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "cross-env": "^10.0.0",
     "esbuild": "^0.25.8"
   }
 }
