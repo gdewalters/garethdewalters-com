@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build:js && npx @11ty/eleventy",
-    "build:ppe": "cross-env NODE_ENV=production npm run build:js && cross-env NODE_ENV=production npx @11ty/eleventy",
+    "build:prod": "cross-env ELEVENTY_ENV=production npm run build:js && cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
     "build:js": "node _helpers/build-js.js",
     "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet",
-    "start:ppe": "cross-env NODE_ENV=production npx @11ty/eleventy --serve --quiet",
+    "start:ppe": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --serve --quiet",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
     "debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"

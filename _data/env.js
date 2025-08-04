@@ -1,4 +1,4 @@
 export default {
-  nodeEnv: process.env.NODE_ENV,
+  eleventyEnv: process.env.ELEVENTY_ENV,
   gtmId: process.env.GOOGLE_TAG_MANAGER_ID,
 };
