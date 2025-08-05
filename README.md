@@ -13,7 +13,6 @@ My personal website built with [Eleventy](https://www.11ty.dev/) and Tailwind th
 - **Custom Nunjucks filters** and async shortcodes (e.g., date formatting, Contentful image helper)  
 - **Asset bundling** using `esbuild` for JavaScript and PostCSS for CSS  
 - **Caching layer** to minimize repeated API calls during development  
-- **Search-ready output** through `pagefind`
 
 ---
 
@@ -37,6 +36,7 @@ My personal website built with [Eleventy](https://www.11ty.dev/) and Tailwind th
 ## Prerequisites
 
 - **Node.js 20+** (ES modules are used throughout)
+- `.nvmrc` file specifying Node 20; run `nvm use` (or equivalent) after cloning to ensure the correct version
 - A Contentful account with a space configured for the site's content
 
 ---
@@ -46,17 +46,23 @@ My personal website built with [Eleventy](https://www.11ty.dev/) and Tailwind th
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/gdewalters/gdewalters-com.git
-   cd gdewalters-com
+   git clone https://github.com/gdewalters/garethdewalters-com.git
+   cd garethdewalters-com
    ```
 
-2. **Install dependencies**
+2. **Use the Node version from `.nvmrc`**
+
+   ```bash
+   nvm use
+   ```
+
+3. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-3. **Create a `.env` file** (or set environment variables) with:
+4. **Create a `.env` file** (or set environment variables) with:
 
    ```
    CONTENTFUL_SPACE_ID=your_space_id
@@ -80,6 +86,14 @@ npm start
 
 Access the site at <http://localhost:8080> (default Eleventy dev server port).
 
+### Production preview
+
+```bash
+npm run start:ppe
+```
+
+Serves the site locally with `ELEVENTY_ENV=production`, enabling verification of a production-like build at <http://localhost:8080>.
+
 ---
 
 ## Production build
@@ -95,6 +109,21 @@ To serve the production output locally:
 ```bash
 npx @11ty/eleventy --serve
 ```
+
+### Deployment build
+
+For hosting platforms such as Netlify, build the site with the production environment enabled:
+
+```bash
+npm run build:prod
+```
+
+This sets `ELEVENTY_ENV=production`, ensuring the site is built using the production configuration.
+
+Benefits:
+
+- Generates optimized assets ready for deployment.
+- Applies production-specific settings.
 
 ---
 
@@ -143,11 +172,12 @@ npx @11ty/eleventy --serve
 
 ---
 
-## License
+## Licence
 
-This code for this project is licensed under the **ISC License**. See the `LICENSE` file for details.
+This code for this project is licensed under the **ISC Licence**. See the `LICENCE` file for details.
 
 ---
 
 **Adeilad hapus/ Happy building!**
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/701a7166-0f34-49be-b58d-cddefadc0b06/deploy-status)](https://app.netlify.com/projects/prod-garethdewalters-com/deploys)

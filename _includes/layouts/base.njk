@@ -1,15 +1,29 @@
-{% set seo = post.seo or post.seoMetaData or {} %}
-{% set seoTitle = seo.seoTitle or metadata.title %}
-{% set seoDescription = seo.metaDescription or metadata.description %}
-{% set robotsIndex = 'index' %}
-{% if seo.seoNoIndex %}
-  {% set robotsIndex = 'noindex' %}
-{% endif %}
-{% set robotsFollow = 'follow' %}
-{% if seo.seoNoFollow %}
-  {% set robotsFollow = 'nofollow' %}
-{% endif %}
 <!doctype html>
+{% set seo = post.seo or post.seoMetaData or {} %} {% set seoTitle = seo.seoTitle or metadata.title %} {% set seoDescription = seo.metaDescription or metadata.description %} {% set robotsIndex = 'index' %} {% if seo.seoNoIndex %}  {% set robotsIndex = 'noindex' %} {% endif %} {% set robotsFollow = 'follow' %} {% if seo.seoNoFollow %}  {% set robotsFollow = 'nofollow' %} {% endif %}
+<!-- Dewch i mewn, bydded i chi fod yn ddiogel 
+
+                                                                                 .@                 
+                                                                               @@@    @@            
+                                                                      @@@@@@[>#@@@ @% -@            
+                                                                  {@@@            @  [  @           
+                                                                @@@                [    @           
+                                                              :@@%                   @@^@           
+                                                            .@@@.                      % -          
+                                               :@@@@@@@@@@@@@@@#                                    
+                                  :%@@@@@@@@@@@@@@@@@@@@@@@@@@@% @                                  
+                          *@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@~      }@        .@@@@@@@                  
+                      @@@@@@@                                     @               ^@@               
+                   @@@@@+*@@@                                      @@:               -@:            
+                >@@#        @@                                       @@@[               :@          
+              ]@@          ~@@     @@@                                 +@@@%                        
+            .@@      %@@@@@@    @@@.                                        @.                      
+           @{        @@@@:     [@@                                           @                      
+          @          @@        @@                                                                   
+        [.           @          @                                                                   
+       @             @          .@                                                                  
+                     @                                                                                                                                                                                                                                                                        
+
+-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />

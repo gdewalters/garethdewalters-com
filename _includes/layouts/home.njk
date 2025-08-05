@@ -6,10 +6,10 @@ layout: layouts/base.njk
 
 {% if featuredPromo %}
 
-  <section class="pt-8 pb-20">
+  <section class="pt-8 pb-6 lg:pb-20">
     <div class="w-full max-w-7xl mx-auto">
       <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
-        <div class="animate-fade-in">
+        <div class="animate-fade-in order-2 lg:order-none">
           <div class="mb-5">
             <span class="bg-huntergreen text-white hover:bg-muted-foreground inline-block rounded-full px-3 py-1 text-xs tracking-widest uppercase"> Featured Story </span>
           </div>
@@ -19,7 +19,7 @@ layout: layouts/base.njk
           <p class="text-muted-foreground mb-8 max-w-lg text-lg text-balance">{{ featuredPromo.desktopSummary }}</p>
         </div>
 
-        <div class="animate-scale-in relative">
+        <div class="animate-scale-in relative order-1 lg:order-none">
           <div class="overflow-hidden rounded-lg">
             <a href="/writing/{{ featuredPromo.link.fields.slug }}/" class="">
               <img
@@ -45,7 +45,7 @@ layout: layouts/base.njk
 {% set cardDeck = getContentfulCardDeck %}
 
 {% if cardDeck and cardDeck.deckContent and cardDeck.deckContent.length > 0 %}
-  <section class="bg-secondary/30 py-20">
+  <section class="bg-secondary/30 pt-2 pb-20">
     <div class="w-full max-w-7xl mx-auto">
       <div class="mb-12 flex items-end justify-between">
         <div>
