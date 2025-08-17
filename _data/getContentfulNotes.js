@@ -10,7 +10,7 @@ export default async function getContentfulNotes() {
   const fetcher = async () => {
     const entries = await client.getEntries({
       content_type: 'composeNote',
-      order: '-sys.publishedAt',
+      order: '-fields.datePublished',
     });
 
     return entries.items.map(item => {
