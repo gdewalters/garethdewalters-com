@@ -4,37 +4,7 @@ layout: layouts/base.njk
 
 {% set featuredPromo = getContentfulArticleSingle %}
 
-{# Pseudo-content for the notesDeck to help with local development #}
-{% set notesDeck = [
-  {
-    title: 'A New Approach to CSS Custom Properties',
-    externalLink: 'https://example.com/new-css-properties',
-    blockquoteContent: 'Exploring how modern CSS custom properties can revolutionize design systems and make them more dynamic.',
-    authorCommentary: 'This article really dives deep into the practical applications of CSS variables, showing how they can go beyond simple theme switching to build truly adaptable components. A must-read for front-end developers.',
-    datePublished: '2025-08-15T10:00:00Z'
-  },
-  {
-    title: 'The Unseen Power of Web Accessibility',
-    externalLink: 'https://web.dev/accessibility',
-    blockquoteContent: 'Accessibility isn\'t just about compliance; it\'s about building a better web for everyone, fostering innovation and inclusivity.',
-    authorCommentary: 'An excellent reminder that a truly universal web benefits all users. The examples provided here are particularly insightful for anyone looking to make their digital products more inclusive.',
-    datePublished: '2025-08-12T14:30:00Z'
-  },
-  {
-    title: 'Eleventy & Contentful: A Perfect Static Duo',
-    externalLink: 'https://www.11ty.dev/docs/data-contentful/',
-    blockquoteContent: 'Integrating a headless CMS like Contentful with Eleventy allows for powerful static site generation and flexible content management.',
-    authorCommentary: 'For anyone looking to build a high-performance, maintainable website with dynamic content, this combination is incredibly powerful. The clear separation of content and presentation is a huge win.',
-    datePublished: '2025-08-08T09:15:00Z'
-  },
-  {
-    title: 'Reflections on Digital Minimalism',
-    externalLink: 'https://calnewport.com/blog/2020/01/29/digital-minimalism/',
-    blockquoteContent: 'Cal Newport\'s insights on intentionally using technology to support your values, rather than being used by it.',
-    authorCommentary: 'This book completely shifted my perspective on my relationship with technology. It\'s not about abandoning tools, but about mindful engagement and reclaiming control over your attention. Highly recommend for anyone feeling overwhelmed by their digital life.',
-    datePublished: '2025-08-01T11:00:00Z'
-  }
-] %}
+{% set notesDeck = getContentfulNotes %}
 
 {% if featuredPromo %}
 
@@ -84,24 +54,21 @@ layout: layouts/base.njk
         <article class="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <a href="{{ note.externalLink }}" target="_blank" rel="noopener noreferrer" class="block no-underline hover:underline underline-offset-2">
             <h3 class="font-serif text-xl font-medium mb-2">
-              {{ note.title }}
+              {{ note.noteTitle }}
               <svg xmlns="http://www.w3.org/2000/svg" class="inline-block ml-2 w-4 h-4 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
             </h3>
           </a>
-
-          {% if note.blockquoteContent %}
-          <blockquote class="text-muted-foreground text-base italic border-l-4 border-gray-300 pl-4 mb-4">
-            {{ note.blockquoteContent }}
-          </blockquote>
-          {% endif %}
-
           {% if note.authorCommentary %}
-          <p class="text-foreground text-sm mb-4">{{ note.authorCommentary }}</p>
+          <div class="text-foreground text-sm mb-4">
+            {{ note.authorCommentary | renderRichTextAsHtml | safe }}
+          </div>
           {% endif %}
 
+          {% if note.date %}
           <div class="text-muted-foreground text-xs">
-            <span>{{ note.datePublished | readableDate }}</span>
+            <span>{{ note.date | readableDate }}</span>
           </div>
+          {% endif %}
         </article>
       {% endfor %}
     </div>
