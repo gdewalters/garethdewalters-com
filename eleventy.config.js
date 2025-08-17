@@ -10,10 +10,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import Image from "@11ty/eleventy-img";
 
 import 'dotenv/config'; // Load environment variables (ESM syntax for dotenv)
-import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
-import { BLOCKS } from '@contentful/rich-text-types';
-
-import parseImageWrapper from './_helpers/parseImageWrapper.js';
+import renderRichTextAsHtml from './_helpers/renderRichTextAsHtml.js';
 
 import fs from 'fs';
 import path from 'path';
@@ -78,29 +75,7 @@ export default async function(eleventyConfig) {
 	// });
 
         // Add a filter to render Contentful rich text to HTML
-        eleventyConfig.addFilter("renderRichTextAsHtml", (json) => {
-                const options = {
-                        renderNode: {
-                                [BLOCKS.EMBEDDED_ENTRY]: (node) => {
-                                        const entry = node.data.target;
-                                        if (entry?.sys?.contentType?.sys?.id === 'mediaImageAsset') {
-                                                const img = parseImageWrapper(entry);
-                                                if (img) {
-                                                        return `<figure><img src="${img.url}" alt="${img.alt}">${img.caption ? `<figcaption>${img.caption}</figcaption>` : ''}</figure>`;
-                                                }
-                                        }
-                                        return '';
-                                },
-                                [BLOCKS.EMBEDDED_ASSET]: (node) => {
-                                        const asset = node.data.target;
-                                        const url = asset?.fields?.file?.url ? `https:${asset.fields.file.url}` : '';
-                                        const alt = asset?.fields?.title || '';
-                                        return url ? `<img src="${url}" alt="${alt}">` : '';
-                                },
-                        }
-                };
-                return documentToHtmlString(json, options);
-        });
+        eleventyConfig.addFilter("renderRichTextAsHtml", renderRichTextAsHtml);
 
 	// In eleventy.config.js, inside the `export default async function(eleventyConfig) { ... }` function
 

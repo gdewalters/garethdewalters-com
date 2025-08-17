@@ -8,6 +8,7 @@ import client from '../_helpers/contentfulClient.js';
 import parseImageWrapper from '../_helpers/parseImageWrapper.js';
 import parseSeo from '../_helpers/parseSeo.js';
 import cachedFetch from '../_helpers/cache.js';
+import renderRichTextAsHtml from '../_helpers/renderRichTextAsHtml.js';
 
 export default async function getContentfulArticleSingle() {
   // const entryId = process.env.PROMO_ARTICLE_ENTRY_ID;
@@ -25,6 +26,10 @@ export default async function getContentfulArticleSingle() {
     const imageEntry = fields.mainImage || fields.image || null;
     fields.mainImage = parseImageWrapper(imageEntry);
 
+    if (fields.body) {
+      fields.body = renderRichTextAsHtml(fields.body);
+    }
+
     // ✨ Add this block to process SEO for articles/promos ✨
     if (fields.seoMetaData) {
       fields.seoMetaData = parseSeo(fields.seoMetaData);
@@ -38,6 +43,9 @@ export default async function getContentfulArticleSingle() {
         const articleFields = { ...item.fields };
         // This line is for images *within* the deckContent, if it were used.
         articleFields.mainImage = parseImageWrapper(articleFields.mainImage);
+        if (articleFields.body) {
+          articleFields.body = renderRichTextAsHtml(articleFields.body);
+        }
         return { ...articleFields, sys: item.sys };
       }
       return null;

@@ -60,13 +60,13 @@ layout: layouts/base.njk
           </a>
           {% if note.authorCommentaryHtml %}
           <div class="text-foreground text-sm mb-4">
-            {{ note.authorCommentaryHtml | safe }}
+            {{ note.authorCommentary | safe }}
           </div>
           {% endif %}
 
-          {% if note.date %}
+          {% if note.datePublished %}
           <div class="text-muted-foreground text-xs">
-            <span>{{ note.date | readableDate }}</span>
+            <span>{{ note.datePublished | readableDate }}</span>
           </div>
           {% endif %}
         </article>
