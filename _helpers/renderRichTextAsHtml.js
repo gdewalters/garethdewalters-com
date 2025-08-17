@@ -22,7 +22,7 @@ export default function renderRichTextAsHtml(json) {
         return url ? `<img src="${url}" alt="${alt}">` : '';
       },
       [BLOCKS.QUOTE]: (node, next) => {
-        return `<blockquote class="text-muted-foreground text-base italic border-l-4 border-gray-300 pl-4 mb-4">${next(node.content)}</blockquote>`;
+        return `<blockquote class="text-muted-foreground text-base italic border-l-4 border-gray-300 pl-4 mt-4 mb-4">${next(node.content)}</blockquote>`;
       },
     },
   };
