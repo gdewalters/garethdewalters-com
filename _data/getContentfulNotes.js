@@ -4,6 +4,7 @@
 
 import client from '../_helpers/contentfulClient.js';
 import cachedFetch from '../_helpers/cache.js';
+import renderRichTextAsHtml from '../_helpers/renderRichTextAsHtml.js';
 
 export default async function getContentfulNotes() {
   const fetcher = async () => {
@@ -17,7 +18,7 @@ export default async function getContentfulNotes() {
       return {
         noteTitle: fields.noteTitle,
         externalLink: fields.externalLink,
-        authorCommentary: fields.authorCommentary,
+        authorCommentary: fields.authorCommentary ? renderRichTextAsHtml(fields.authorCommentary) : null,
         date: item.sys?.publishedAt || item.sys?.createdAt,
       };
     });
