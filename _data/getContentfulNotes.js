@@ -3,8 +3,11 @@
 // It returns an array of simplified note objects.
 
 import client from '../_helpers/contentfulClient.js';
-import cachedFetch from '../_helpers/cache.js';
 import renderRichTextAsHtml from '../_helpers/renderRichTextAsHtml.js';
+import cachedFetch from '../_helpers/cache.js';
+import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
+import { BLOCKS } from '@contentful/rich-text-types';
+import parseImageWrapper from '../_helpers/parseImageWrapper.js'; 
 
 export default async function getContentfulNotes() {
   const fetcher = async () => {

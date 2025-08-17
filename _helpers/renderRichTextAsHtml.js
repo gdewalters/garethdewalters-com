@@ -1,3 +1,9 @@
+// _helpers/renderRichTextAsHtml.js
+// This module provides a function to render Contentful rich text JSON as HTML.
+// It handles embedded entries and assets, converting them into appropriate HTML elements.
+// It is used in the getContentfulNotes module to format author commentary and other rich text fields.
+// This function fetches notes from Contentful and formats them for use in the application.
+
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
 import parseImageWrapper from './parseImageWrapper.js';

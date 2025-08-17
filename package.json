@@ -33,6 +33,7 @@
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
     "@contentful/rich-text-html-renderer": "^17.0.1",
+    "@contentful/rich-text-types": "^17.1.0",
     "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/typography": "^0.5.16",
     "@zachleat/heading-anchors": "^1.0.3",
