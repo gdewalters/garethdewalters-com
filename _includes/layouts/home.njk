@@ -60,7 +60,9 @@ layout: layouts/base.njk
           </a>
           {% if note.authorCommentary %}
           <div class="text-foreground text-sm mb-4">
-            {{ note.authorCommentary | safe }}
+            <div class="prose">
+              {{ note.authorCommentary | safe }}
+            </div>
           </div>
           {% endif %}
 
