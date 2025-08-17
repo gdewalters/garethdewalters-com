@@ -19,7 +19,7 @@ export default async function getContentfulNotes() {
         noteTitle: fields.noteTitle,
         externalLink: fields.externalLink,
         authorCommentary: fields.authorCommentary ? renderRichTextAsHtml(fields.authorCommentary) : null,
-        date: item.sys?.publishedAt || item.sys?.createdAt,
+        datePublished: fields.datePublished || item.sys?.publishedAt || item.sys?.createdAt,
       };
     });
   };
