@@ -8,6 +8,11 @@ import renderRichTextAsHtml from '../_helpers/renderRichTextAsHtml.js';
 
 export default async function getContentfulNotes() {
   const fetcher = async () => {
+    if (!client) {
+      console.error('Contentful client not configured');
+      return [{ error: 'Contentful client not configured' }];
+    }
+
     const entries = await client.getEntries({
       content_type: 'composeNote',
       order: '-fields.datePublished',
@@ -52,6 +57,6 @@ export default async function getContentfulNotes() {
     return await cachedFetch('contentfulNotes', fetcher);
   } catch (error) {
     console.error('Error fetching composeNote entries:', error);
-    return [];
+    return [{ error: 'Error fetching composeNote entries', details: error.message }];
   }
 }
