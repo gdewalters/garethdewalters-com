@@ -9,7 +9,7 @@ export default async function getContentfulNotes() {
   const fetcher = async () => {
     const entries = await client.getEntries({
       content_type: 'composeNote',
-      order: '-sys.publishedAt',
+      order: '-fields.datePublished',
     });
 
     return entries.items.map(item => {
@@ -18,7 +18,7 @@ export default async function getContentfulNotes() {
         noteTitle: fields.noteTitle,
         externalLink: fields.externalLink,
         authorCommentary: fields.authorCommentary,
-        date: item.sys?.publishedAt || item.sys?.createdAt,
+        datePublished: fields.datePublished || item.sys?.publishedAt || item.sys?.createdAt,
       };
     });
   };

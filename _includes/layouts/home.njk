@@ -64,9 +64,9 @@ layout: layouts/base.njk
           </div>
           {% endif %}
 
-          {% if note.date %}
+          {% if note.datePublished %}
           <div class="text-muted-foreground text-xs">
-            <span>{{ note.date | readableDate }}</span>
+            <span>{{ note.datePublished | readableDate }}</span>
           </div>
           {% endif %}
         </article>
