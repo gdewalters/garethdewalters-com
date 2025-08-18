@@ -30,6 +30,35 @@
   font-family: var(--font-serif);
 }
 
+/* ──────────────────────────────────────────────────────────
+   Prose body links (only)
+   - crimson + slight weight + tidy underline
+   - hover/focus: no underline
+   - keyboard focus: accessible ring
+────────────────────────────────────────────────────────── */
+.prose a {
+  color: var(--color-vividcrimson);
+  font-weight: 500; /* slight weight increase */
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: text-decoration 0.2s ease, color 0.2s ease;
+}
+
+.prose a:hover,
+.prose a:focus {
+  text-decoration: none;
+  color: var(--color-vividcrimson);
+}
+
+.prose a:focus-visible {
+  outline: none;
+  /* Tailwind-style ring replicated in plain CSS for consistency */
+  box-shadow:
+    0 0 0 2px var(--color-vividcrimson),
+    0 0 0 4px var(--color-background); /* ring-offset */
+  border-radius: 2px;
+}
+
 /* Site custom CSS */
 .glass-effect {
   background: rgba(255, 255, 255, 0.8);
@@ -77,25 +106,19 @@
 
 /* Active Navigation Link Styling */
 .nav-link.is-active {
-  color: var(
-    --color-foreground
-  ); /* Active text link remains foreground color (black) */
+  color: var(--color-foreground); /* Active text link remains foreground color (black) */
   font-weight: 700; /* Bold for emphasis */
 }
 
 .nav-link.is-active:after {
   width: 100%; /* Always show full underline for active link */
-  background-color: var(
-    --color-huntergreen
-  ); /* Underline remains vividcrimson */
+  background-color: var(--color-huntergreen); /* Underline remains vividcrimson */
   transition: none; /* Keep instant appearance for active underline */
 }
 
 /* Optional: If you use separate styles for exact page vs. section */
 .nav-link[aria-current="page"] {
-  color: var(
-    --color-foreground
-  ); /* Exact page text link remains foreground color */
+  color: var(--color-foreground); /* Exact page text link remains foreground color */
   font-weight: 700;
 }
 .nav-link[aria-current="page"]:after {
@@ -105,9 +128,7 @@
 }
 
 .nav-link[data-current="section"] {
-  color: var(
-    --color-foreground
-  ); /* Section text link remains foreground color */
+  color: var(--color-foreground); /* Section text link remains foreground color */
   font-weight: 600; /* Slightly less bold than exact page */
 }
 .nav-link[data-current="section"]:after {
@@ -115,6 +136,15 @@
   /* background-color: rgba(200, 16, 46, 0.7); */ /* Slightly less opaque vividcrimson for section underline */
   background-color: rgba(51, 103, 59, 0.8); /* 20% opacity for #33673B */
   transition: none;
+}
+
+/* Add consistent keyboard focus for nav links */
+.nav-link:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 2px var(--color-huntergreen),
+    0 0 0 4px var(--color-background); /* ring-offset */
+  border-radius: 2px;
 }
 
 /* Animation classes */
@@ -168,4 +198,33 @@
   position: absolute;
   width: 1px;
   word-wrap: normal !important;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────────
+   Components layer: Reusable focus-ring utilities
+   (apply these classes in your HTML as needed)
+
+  In templates, add class="focus-ring-crimson" or class="focus-ring-green" to any 
+  interactive element to reuse the ring treatment. 
+  The .prose a and .nav-link already have the ring baked in via selectors, so there's 
+  no need to add these classes there unless override their colour.
+────────────────────────────────────────────────────────────────────────────────── */
+@layer components {
+  /* Crimson focus ring (use on buttons, links in content, etc.) */
+  .focus-ring-crimson:focus-visible {
+    outline: none;
+    box-shadow:
+      0 0 0 2px var(--color-vividcrimson),
+      0 0 0 4px var(--color-background); /* ring-offset */
+    border-radius: 2px;
+  }
+
+  /* Hunter green focus ring (use on nav, structural elements, etc.) */
+  .focus-ring-green:focus-visible {
+    outline: none;
+    box-shadow:
+      0 0 0 2px var(--color-huntergreen),
+      0 0 0 4px var(--color-background); /* ring-offset */
+    border-radius: 2px;
+  }
 }

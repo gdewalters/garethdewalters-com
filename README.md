@@ -178,6 +178,6 @@ This code for this project is licensed under the **ISC Licence**. See the `LICEN
 
 ---
 
-**Adeilad hapus/ Happy building!**
+**Adeilad hapus / Happy building!**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/701a7166-0f34-49be-b58d-cddefadc0b06/deploy-status)](https://app.netlify.com/projects/prod-garethdewalters-com/deploys)
