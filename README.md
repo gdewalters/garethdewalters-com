@@ -70,7 +70,11 @@ My personal website built with [Eleventy](https://www.11ty.dev/) and Tailwind th
    CONTENTFUL_ENVIRONMENT=master        # optional, defaults to "master"
    CACHE_TTL_SECONDS=3600               # optional cache TTL
    SKIP_CACHE=true|false                # optional, skip local caching
+   SETLISTFM_API_KEY=your_setlistfm_api_key   # Setlist.fm API key
+   SETLISTFM_USERNAME=your_setlistfm_username # Setlist.fm username
    ```
+
+   To fetch setlists this project uses the [Setlist.fm API](https://www.setlist.fm/help/api). Create a free Setlist.fm account and request an API key on their API page. For local development place `SETLISTFM_API_KEY` and `SETLISTFM_USERNAME` in your `.env` file; for deployments add them as environment variables in your Netlify site settings.
 
 ---
 
