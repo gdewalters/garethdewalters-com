@@ -52,21 +52,29 @@
                     <h2 class="font-serif text-3xl font-medium mb-4 text-center">Live shows</h2>
                     <p class="text-muted-foreground text-sm mb-12 text-center">Marked as attended on <a href="https://www.setlist.fm/" target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">setlist.fm</a></p>
 
-                    {# Placeholder for Live Show Listings #} {% set gigsByYear = { "2025": [ { artist: "Death Cab for Cutie", event: "for Plans 20th anniversary", date: "Jul 31, 2025", venue: "Climate Pledge Arena, Seattle, WA" }, { artist: "Bright Eyes", event: "for Five Dice, All Threes", date: "Jan 24, 2025", venue: "Paramount Theatre, Seattle, WA" } ], "2024": [ { artist: "Billie Eilish", event: "for HIT ME HARD AND SOFT", date: "Dec 06, 2024", venue: "Climate Pledge Arena, Seattle, WA" }, { artist: "Washed Out", event: "for Notes from a Quiet Life", date: "Nov 08, 2024", venue: "The Crocodile, Seattle, WA" } ], "2023": [ { artist: "The National", event: "First Two Pages of Frankenstein Tour", date: "Sep 28, 2023", venue: "Spark Arena, Auckland, NZ" } ] } %} {% for year, gigs in gigsByYear %}
+                    {% set gigsByYear = data.getSetlistFmAttended %}
+                    {% if gigsByYear and (gigsByYear | length) > 0 %}
+                    {% for year in gigsByYear | keys | sort(true) %}
                     <div class="mb-10">
                         <h3 class="font-serif text-2xl font-medium mb-4">{{ year }}</h3>
                         <ul class="space-y-6">
-                            {% for gig in gigs %}
+                            {% for gig in gigsByYear[year] %}
                             <li class="pb-6 border-b border-gray-200 last:border-b-0">
                                 <p class="font-medium text-lg text-foreground">
-                                    <a href="#" class="hover:underline decoration-vividcrimson underline-offset-2">{{ gig.artist }}</a> <span class="text-muted-foreground">{{ gig.event }}</span>
+                                    <span>{{ gig.artist.name }}</span>
+                                    {% if gig.tour and gig.tour.name %}
+                                    <span class="text-muted-foreground">{{ gig.tour.name }}</span>
+                                    {% endif %}
                                 </p>
-                                <p class="text-muted-foreground text-sm">{{ gig.date }} at {{ gig.venue }}</p>
+                                <p class="text-muted-foreground text-sm">{{ gig.eventDate }} at {{ gig.venue.name }}, {{ gig.venue.city.name }}{% if gig.venue.city.stateCode %}, {{ gig.venue.city.stateCode }}{% endif %}</p>
                             </li>
                             {% endfor %}
                         </ul>
                     </div>
                     {% endfor %}
+                    {% else %}
+                    <p class="text-muted-foreground text-center">No attended shows found or there was an error retrieving Setlist.fm data.</p>
+                    {% endif %}
                 </div>
             </section>
 
