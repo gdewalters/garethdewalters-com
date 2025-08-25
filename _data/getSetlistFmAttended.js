@@ -12,30 +12,6 @@ export default async function getSetlistFmAttended() {
 
     const url = `https://api.setlist.fm/rest/1.0/user/${username}/attended`;
 
-    
-try {
-    const data = await EleventyFetch(url, {
-        duration: '1d', 
-        type: 'json',
-        fetchOptions: {
-            headers: {
-                'x-api-key': apiKey,
-                'Accept': 'application/json'
-            }
-        }
-    });
-
-    console.log('API Response Data:', data); // <-- Add this line
-
-    const events = data.setlist || [];
-    
-    // ... (rest of the code)
-
-} catch (error) {
-    console.error('Error fetching Setlist.fm attended events:', error);
-    return {};
-}
-
     try {
         const data = await EleventyFetch(url, {
             duration: '1d', // Cache the data for 1 day
