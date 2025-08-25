@@ -58,7 +58,8 @@
                             {% for gig in gigsByYear[year] %}
                             <li class="pb-6 border-b border-gray-200 last:border-b-0">
                                 <p class="font-medium text-lg text-foreground">
-                                    <span>{{ gig.artist.name }}</span>
+                                    <span><a href="{{ gig.url }}" target="_blank" rel="noopener noreferrer">{{ gig.artist.name }}</a></span>
+                                    
                                     {% if gig.tour and gig.tour.name %}
                                     <span class="text-muted-foreground">{{ gig.tour.name }}</span>
                                     {% endif %}

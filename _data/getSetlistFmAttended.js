@@ -1,6 +1,6 @@
 // _data/getSetlistFmAttended.js
 import EleventyFetch from '@11ty/eleventy-fetch';
-import 'dotenv/config'; // Ensure dotenv is configured to load your env vars
+import 'dotenv/config';
 
 export default async function getSetlistFmAttended() {
     const { SETLISTFM_API_KEY: apiKey, SETLISTFM_USERNAME: username } = process.env;
@@ -10,33 +10,49 @@ export default async function getSetlistFmAttended() {
         return {};
     }
 
-    const url = `https://api.setlist.fm/rest/1.0/user/${username}/attended`;
+    const allEvents = [];
+    let page = 1;
+    let hasMorePages = true;
 
-    try {
-        const data = await EleventyFetch(url, {
-            duration: '1d', // Cache the data for 1 day
-            type: 'json',
-            fetchOptions: {
-                headers: {
-                    'x-api-key': apiKey,
-                    'Accept': 'application/json'
+    while (hasMorePages) {
+        const url = `https://api.setlist.fm/rest/1.0/user/${username}/attended?p=${page}`;
+
+        try {
+            const data = await EleventyFetch(url, {
+                duration: '1d', // Cache for 1 day
+                type: 'json',
+                fetchOptions: {
+                    headers: {
+                        'x-api-key': apiKey,
+                        'Accept': 'application/json'
+                    }
                 }
+            });
+
+            const events = data.setlist || [];
+            allEvents.push(...events);
+
+            // Check if there are more pages to fetch.
+            // If the number of events is less than the itemsPerPage, it's the last page.
+            if (events.length < data.itemsPerPage) {
+                hasMorePages = false;
+            } else {
+                page++;
             }
-        });
 
-        const events = data.setlist || [];
-
-        return events.reduce((acc, evt) => {
-            const [day, month, year] = (evt.eventDate || '').split('-');
-            if (year) {
-                if (!acc[year]) acc[year] = [];
-                acc[year].push(evt);
-            }
-            return acc;
-        }, {});
-
-    } catch (error) {
-        console.error('Error fetching Setlist.fm attended events:', error);
-        return {};
+        } catch (error) {
+            console.error(`Error fetching Setlist.fm attended events on page ${page}:`, error);
+            hasMorePages = false; // Stop the loop on error to prevent infinite retries.
+        }
     }
+    
+    // Group all collected events by year.
+    return allEvents.reduce((acc, evt) => {
+        const [day, month, year] = (evt.eventDate || '').split('-');
+        if (year) {
+            if (!acc[year]) acc[year] = [];
+            acc[year].push(evt);
+        }
+        return acc;
+    }, {});
 }
