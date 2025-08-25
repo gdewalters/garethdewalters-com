@@ -1,46 +1,66 @@
 // _data/getSetlistFmAttended.js
-// Fetches attended events from Setlist.fm and groups them by year.
-
-import cachedFetch from '../_helpers/cache.js';
+import EleventyFetch from '@11ty/eleventy-fetch';
+import 'dotenv/config'; // Ensure dotenv is configured to load your env vars
 
 export default async function getSetlistFmAttended() {
-  const { SETLISTFM_API_KEY: apiKey, SETLISTFM_USERNAME: username } = process.env;
+    const { SETLISTFM_API_KEY: apiKey, SETLISTFM_USERNAME: username } = process.env;
 
-  if (!apiKey || !username) {
-    console.warn('Missing SETLISTFM_API_KEY or SETLISTFM_USERNAME');
-    return {};
-  }
-
-  const fetcher = async () => {
-    const url = `https://api.setlist.fm/rest/1.0/user/${username}/attended`;
-    const response = await fetch(url, {
-      headers: {
-        'x-api-key': apiKey,
-        Accept: 'application/json'
-      }
-    });
-
-    if (!response.ok) {
-      throw new Error(`Failed to fetch Setlist.fm attended events: ${response.status} ${response.statusText}`);
+    if (!apiKey || !username) {
+        console.warn('Missing SETLISTFM_API_KEY or SETLISTFM_USERNAME in .env file.');
+        return {};
     }
 
-    const data = await response.json();
-    const events = data.setlist || data.setlists?.setlist || [];
+    const url = `https://api.setlist.fm/rest/1.0/user/${username}/attended`;
 
-    return events.reduce((acc, evt) => {
-      const [day, month, year] = (evt.eventDate || '').split('-');
-      if (year) {
-        if (!acc[year]) acc[year] = [];
-        acc[year].push(evt);
-      }
-      return acc;
-    }, {});
-  };
+    
+try {
+    const data = await EleventyFetch(url, {
+        duration: '1d', 
+        type: 'json',
+        fetchOptions: {
+            headers: {
+                'x-api-key': apiKey,
+                'Accept': 'application/json'
+            }
+        }
+    });
 
-  try {
-    return await cachedFetch('setlistfm-attended', fetcher);
-  } catch (error) {
+    console.log('API Response Data:', data); // <-- Add this line
+
+    const events = data.setlist || [];
+    
+    // ... (rest of the code)
+
+} catch (error) {
     console.error('Error fetching Setlist.fm attended events:', error);
     return {};
-  }
+}
+
+    try {
+        const data = await EleventyFetch(url, {
+            duration: '1d', // Cache the data for 1 day
+            type: 'json',
+            fetchOptions: {
+                headers: {
+                    'x-api-key': apiKey,
+                    'Accept': 'application/json'
+                }
+            }
+        });
+
+        const events = data.setlist || [];
+
+        return events.reduce((acc, evt) => {
+            const [day, month, year] = (evt.eventDate || '').split('-');
+            if (year) {
+                if (!acc[year]) acc[year] = [];
+                acc[year].push(evt);
+            }
+            return acc;
+        }, {});
+
+    } catch (error) {
+        console.error('Error fetching Setlist.fm attended events:', error);
+        return {};
+    }
 }

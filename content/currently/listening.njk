@@ -1,12 +1,8 @@
 ---js
 {    
     layout: "layouts/base.njk",
-    ayout: "layouts/page.njk",
     title: "Currently",
     permalink: "/currently/listening.html",
-    eleventyComputed: {
-        post: async (data) => data.getContentfulPageCurrently
-    },
 }
 ---
 
@@ -30,7 +26,8 @@
 
                     {# Placeholder for Annual Playlists Navigation/Filters #}
                     <nav class="flex flex-wrap justify-center gap-4 mb-12">
-                        {% set currentYear = "2024" %} {# This would be dynamic based on the current page/filter #} {% set playlistYears = ["2024", "2023", "2022", "2021", "2020"] %} {# Example data #} 
+                        {% set currentYear = "2025" %} {# This would be dynamic based on the current page/filter #} 
+                        {% set playlistYears = ["2024", "2023", "2022", "2021", "2020"] %} {# Example data #} 
                         {% for year in playlistYears %}
                         <a href="#" class="{% if year == currentYear %}text-huntergreen font-semibold underline decoration-2 underline-offset-4{% else %}text-muted-foreground hover:text-huntergreen{% endif %} transition-colors duration-200 text-lg">
                         {{ year }}
