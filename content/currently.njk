@@ -1,0 +1,63 @@
+---js
+{
+    // Data for the Eleventy Navigation plugin
+
+    
+    // Other page-specific front matter
+    layout: "layouts/base.njk",
+    title: "Currently",
+    permalink: "/currently/index.html",
+    eleventyComputed: {
+        post: async (data) => data.getContentfulPageCurrently
+    },
+}
+---
+
+<article class="w-full max-w-2xl mx-auto px-4">
+  <div class="text-center mb-16">
+    <div class="flex items-center justify-center space-x-2 text-xl md:text-2xl font-sans mb-12">
+      <div class="text-emerald-500">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM15 9.75a.75.75 0 0 1-.75.75H9.75a.75.75 0 0 1-.75-.75V8.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 .75.75v1.5ZM12 15a.75.75 0 0 1-.75.75h-.75V15h1.5v.75ZM9.75 13.5a.75.75 0 0 0-.75.75V15h1.5v-.75a.75.75 0 0 0-.75-.75ZM15 13.5a.75.75 0 0 0-.75.75V15h1.5v-.75a.75.75 0 0 0-.75-.75Z" />
+        </svg>
+      </div>
+      <h1 class="font-sans font-normal text-3xl">Listening</h1>
+    </div>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-serif mb-4">Annual playlists</h2>
+      <ul class="flex justify-center space-x-6">
+        {% for year in listeningData.annualPlaylists %}
+        <li class="font-sans text-sm font-semibold transition-colors duration-200 ease-in-out {% if year == listeningData.activePlaylist %}text-emerald-600{% else %}text-gray-500 hover:text-gray-900{% endif %}">
+          <a href="#">{{ year }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-serif mb-2">Live shows</h2>
+      <p class="text-sm text-gray-500 mb-8">Markee as attended on <a href="https://www.setlist.fm" class="underline hover:text-gray-700 transition-colors">setlist.fm</a></p>
+
+      <div class="text-left space-y-12">
+        {% for year, concerts in listeningData.liveShows %}
+        <div>
+          <h3 class="font-serif text-3xl font-medium mb-4 text-gray-400 -ml-16 w-12 border-b-2 border-gray-200 pb-2 -mr-8 pl-0 float-left hidden sm:block">{{ year }}</h3>
+          <h3 class="font-serif text-3xl font-medium mb-4 text-gray-400 block sm:hidden">{{ year }}</h3>
+          <ul class="space-y-6">
+            {% for concert in concerts %}
+            <li class="pl-0 sm:pl-16">
+              <a href="#" class="font-sans font-semibold text-lg hover:underline decoration-2 underline-offset-4">{{ concert.artist }}</a>
+              {% if concert.description %}
+              <span class="text-gray-600"> {{ concert.description }}</span>
+              {% endif %}
+              <p class="text-sm text-gray-500 mt-1">{{ concert.date }} at {{ concert.venue }}</p>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</article>

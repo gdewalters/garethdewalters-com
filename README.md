@@ -96,13 +96,13 @@ Serves the site locally with `ELEVENTY_ENV=production`, enabling verification of
 
 ---
 
-## Production build
+## Local build
 
 ```bash
 npm run build
 ```
 
-Generates optimized JavaScript and CSS, then outputs the static site to the `_site` directory.
+Generates optimised JavaScript and CSS, then outputs the static site to the `_site` directory.
 
 To serve the production output locally:
 

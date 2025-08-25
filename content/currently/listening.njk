@@ -1,0 +1,75 @@
+---js
+{    
+    layout: "layouts/base.njk",
+    ayout: "layouts/page.njk",
+    title: "Currently",
+    permalink: "/currently/listening.html",
+    eleventyComputed: {
+        post: async (data) => data.getContentfulPageCurrently
+    },
+}
+---
+
+<article class="w-full max-w-7xl mx-auto">
+    <!-- Page meta section -->
+    <section class="mb-16 text-center">
+        <div class="flex items-center justify-center mb-6">
+            <h1 class="font-serif text-4xl leading-tight font-medium md:text-5xl lg:text-6xl mb-6 text-left sm:text-center">Listening</h1>
+        </div>
+    </section>
+
+    <!-- Page content -->
+    <section class="flex justify-center">
+        <!-- The 'prose' class from @tailwindcss/typography plugin will style the content -->
+        <div class="prose max-w-prose w-full">
+
+            {# Annual Playlists Section #}
+            <section class="">
+                <div class="">
+                    <h2 class="font-serif text-3xl font-medium mb-8 text-center">Annual playlists</h2>
+
+                    {# Placeholder for Annual Playlists Navigation/Filters #}
+                    <nav class="flex flex-wrap justify-center gap-4 mb-12">
+                        {% set currentYear = "2024" %} {# This would be dynamic based on the current page/filter #} {% set playlistYears = ["2024", "2023", "2022", "2021", "2020"] %} {# Example data #} 
+                        {% for year in playlistYears %}
+                        <a href="#" class="{% if year == currentYear %}text-huntergreen font-semibold underline decoration-2 underline-offset-4{% else %}text-muted-foreground hover:text-huntergreen{% endif %} transition-colors duration-200 text-lg">
+                        {{ year }}
+                        </a> {% endfor %}
+                    </nav>
+
+                    {# Placeholder for actual playlist content (e.g., embed, description) #}
+                    <div class="bg-secondary/30 p-8 rounded-lg text-center">
+                        <p class="text-muted-foreground">Content for the 2025 playlist goes here. Maybe an embedded Apple playlist?</p>
+                        <p class="text-muted-foreground mt-4">This section will display details for the selected annual playlist.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            {# Live shows section #}
+            <section>
+                <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="font-serif text-3xl font-medium mb-4 text-center">Live shows</h2>
+                    <p class="text-muted-foreground text-sm mb-12 text-center">Marked as attended on <a href="https://www.setlist.fm/" target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">setlist.fm</a></p>
+
+                    {# Placeholder for Live Show Listings #} {% set gigsByYear = { "2025": [ { artist: "Death Cab for Cutie", event: "for Plans 20th anniversary", date: "Jul 31, 2025", venue: "Climate Pledge Arena, Seattle, WA" }, { artist: "Bright Eyes", event: "for Five Dice, All Threes", date: "Jan 24, 2025", venue: "Paramount Theatre, Seattle, WA" } ], "2024": [ { artist: "Billie Eilish", event: "for HIT ME HARD AND SOFT", date: "Dec 06, 2024", venue: "Climate Pledge Arena, Seattle, WA" }, { artist: "Washed Out", event: "for Notes from a Quiet Life", date: "Nov 08, 2024", venue: "The Crocodile, Seattle, WA" } ], "2023": [ { artist: "The National", event: "First Two Pages of Frankenstein Tour", date: "Sep 28, 2023", venue: "Spark Arena, Auckland, NZ" } ] } %} {% for year, gigs in gigsByYear %}
+                    <div class="mb-10">
+                        <h3 class="font-serif text-2xl font-medium mb-4">{{ year }}</h3>
+                        <ul class="space-y-6">
+                            {% for gig in gigs %}
+                            <li class="pb-6 border-b border-gray-200 last:border-b-0">
+                                <p class="font-medium text-lg text-foreground">
+                                    <a href="#" class="hover:underline decoration-vividcrimson underline-offset-2">{{ gig.artist }}</a> <span class="text-muted-foreground">{{ gig.event }}</span>
+                                </p>
+                                <p class="text-muted-foreground text-sm">{{ gig.date }} at {{ gig.venue }}</p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+
+        </div>
+    </section>
+</article>
