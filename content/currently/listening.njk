@@ -26,19 +26,10 @@
 
                     {# Placeholder for Annual Playlists Navigation/Filters #}
                     <nav class="flex flex-wrap justify-center gap-4 mb-12">
-                        {% set currentYear = "2025" %} {# This would be dynamic based on the current page/filter #} 
-                        {% set playlistYears = ["2025", "2024", "2023", "2022", "2021", "2020"] %} {# Example data #} 
-                        {% for year in playlistYears %}
-                        <a href="#" class="{% if year == currentYear %}text-huntergreen font-semibold underline decoration-2 underline-offset-4{% else %}text-muted-foreground hover:text-huntergreen{% endif %} transition-colors duration-200 text-lg">
-                        {{ year }}
-                        </a> {% endfor %}
+                        <a href="https://music.apple.com/nz/playlist/favorite-songs/pl.u-gyU5rrlLY" class="{% if year == currentYear %}text-huntergreen font-semibold underline decoration-2 underline-offset-4{% else %}text-muted-foreground hover:text-huntergreen{% endif %} transition-colors duration-200 text-lg">
+                        2025
+                        </a> 
                     </nav>
-
-                    {# Placeholder for actual playlist content (e.g., embed, description) #}
-                    <div class="bg-secondary/30 p-8 rounded-lg text-center">
-                        <p class="text-muted-foreground">Content for the 2025 playlist goes here. Maybe an embedded Apple playlist?</p>
-                        <p class="text-muted-foreground mt-4">This section will display details for the selected annual playlist.</p>
-                    </div>
 
                 </div>
             </section>
@@ -47,7 +38,7 @@
             <section>
                 <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 class="font-serif text-3xl font-medium mb-4 text-center">Live shows</h2>
-                    <p class="text-muted-foreground text-sm mb-12 text-center">Marked as attended on <a href="https://www.setlist.fm/" target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">setlist.fm</a></p>
+                    <p class="text-muted-foreground mb-12 text-center">A list of the  gigs I've seen fetched from <a href="https://www.setlist.fm/" target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">setlist.fm</a></p>
 
                     {% set gigsByYear = getSetlistFmAttended %}
                     {% if gigsByYear and (gigsByYear | length) > 0 %}
