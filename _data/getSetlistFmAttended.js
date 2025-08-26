@@ -14,11 +14,35 @@ export default async function getSetlistFmAttended() {
     let page = 1;
     let hasMorePages = true;
 
+    const MAX_RETRIES = 3;
+    const RETRY_DELAY_MS = 1300;
+
+    const fetchWithRetry = async (url, options) => {
+        for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+            try {
+                return await EleventyFetch(url, options);
+            } catch (error) {
+                if (attempt === MAX_RETRIES) throw error;
+
+                const status = error?.response?.status;
+                const retryAfter = Number(error?.response?.headers?.get('retry-after')) * 1300 || RETRY_DELAY_MS;
+
+                if (status === 429) {
+                    console.warn(`Rate limited fetching ${url}. Retrying in ${retryAfter}ms`);
+                    await new Promise((resolve) => setTimeout(resolve, retryAfter));
+                } else {
+                    console.warn(`Error fetching ${url}. Retrying in ${RETRY_DELAY_MS}ms`);
+                    await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY_MS));
+                }
+            }
+        }
+    };
+
     while (hasMorePages) {
         const url = `https://api.setlist.fm/rest/1.0/user/${username}/attended?p=${page}`;
 
         try {
-            const data = await EleventyFetch(url, {
+            const data = await fetchWithRetry(url, {
                 duration: '1d', // Cache for 1 day
                 type: 'json',
                 fetchOptions: {
