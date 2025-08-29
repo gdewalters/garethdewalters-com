@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "43d1ef17",
+    "eventDate": "29-11-2001",
+    "lastUpdated": "2013-06-20T11:52:31.000+0000",
+    "artist": {
+      "name": "Pulp",
+      "mbid": "76b2e842-5e85-4c97-ab62-d5bc315595b5",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Brixton Academy",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "We Love Life",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/pulp/2001/brixton-academy-london-england-43d1ef17.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Weeds"
+          },
+          {
+            "name": "The Night That Minnie Timperley Died"
+          },
+          {
+            "name": "The Birds in Your Garden"
+          },
+          {
+            "name": "Something Changed"
+          },
+          {
+            "name": "Joyriders"
+          },
+          {
+            "name": "Live Bed Show"
+          },
+          {
+            "name": "F.E.E.L.I.N.G.C.A.L.L.E.D.L.O.V.E."
+          },
+          {
+            "name": "Bad Cover Version"
+          },
+          {
+            "name": "The Trees"
+          },
+          {
+            "name": "I Love Life"
+          },
+          {
+            "name": "This Is Hardcore"
+          },
+          {
+            "name": "Sunrise"
+          },
+          {
+            "name": "Sorted for E's & Wizz"
+          },
+          {
+            "name": "Babies"
+          },
+          {
+            "name": "A Little Soul"
+          },
+          {
+            "name": "Wickerman"
+          },
+          {
+            "name": "Underwear"
+          }
+        ]
+      }
+    ]
+  }
+}

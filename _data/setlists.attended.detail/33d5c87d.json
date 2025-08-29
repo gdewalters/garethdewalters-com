@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "33d5c87d",
+    "eventDate": "22-11-2000",
+    "lastUpdated": "2020-07-18T01:12:17.004+0000",
+    "artist": {
+      "name": "Queens of the Stone Age",
+      "mbid": "7dc8f5bd-9d0b-4087-9f73-dc164950bbd8",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "London Astoria",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "Rated R",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/queens-of-the-stone-age/2000/london-astoria-london-england-33d5c87d.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Feel Good Hit of the Summer"
+          },
+          {
+            "name": "Monsters in the Parasol"
+          },
+          {
+            "name": "Quick and to the Pointless"
+          },
+          {
+            "name": "Ode to Clarissa"
+          },
+          {
+            "name": "How to Handle a Rope"
+          },
+          {
+            "name": "Who'll Be the Next in Line",
+            "cover": {
+              "mbid": "17b53d9f-5c63-4a09-a593-dde4608e0db9",
+              "name": "The Kinks",
+              "sortName": "Kinks, The",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/the-kinks-23d6ac37.html"
+            }
+          },
+          {
+            "name": "Leg of Lamb"
+          },
+          {
+            "name": "Avon"
+          },
+          {
+            "name": "I Think I Lost My Headache",
+            "info": "First live performance"
+          },
+          {
+            "name": "Tension Head"
+          },
+          {
+            "name": "You Can't Quit Me Baby"
+          },
+          {
+            "name": "The Lost Art of Keeping a Secret"
+          },
+          {
+            "name": "You Think I Ain't Worth a Dollar, but I Feel Like a Millionaire"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "If Only"
+          },
+          {
+            "name": "Better Living Through Chemistry"
+          }
+        ]
+      }
+    ]
+  }
+}

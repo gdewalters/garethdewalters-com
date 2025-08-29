@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "43c637b3",
+    "eventDate": "15-07-2004",
+    "lastUpdated": "2019-05-27T16:51:20.088+0000",
+    "artist": {
+      "name": "PJ Harvey",
+      "mbid": "e795e03d-b5d5-4a5f-834d-162cfb308a2c",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Carling Academy Brixton",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "Uh Huh Her",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/pj-harvey/2004/carling-academy-brixton-london-england-43c637b3.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "The Life & Death of Mr. Badmouth"
+          },
+          {
+            "name": "Who the Fuck?"
+          },
+          {
+            "name": "Dress"
+          },
+          {
+            "name": "Evol"
+          },
+          {
+            "name": "Shame"
+          },
+          {
+            "name": "Victory"
+          },
+          {
+            "name": "A Place Called Home"
+          },
+          {
+            "name": "Meet Ze Monsta"
+          },
+          {
+            "name": "You Come Through"
+          },
+          {
+            "name": "The Letter"
+          },
+          {
+            "name": "A Perfect Day Elise"
+          },
+          {
+            "name": "The Whores Hustle and the Hustlers Whore"
+          },
+          {
+            "name": "Good Fortune"
+          },
+          {
+            "name": "The Dancer"
+          },
+          {
+            "name": "50ft Queenie"
+          },
+          {
+            "name": "Uh Huh Her"
+          },
+          {
+            "name": "Taut",
+            "cover": {
+              "mbid": "9a1bda4a-39b7-45ed-a8a1-6e35a036c8fa",
+              "name": "PJ Harvey & John Parish",
+              "sortName": "Harvey, PJ & Parish, John",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/pj-harvey-and-john-parish-3d4a50f.html"
+            }
+          },
+          {
+            "name": "Harder"
+          },
+          {
+            "name": "Big Exit"
+          }
+        ]
+      }
+    ]
+  }
+}

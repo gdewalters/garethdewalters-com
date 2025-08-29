@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "5bbb97e0",
+    "eventDate": "07-03-2020",
+    "lastUpdated": "2023-03-17T22:20:49.668+0000",
+    "artist": {
+      "name": "The Schizophonics",
+      "mbid": "cd4449d1-eca9-41fc-8f15-0e69c70d685d",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Panhead Brewery",
+      "city": "Upper Hutt",
+      "state": "Wellington",
+      "stateCode": "G2",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -41.138271166,
+        "long": 175.050196755
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-schizophonics/2020/panhead-brewery-upper-hutt-new-zealand-5bbb97e0.html",
+    "sets": []
+  }
+}

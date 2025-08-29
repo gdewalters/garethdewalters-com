@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "63d5323f",
+    "eventDate": "28-06-1995",
+    "lastUpdated": "2020-12-03T19:52:29.681+0000",
+    "artist": {
+      "name": "Ramones",
+      "mbid": "d6ed7887-a401-47a8-893c-34b967444d26",
+      "tmid": null,
+      "disambiguation": "US punk rock band"
+    },
+    "venue": {
+      "name": "London Astoria",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "¡Adios Amigos!",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/ramones/1995/london-astoria-london-england-63d5323f.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "The Good, the Bad and the Ugly",
+            "tape": true,
+            "cover": {
+              "mbid": "a16e47f5-aa54-47fe-87e4-bb8af91a9fdd",
+              "name": "Ennio Morricone",
+              "sortName": "Morricone, Ennio",
+              "disambiguation": "Italian classical and score composer",
+              "url": "https://www.setlist.fm/setlists/ennio-morricone-23d6a833.html"
+            }
+          },
+          {
+            "name": "Durango 95"
+          },
+          {
+            "name": "Teenage Lobotomy"
+          },
+          {
+            "name": "Psycho Therapy"
+          },
+          {
+            "name": "Blitzkrieg Bop"
+          },
+          {
+            "name": "Do You Remember Rock 'n' Roll Radio?"
+          },
+          {
+            "name": "I Believe in Miracles"
+          },
+          {
+            "name": "Gimme Gimme Shock Treatment"
+          },
+          {
+            "name": "Rock 'n' Roll High School"
+          },
+          {
+            "name": "I Wanna Be Sedated"
+          },
+          {
+            "name": "Have You Ever Seen the Rain?",
+            "cover": {
+              "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+              "name": "Creedence Clearwater Revival",
+              "sortName": "Creedence Clearwater Revival",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+            }
+          },
+          {
+            "name": "The KKK Took My Baby Away"
+          },
+          {
+            "name": "I Don't Wanna Grow Up",
+            "cover": {
+              "mbid": "c3aeb863-7b26-4388-94e8-5a240f2be21b",
+              "name": "Tom Waits",
+              "sortName": "Waits, Tom",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/tom-waits-3bd6c0ac.html"
+            }
+          },
+          {
+            "name": "Commando"
+          },
+          {
+            "name": "Sheena Is a Punk Rocker"
+          },
+          {
+            "name": "Rockaway Beach"
+          },
+          {
+            "name": "Pet Sematary"
+          },
+          {
+            "name": "Main Man"
+          },
+          {
+            "name": "Cretin Family"
+          },
+          {
+            "name": "Take It as It Comes",
+            "cover": {
+              "mbid": "9efff43b-3b29-4082-824e-bc82f646f93d",
+              "name": "The Doors",
+              "sortName": "Doors, The",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/the-doors-bd6adba.html"
+            }
+          },
+          {
+            "name": "Somebody Put Something in My Drink"
+          },
+          {
+            "name": "7 and 7 Is",
+            "cover": {
+              "mbid": "34ec9a8d-c65b-48fd-bcdd-aad2f72fdb47",
+              "name": "Love",
+              "sortName": "Love",
+              "disambiguation": "folk-rock/psychedelic band",
+              "url": "https://www.setlist.fm/setlists/love-33d6ac91.html"
+            }
+          },
+          {
+            "name": "Wart Hog"
+          },
+          {
+            "name": "Cretin Hop"
+          },
+          {
+            "name": "R.A.M.O.N.E.S.",
+            "cover": {
+              "mbid": "57961a97-3796-4bf7-9f02-a985a8979ae9",
+              "name": "Motörhead",
+              "sortName": "Motörhead",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/motorhead-33d68059.html"
+            }
+          },
+          {
+            "name": "Today Your Love, Tomorrow the World"
+          },
+          {
+            "name": "Pinhead"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "My Back Pages",
+            "cover": {
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+              "name": "Bob Dylan",
+              "sortName": "Dylan, Bob",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html"
+            }
+          },
+          {
+            "name": "Poison Heart"
+          },
+          {
+            "name": "We're a Happy Family"
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Havana Affair"
+          },
+          {
+            "name": "Chinese Rocks",
+            "cover": {
+              "mbid": "ddf271e5-3505-4e08-8d08-d488b22550f7",
+              "name": "The Heartbreakers",
+              "sortName": "Heartbreakers, The",
+              "disambiguation": "1970’s punk band",
+              "url": "https://www.setlist.fm/setlists/the-heartbreakers-53d7b719.html"
+            }
+          },
+          {
+            "name": "Beat on the Brat"
+          },
+          {
+            "name": "The Ecstasy of Gold",
+            "tape": true,
+            "cover": {
+              "mbid": "a16e47f5-aa54-47fe-87e4-bb8af91a9fdd",
+              "name": "Ennio Morricone",
+              "sortName": "Morricone, Ennio",
+              "disambiguation": "Italian classical and score composer",
+              "url": "https://www.setlist.fm/setlists/ennio-morricone-23d6a833.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

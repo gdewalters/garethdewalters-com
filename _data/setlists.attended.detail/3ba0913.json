@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3ba0913",
+    "eventDate": "07-03-2023",
+    "lastUpdated": "2025-07-20T04:20:20.807+0000",
+    "artist": {
+      "name": "Pavement",
+      "mbid": "36bfa85f-737b-41db-a8fc-b8825850ffc3",
+      "tmid": null,
+      "disambiguation": "US indie rock band"
+    },
+    "venue": {
+      "name": "Civic Theatre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Tour 2022-23",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/pavement/2023/civic-theatre-auckland-new-zealand-3ba0913.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Grounded"
+          },
+          {
+            "name": "Summer Babe"
+          },
+          {
+            "name": "Transport Is Arranged"
+          },
+          {
+            "name": "Kennel District",
+            "info": "Dedicated to Chris Knox"
+          },
+          {
+            "name": "Black Out"
+          },
+          {
+            "name": "Perfume-V"
+          },
+          {
+            "name": "Cut Your Hair"
+          },
+          {
+            "name": "Father to a Sister of Thought",
+            "info": "Bob gave a tambourine to an audience member before they played the song"
+          },
+          {
+            "name": "Harness Your Hopes"
+          },
+          {
+            "name": "Unfair"
+          },
+          {
+            "name": "Home"
+          },
+          {
+            "name": "Here"
+          },
+          {
+            "name": "Spit on a Stranger"
+          },
+          {
+            "name": "The Hexx"
+          },
+          {
+            "name": "Heckler Spray"
+          },
+          {
+            "name": "Feed 'em to the (Linden) Lions"
+          },
+          {
+            "name": "Two States"
+          },
+          {
+            "name": "Type Slowly"
+          },
+          {
+            "name": "Shady Lane"
+          },
+          {
+            "name": "Box Elder"
+          },
+          {
+            "name": "Stop Breathin"
+          },
+          {
+            "name": "Range Life"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Blue Hawaiian"
+          },
+          {
+            "name": "Stereo"
+          },
+          {
+            "name": "Gold Soundz"
+          },
+          {
+            "name": "Conduit for Sale!"
+          },
+          {
+            "name": "Witchitai-To",
+            "cover": {
+              "mbid": "dc7c2382-e566-43e6-9250-3fe2e3c63713",
+              "name": "Jim Pepper",
+              "sortName": "Pepper, Jim",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/jim-pepper-53d35311.html"
+            },
+            "info": "Dedicated to Hamish Kilgour"
+          }
+        ]
+      }
+    ]
+  }
+}

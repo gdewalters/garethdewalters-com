@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "73d83a21",
+    "eventDate": "11-05-1993",
+    "lastUpdated": "2023-12-03T08:31:45.319+0000",
+    "artist": {
+      "name": "Faith No More",
+      "mbid": "b15ebd71-a252-417d-9e1c-3e6863da68f8",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Auckland Town Hall",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Angel Dust",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/faith-no-more/1993/auckland-town-hall-auckland-new-zealand-73d83a21.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Caffeine"
+          },
+          {
+            "name": "Be Aggressive"
+          },
+          {
+            "name": "As the Worm Turns"
+          },
+          {
+            "name": "The Crab Song"
+          },
+          {
+            "name": "Midlife Crisis"
+          },
+          {
+            "name": "RV"
+          },
+          {
+            "name": "Land of Sunshine"
+          },
+          {
+            "name": "We Care a Lot",
+            "info": "With Mistadobalina by Del Tha Funkee Homosapien"
+          },
+          {
+            "name": "Chinese Arithmetic",
+            "info": "With Twin Peaks Theme intro"
+          },
+          {
+            "name": "Crack Hitler"
+          },
+          {
+            "name": "Sweet Dreams",
+            "cover": {
+              "mbid": "3012c194-947d-43d5-9bb3-0a71b157c3c6",
+              "name": "Lloyd Landesman",
+              "sortName": "Landesman, Lloyd",
+              "disambiguation": "composer",
+              "url": "https://www.setlist.fm/setlists/lloyd-landesman-3bdc0050.html"
+            }
+          },
+          {
+            "name": "Edge of the World"
+          },
+          {
+            "name": "Falling to Pieces"
+          },
+          {
+            "name": "Death March"
+          },
+          {
+            "name": "Surprise! You're Dead!"
+          },
+          {
+            "name": "Woodpecker From Mars"
+          },
+          {
+            "name": "Jizzlobber"
+          },
+          {
+            "name": "Introduce Yourself"
+          },
+          {
+            "name": "Easy",
+            "cover": {
+              "mbid": "900ab237-327b-44e2-87e4-73250bbe025a",
+              "name": "Commodores",
+              "sortName": "Commodores",
+              "disambiguation": "US funk/soul band with Lionel Richie",
+              "url": "https://www.setlist.fm/setlists/commodores-bd6b97e.html"
+            }
+          },
+          {
+            "name": "Black Night (cover)"
+          },
+          {
+            "name": "Epic"
+          }
+        ]
+      }
+    ]
+  }
+}

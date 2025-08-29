@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "6bd38e06",
+    "eventDate": "22-10-1995",
+    "lastUpdated": "2016-07-04T18:45:45.000+0000",
+    "artist": {
+      "name": "Electrafixion",
+      "mbid": "8af87f25-f2dd-4e25-b776-a9985bf92c10",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "Burned Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/electrafixion/1995/shepherds-bush-empire-london-england-6bd38e06.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Zephyr"
+          },
+          {
+            "name": "Feel My Pulse"
+          },
+          {
+            "name": "Sister Pain"
+          },
+          {
+            "name": "Lowdown"
+          },
+          {
+            "name": "Never"
+          },
+          {
+            "name": "Holy Grail"
+          },
+          {
+            "name": "Too Far Gone"
+          },
+          {
+            "name": "Burned"
+          },
+          {
+            "name": "Loose",
+            "cover": {
+              "mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+              "name": "The Stooges",
+              "sortName": "Stooges, The",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/the-stooges-3bd6ac18.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

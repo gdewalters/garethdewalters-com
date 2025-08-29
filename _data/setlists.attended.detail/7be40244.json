@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7be40244",
+    "eventDate": "26-06-1995",
+    "lastUpdated": "2017-07-07T14:55:40.676+0000",
+    "artist": {
+      "name": "Cast",
+      "mbid": "a6f84719-b3da-42f0-be81-8fe03545efed",
+      "tmid": null,
+      "disambiguation": "British indie band"
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/cast/1995/shepherds-bush-empire-london-england-7be40244.html",
+    "sets": []
+  }
+}

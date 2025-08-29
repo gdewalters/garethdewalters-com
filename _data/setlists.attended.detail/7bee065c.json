@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7bee065c",
+    "eventDate": "21-02-2018",
+    "lastUpdated": "2023-04-11T07:45:38.257+0000",
+    "artist": {
+      "name": "Protomartyr",
+      "mbid": "9efaf639-6332-44b8-94ae-c25896320ca7",
+      "tmid": null,
+      "disambiguation": "US post punk band"
+    },
+    "venue": {
+      "name": "Whammy Bar",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Relatives In Descent",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/protomartyr/2018/whammy-bar-auckland-new-zealand-7bee065c.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "My Children"
+          },
+          {
+            "name": "I Forgive You"
+          },
+          {
+            "name": "Same Face in a Different Mirror"
+          },
+          {
+            "name": "Windsor Hum"
+          },
+          {
+            "name": "I Stare at Floors"
+          },
+          {
+            "name": "Up the Tower"
+          },
+          {
+            "name": "Male Plague"
+          },
+          {
+            "name": "What the Wall Said"
+          },
+          {
+            "name": "The Devil in His Youth"
+          },
+          {
+            "name": "3 Swallows"
+          },
+          {
+            "name": "A Private Understanding"
+          },
+          {
+            "name": "Here Is the Thing"
+          },
+          {
+            "name": "Pontiac 87"
+          },
+          {
+            "name": "Don't Go to Anacita"
+          },
+          {
+            "name": "Dope Cloud"
+          },
+          {
+            "name": "Half Sister"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Why Does It Shake?"
+          },
+          {
+            "name": "Scum, Rise!"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2bdb74b2",
+    "eventDate": "05-03-2013",
+    "lastUpdated": "2025-06-03T18:13:23.714+0000",
+    "artist": {
+      "name": "Dinosaur Jr.",
+      "mbid": "77c167d2-4965-4421-830a-9815e4956475",
+      "tmid": null,
+      "disambiguation": "US rock band"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "I Bet on Sky",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/dinosaur-jr/2013/powerstation-auckland-new-zealand-2bdb74b2.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "The Lung"
+          },
+          {
+            "name": "Almost Fare"
+          },
+          {
+            "name": "The Wagon"
+          },
+          {
+            "name": "Don't Pretend You Didn't Know"
+          },
+          {
+            "name": "Watch the Corners"
+          },
+          {
+            "name": "Crumble"
+          },
+          {
+            "name": "Rude"
+          },
+          {
+            "name": "Out There"
+          },
+          {
+            "name": "Feel the Pain"
+          },
+          {
+            "name": "Pond Song"
+          },
+          {
+            "name": "Training Ground",
+            "cover": {
+              "mbid": "7cee4e5d-8ea4-48fb-a7e2-c3adcc543f81",
+              "name": "Deep Wound",
+              "sortName": "Deep Wound",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/deep-wound-3bd660c4.html"
+            }
+          },
+          {
+            "name": "Start Choppin"
+          },
+          {
+            "name": "Freak Scene"
+          },
+          {
+            "name": "Forget the Swan"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Just Like Heaven",
+            "cover": {
+              "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+              "name": "The Cure",
+              "sortName": "Cure, The",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/the-cure-6bd6b266.html"
+            }
+          },
+          {
+            "name": "Sludgefeast"
+          }
+        ]
+      }
+    ]
+  }
+}

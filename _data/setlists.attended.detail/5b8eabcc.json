@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "5b8eabcc",
+    "eventDate": "01-05-2021",
+    "lastUpdated": "2023-01-31T09:13:27.329+0000",
+    "artist": {
+      "name": "The Veils",
+      "mbid": "c3bf5aee-646e-4030-9ab4-d1fbd4947a97",
+      "tmid": null,
+      "disambiguation": "English/New Zealand rock band"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-veils/2021/powerstation-auckland-new-zealand-5b8eabcc.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Sinner Man",
+            "tape": true
+          }
+        ]
+      },
+      {
+        "name": "Nux Vomica",
+        "song": [
+          {
+            "name": "Not Yet"
+          },
+          {
+            "name": "Calliope!"
+          },
+          {
+            "name": "Advice for Young Mothers to Be"
+          },
+          {
+            "name": "Pan"
+          },
+          {
+            "name": "A Birthday Present"
+          },
+          {
+            "name": "One Night on Earth"
+          },
+          {
+            "name": "Under the Folding Branches"
+          },
+          {
+            "name": "Nux Vomica"
+          },
+          {
+            "name": "House Where We All Live"
+          },
+          {
+            "name": "Jesus for the Jugular"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Swimming With the Crocodiles"
+          },
+          {
+            "name": "Birds"
+          },
+          {
+            "name": "No Limit of Stars",
+            "info": "New song, unreleased"
+          },
+          {
+            "name": "In the Blood"
+          },
+          {
+            "name": "Sit Down by the Fire"
+          },
+          {
+            "name": "Axolotl"
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Sun Gangs"
+          },
+          {
+            "name": "One by the Venom",
+            "cover": {
+              "mbid": "3fb80379-5d2f-4e68-95ca-38e74a2fbf76",
+              "name": "Finn Andrews",
+              "sortName": "Andrews, Finn",
+              "disambiguation": "British/New Zealand musician",
+              "url": "https://www.setlist.fm/setlists/finn-andrews-2bd2cc86.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

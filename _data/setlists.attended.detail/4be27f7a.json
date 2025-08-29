@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "4be27f7a",
+    "eventDate": "20-09-2017",
+    "lastUpdated": "2020-05-06T18:37:57.119+0000",
+    "artist": {
+      "name": "The Dandy Warhols",
+      "mbid": "5f572b31-8fd9-45ae-9beb-358c98d839df",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-dandy-warhols/2017/powerstation-auckland-new-zealand-4be27f7a.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Mohammed"
+          },
+          {
+            "name": "Crack Cocaine Rager"
+          },
+          {
+            "name": "Get Off"
+          },
+          {
+            "name": "STYGGO"
+          },
+          {
+            "name": "I Love You"
+          },
+          {
+            "name": "You Were the Last High"
+          },
+          {
+            "name": "Everyone Is Totally Insane"
+          },
+          {
+            "name": "Welcome to the Monkey House"
+          },
+          {
+            "name": "Every Day Should Be a Holiday"
+          },
+          {
+            "name": "Good Morning"
+          },
+          {
+            "name": "Holding Me Up"
+          },
+          {
+            "name": "You Are Killing Me"
+          },
+          {
+            "name": "We Used to Be Friends"
+          },
+          {
+            "name": "Bohemian Like You"
+          },
+          {
+            "name": "Godless"
+          },
+          {
+            "name": "Pete International Airport"
+          },
+          {
+            "name": "Boys Better"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "6bdfaad2",
+    "eventDate": "24-10-1997",
+    "lastUpdated": "2018-08-06T07:29:21.585+0000",
+    "artist": {
+      "name": "Blur",
+      "mbid": "ba853904-ae25-4ebb-89d6-c44cfbd71bd2",
+      "tmid": null,
+      "disambiguation": "UK alternative rock band"
+    },
+    "venue": {
+      "name": "North Shore Events Centre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Blur Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/blur/1997/north-shore-events-centre-auckland-new-zealand-6bdfaad2.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Beetlebum"
+          },
+          {
+            "name": "M.O.R."
+          },
+          {
+            "name": "There's No Other Way"
+          },
+          {
+            "name": "Colin Zeal"
+          },
+          {
+            "name": "Globe Alone"
+          },
+          {
+            "name": "Movin' On"
+          },
+          {
+            "name": "Badhead"
+          },
+          {
+            "name": "Country Sad Ballad Man"
+          },
+          {
+            "name": "Chemical World"
+          },
+          {
+            "name": "Chinese Bombs"
+          },
+          {
+            "name": "Advert"
+          },
+          {
+            "name": "Bank Holiday"
+          },
+          {
+            "name": "Girls & Boys"
+          },
+          {
+            "name": "Death of a Party"
+          },
+          {
+            "name": "This Is a Low"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "The Universal"
+          },
+          {
+            "name": "On Your Own"
+          },
+          {
+            "name": "Parklife"
+          },
+          {
+            "name": "Coping"
+          },
+          {
+            "name": "I'm Just a Killer for Your Love"
+          },
+          {
+            "name": "Song 2"
+          }
+        ]
+      }
+    ]
+  }
+}

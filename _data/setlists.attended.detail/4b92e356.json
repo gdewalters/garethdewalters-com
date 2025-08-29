@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "4b92e356",
+    "eventDate": "04-03-2019",
+    "lastUpdated": "2020-05-06T18:37:55.783+0000",
+    "artist": {
+      "name": "The Jesus and Mary Chain",
+      "mbid": "e938a15c-b17e-4e7a-9f68-ff0d536cab44",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-jesus-and-mary-chain/2019/powerstation-auckland-new-zealand-4b92e356.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Amputation"
+          },
+          {
+            "name": "April Skies"
+          },
+          {
+            "name": "Head On"
+          },
+          {
+            "name": "Blues From a Gun"
+          },
+          {
+            "name": "Black and Blues"
+          },
+          {
+            "name": "Mood Rider"
+          },
+          {
+            "name": "Far Gone and Out"
+          },
+          {
+            "name": "Between Planets"
+          },
+          {
+            "name": "Snakedriver"
+          },
+          {
+            "name": "Teenage Lust"
+          },
+          {
+            "name": "All Things Must Pass"
+          },
+          {
+            "name": "Some Candy Talking"
+          },
+          {
+            "name": "Halfway to Crazy"
+          },
+          {
+            "name": "Darklands"
+          },
+          {
+            "name": "Reverence"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Just Like Honey"
+          },
+          {
+            "name": "Cracking Up"
+          },
+          {
+            "name": "In a Hole"
+          },
+          {
+            "name": "War on Peace"
+          },
+          {
+            "name": "I Hate Rock 'n' Roll"
+          }
+        ]
+      }
+    ]
+  }
+}

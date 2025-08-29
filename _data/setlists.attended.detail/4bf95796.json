@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "4bf95796",
+    "eventDate": "09-02-1992",
+    "lastUpdated": "2017-03-25T11:49:07.669+0000",
+    "artist": {
+      "name": "Second Child",
+      "mbid": "405aa3cb-63f1-4c1b-8fc2-d0d50dbbe859",
+      "tmid": null,
+      "disambiguation": "1990s New Zealand rock"
+    },
+    "venue": {
+      "name": "Logan Campbell Centre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/second-child/1992/logan-campbell-centre-auckland-new-zealand-4bf95796.html",
+    "sets": []
+  }
+}

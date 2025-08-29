@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "33f0fcd1",
+    "eventDate": "04-03-2016",
+    "lastUpdated": "2020-05-06T18:37:57.925+0000",
+    "artist": {
+      "name": "The Jesus and Mary Chain",
+      "mbid": "e938a15c-b17e-4e7a-9f68-ff0d536cab44",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Psychocandy 2016",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-jesus-and-mary-chain/2016/powerstation-auckland-new-zealand-33f0fcd1.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "April Skies"
+          },
+          {
+            "name": "Head On"
+          },
+          {
+            "name": "Blues From a Gun"
+          },
+          {
+            "name": "Some Candy Talking"
+          },
+          {
+            "name": "Nine Million Rainy Days"
+          },
+          {
+            "name": "Reverence"
+          },
+          {
+            "name": "Upside Down"
+          }
+        ]
+      },
+      {
+        "name": "Psychocandy",
+        "song": [
+          {
+            "name": "Just Like Honey"
+          },
+          {
+            "name": "The Living End"
+          },
+          {
+            "name": "Taste the Floor"
+          },
+          {
+            "name": "The Hardest Walk"
+          },
+          {
+            "name": "Cut Dead"
+          },
+          {
+            "name": "In a Hole"
+          },
+          {
+            "name": "Taste of Cindy"
+          },
+          {
+            "name": "Never Understand"
+          },
+          {
+            "name": "Inside Me"
+          },
+          {
+            "name": "Sowing Seeds"
+          },
+          {
+            "name": "My Little Underground"
+          },
+          {
+            "name": "You Trip Me Up"
+          },
+          {
+            "name": "Something's Wrong"
+          },
+          {
+            "name": "It's So Hard"
+          }
+        ]
+      }
+    ]
+  }
+}

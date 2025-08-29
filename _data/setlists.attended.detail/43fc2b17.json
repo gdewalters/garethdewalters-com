@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "43fc2b17",
+    "eventDate": "07-09-1990",
+    "lastUpdated": "2018-03-10T06:23:56.811+0000",
+    "artist": {
+      "name": "The Mission",
+      "mbid": "d85e95a3-07c7-4c04-a411-234290615113",
+      "tmid": null,
+      "disambiguation": "gothic rock band"
+    },
+    "venue": {
+      "name": "Auckland Town Hall",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "World Deliverance Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-mission/1990/auckland-town-hall-auckland-new-zealand-43fc2b17.html",
+    "sets": []
+  }
+}

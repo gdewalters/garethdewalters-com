@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "53d2ff2d",
+    "eventDate": "07-05-2000",
+    "lastUpdated": "2015-02-07T00:22:46.000+0000",
+    "artist": {
+      "name": "JJ72",
+      "mbid": "fa8dd489-17e2-4d18-a195-d92fcc871d61",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "JJ72",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/jj72/2000/shepherds-bush-empire-london-england-53d2ff2d.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Snow"
+          },
+          {
+            "name": "Long Way South"
+          },
+          {
+            "name": "Undercover Angel"
+          },
+          {
+            "name": "October Swimmer"
+          },
+          {
+            "name": "Algeria"
+          },
+          {
+            "name": "Bumble Bee"
+          }
+        ]
+      }
+    ]
+  }
+}

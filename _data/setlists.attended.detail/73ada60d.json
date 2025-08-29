@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "73ada60d",
+    "eventDate": "11-02-2024",
+    "lastUpdated": "2025-01-29T10:46:35.919+0000",
+    "artist": {
+      "name": "Calexico",
+      "mbid": "5e372a49-5672-4fb8-ba14-18c90780c4f9",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Feast of Wire 20th Anniversary Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/calexico/2024/powerstation-auckland-new-zealand-73ada60d.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Sunken Waltz"
+          },
+          {
+            "name": "Quattro - World Drifts In"
+          },
+          {
+            "name": "Black Heart"
+          },
+          {
+            "name": "Pepita"
+          },
+          {
+            "name": "Not Even Stevie Nicks... / Love Will Tear Us Apart"
+          },
+          {
+            "name": "Close Behind"
+          },
+          {
+            "name": "Woven Birds"
+          },
+          {
+            "name": "Attack el Robot! Attack!"
+          },
+          {
+            "name": "Across the Wire"
+          },
+          {
+            "name": "Dub Latina"
+          },
+          {
+            "name": "Alone Again Or",
+            "cover": {
+              "mbid": "34ec9a8d-c65b-48fd-bcdd-aad2f72fdb47",
+              "name": "Love",
+              "sortName": "Love",
+              "disambiguation": "folk-rock/psychedelic band",
+              "url": "https://www.setlist.fm/setlists/love-33d6ac91.html"
+            }
+          },
+          {
+            "name": "Güero canelo"
+          },
+          {
+            "name": "Whipping the Horse's Eyes"
+          },
+          {
+            "name": "Crumble"
+          },
+          {
+            "name": "No Doze"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Minas de cobre (For Better Metal)"
+          },
+          {
+            "name": "Inspiración"
+          },
+          {
+            "name": "Ballad of Cable Hogue"
+          },
+          {
+            "name": "Flores y tamales"
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Crystal Frontier"
+          }
+        ]
+      }
+    ]
+  }
+}

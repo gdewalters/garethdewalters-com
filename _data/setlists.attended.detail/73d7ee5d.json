@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "73d7ee5d",
+    "eventDate": "15-08-1992",
+    "lastUpdated": "2020-05-15T01:10:09.255+0000",
+    "artist": {
+      "name": "The Cure",
+      "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "The Supertop",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "The Wish Tour (Australasian Leg)",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-cure/1992/the-supertop-auckland-new-zealand-73d7ee5d.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Tape",
+            "tape": true
+          },
+          {
+            "name": "Open"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "Lullaby"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Trust"
+          },
+          {
+            "name": "Doing the Unstuck"
+          },
+          {
+            "name": "The Walk"
+          },
+          {
+            "name": "Let's Go to Bed"
+          },
+          {
+            "name": "Friday I'm in Love"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Never Enough"
+          },
+          {
+            "name": "Cut"
+          },
+          {
+            "name": "End"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Three Imaginary Boys"
+          },
+          {
+            "name": "Charlotte Sometimes"
+          },
+          {
+            "name": "Primary"
+          },
+          {
+            "name": "Boys Don't Cry"
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Close to Me"
+          },
+          {
+            "name": "Why Can't I Be You?"
+          }
+        ]
+      },
+      {
+        "encore": 3,
+        "song": [
+          {
+            "name": "M"
+          },
+          {
+            "name": "In Your House"
+          },
+          {
+            "name": "A Strange Day"
+          },
+          {
+            "name": "A Forest"
+          }
+        ]
+      }
+    ]
+  }
+}

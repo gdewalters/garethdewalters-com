@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "63d47ebb",
+    "eventDate": "03-05-2001",
+    "lastUpdated": "2015-11-25T19:50:54.000+0000",
+    "artist": {
+      "name": "Neil Finn",
+      "mbid": "3b7c93ab-40a5-4745-ab6b-eaafed2308bb",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "One Nil",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/neil-finn/2001/shepherds-bush-empire-london-england-63d47ebb.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Distant Sun",
+            "cover": {
+              "mbid": "9854d99f-d954-4c0f-9ae5-58a0cdd885f5",
+              "name": "Crowded House",
+              "sortName": "Crowded House",
+              "disambiguation": "Australian rock group",
+              "url": "https://www.setlist.fm/setlists/crowded-house-6bd6ae3a.html"
+            }
+          },
+          {
+            "name": "Hole in the Ice"
+          },
+          {
+            "name": "Take a Walk",
+            "cover": {
+              "mbid": "2bbdc83c-3d4d-44f4-8e26-6bc748d358dd",
+              "name": "Split Enz",
+              "sortName": "Split Enz",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/split-enz-73d6ae29.html"
+            }
+          },
+          {
+            "name": "Wherever You Are"
+          },
+          {
+            "name": "Baby Doll",
+            "cover": {
+              "mbid": "9663a4dd-7afa-4314-a4f3-b444bdedcdda",
+              "name": "Golden Boy",
+              "sortName": "Golden Boy",
+              "disambiguation": "electro artist Stefan Altenburger",
+              "url": "https://www.setlist.fm/setlists/golden-boy-13d6c5ad.html"
+            }
+          },
+          {
+            "name": "Not the Girl You Think You Are",
+            "cover": {
+              "mbid": "9854d99f-d954-4c0f-9ae5-58a0cdd885f5",
+              "name": "Crowded House",
+              "sortName": "Crowded House",
+              "disambiguation": "Australian rock group",
+              "url": "https://www.setlist.fm/setlists/crowded-house-6bd6ae3a.html"
+            }
+          },
+          {
+            "name": "Pineapple Head",
+            "cover": {
+              "mbid": "9854d99f-d954-4c0f-9ae5-58a0cdd885f5",
+              "name": "Crowded House",
+              "sortName": "Crowded House",
+              "disambiguation": "Australian rock group",
+              "url": "https://www.setlist.fm/setlists/crowded-house-6bd6ae3a.html"
+            }
+          },
+          {
+            "name": "The Climber"
+          },
+          {
+            "name": "Tombstone",
+            "cover": {
+              "mbid": "9854d99f-d954-4c0f-9ae5-58a0cdd885f5",
+              "name": "Crowded House",
+              "sortName": "Crowded House",
+              "disambiguation": "Australian rock group",
+              "url": "https://www.setlist.fm/setlists/crowded-house-6bd6ae3a.html"
+            }
+          },
+          {
+            "name": "Last to Know"
+          },
+          {
+            "name": "Matinee Idyll (129)",
+            "cover": {
+              "mbid": "2bbdc83c-3d4d-44f4-8e26-6bc748d358dd",
+              "name": "Split Enz",
+              "sortName": "Split Enz",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/split-enz-73d6ae29.html"
+            }
+          },
+          {
+            "name": "Anytime"
+          },
+          {
+            "name": "Loose Tongue"
+          },
+          {
+            "name": "Driving Me Mad"
+          },
+          {
+            "name": "Secret God"
+          },
+          {
+            "name": "Down on the Corner",
+            "cover": {
+              "mbid": "d6ee4ecc-ed0a-42f3-a3c8-d943bd63744f",
+              "name": "Johnny Marr + The Healers",
+              "sortName": "Marr, Johnny + Healers, The",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/johnny-marr-the-healers-6bd6ae6e.html"
+            }
+          },
+          {
+            "name": "There Is a Light That Never Goes Out",
+            "cover": {
+              "mbid": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+              "name": "The Smiths",
+              "sortName": "Smiths, The",
+              "disambiguation": "1980s English rock band",
+              "url": "https://www.setlist.fm/setlists/the-smiths-6bd6b236.html"
+            }
+          },
+          {
+            "name": "She Will Have Her Way"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Private Universe",
+            "cover": {
+              "mbid": "9854d99f-d954-4c0f-9ae5-58a0cdd885f5",
+              "name": "Crowded House",
+              "sortName": "Crowded House",
+              "disambiguation": "Australian rock group",
+              "url": "https://www.setlist.fm/setlists/crowded-house-6bd6ae3a.html"
+            }
+          },
+          {
+            "name": "Turn and Run"
+          },
+          {
+            "name": "Weather With You",
+            "cover": {
+              "mbid": "9854d99f-d954-4c0f-9ae5-58a0cdd885f5",
+              "name": "Crowded House",
+              "sortName": "Crowded House",
+              "disambiguation": "Australian rock group",
+              "url": "https://www.setlist.fm/setlists/crowded-house-6bd6ae3a.html"
+            }
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Last Day of June",
+            "cover": {
+              "mbid": "83af9c0f-aa96-4249-a485-4026d341fb30",
+              "name": "The Finn Brothers",
+              "sortName": "Finn Brothers, The",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/the-finn-brothers-63d6ae33.html"
+            }
+          },
+          {
+            "name": "How Soon Is Now?",
+            "cover": {
+              "mbid": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+              "name": "The Smiths",
+              "sortName": "Smiths, The",
+              "disambiguation": "1980s English rock band",
+              "url": "https://www.setlist.fm/setlists/the-smiths-6bd6b236.html"
+            }
+          },
+          {
+            "name": "Four Seasons in One Day",
+            "cover": {
+              "mbid": "9854d99f-d954-4c0f-9ae5-58a0cdd885f5",
+              "name": "Crowded House",
+              "sortName": "Crowded House",
+              "disambiguation": "Australian rock group",
+              "url": "https://www.setlist.fm/setlists/crowded-house-6bd6ae3a.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

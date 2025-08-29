@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "23f4a40b",
+    "eventDate": "25-06-1995",
+    "lastUpdated": "2020-04-22T17:56:39.056+0000",
+    "artist": {
+      "name": "Drugstore",
+      "mbid": "2cc0cb62-4556-4f19-98fc-d54dbca18317",
+      "tmid": null,
+      "disambiguation": "UK dream pop band"
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/drugstore/1995/worthy-farm-pilton-england-23f4a40b.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Fader"
+          },
+          {
+            "name": "Sugar, Sugar",
+            "cover": {
+              "mbid": "623d5f3f-3093-4711-881f-ed33eda10882",
+              "name": "The Archies",
+              "sortName": "Archies, The",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/the-archies-43d6afd3.html"
+            }
+          },
+          {
+            "name": "Solitary Party Groover"
+          }
+        ]
+      }
+    ]
+  }
+}

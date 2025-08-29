@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7bdeca3c",
+    "eventDate": "04-05-2002",
+    "lastUpdated": "2023-06-19T09:11:11.097+0000",
+    "artist": {
+      "name": "The Hives",
+      "mbid": "487bfd74-71bf-46dd-b89c-80b7a0f06f2f",
+      "tmid": null,
+      "disambiguation": "Swedish rock band"
+    },
+    "venue": {
+      "name": "Brixton Academy",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "Veni Vidi Vicious",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-hives/2002/brixton-academy-london-england-7bdeca3c.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "The Hives Declare Guerre Nucleaire"
+          },
+          {
+            "name": "Outsmarted"
+          },
+          {
+            "name": "Here We Go Again"
+          },
+          {
+            "name": "A Get Together to Tear It Apart"
+          },
+          {
+            "name": "Die, All Right!"
+          },
+          {
+            "name": "Statecontrol"
+          },
+          {
+            "name": "Supply and Demand"
+          },
+          {
+            "name": "Knock Knock"
+          },
+          {
+            "name": "Hail Hail Spit n' Drool"
+          },
+          {
+            "name": "A.K.A. I-D-I-O-T"
+          },
+          {
+            "name": "Main Offender"
+          },
+          {
+            "name": "Untutored Youth"
+          },
+          {
+            "name": "Hate to Say I Told You So"
+          }
+        ]
+      }
+    ]
+  }
+}

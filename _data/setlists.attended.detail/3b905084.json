@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3b905084",
+    "eventDate": "29-03-1993",
+    "lastUpdated": "2020-05-06T18:38:02.616+0000",
+    "artist": {
+      "name": "Throwing Muses",
+      "mbid": "b1b9d5cc-7975-43e5-960e-670583da7bc8",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/throwing-muses/1993/powerstation-auckland-new-zealand-3b905084.html",
+    "sets": []
+  }
+}

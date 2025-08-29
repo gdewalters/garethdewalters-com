@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "5bdb57e0",
+    "eventDate": "11-04-2002",
+    "lastUpdated": "2013-04-05T16:13:13.000+0000",
+    "artist": {
+      "name": "Yeah Yeah Yeahs",
+      "mbid": "584c04d2-4acc-491b-8a0a-e63133f4bfc4",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Brixton Academy",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/yeah-yeah-yeahs/2002/brixton-academy-london-england-5bdb57e0.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Bang"
+          }
+        ]
+      }
+    ]
+  }
+}

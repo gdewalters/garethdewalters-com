@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "1b974510",
+    "eventDate": "08-12-2018",
+    "lastUpdated": "2020-05-06T18:37:56.005+0000",
+    "artist": {
+      "name": "Straitjacket Fits",
+      "mbid": "172953a6-5376-49ee-8b4a-62feab30df26",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/straitjacket-fits/2018/powerstation-auckland-new-zealand-1b974510.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Train"
+          },
+          {
+            "name": "Grate"
+          },
+          {
+            "name": "Headwind"
+          },
+          {
+            "name": "She Speeds"
+          },
+          {
+            "name": "A.P.S."
+          },
+          {
+            "name": "Burn It Up"
+          },
+          {
+            "name": "Done"
+          },
+          {
+            "name": "Missing Presumed Drowned"
+          },
+          {
+            "name": "If I Were You"
+          },
+          {
+            "name": "Bad Note for a Heart"
+          },
+          {
+            "name": "Dialling a Prayer"
+          },
+          {
+            "name": "Cast Stone"
+          },
+          {
+            "name": "Life in One Chord"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Crystalator",
+            "cover": {
+              "mbid": "6f806db9-c470-4e0e-8013-68843e8188f1",
+              "name": "Dimmer",
+              "sortName": "Dimmer",
+              "disambiguation": "New Zealand group with Shayne Carter",
+              "url": "https://www.setlist.fm/setlists/dimmer-3d61d6f.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

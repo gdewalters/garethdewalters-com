@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "63d44a6f",
+    "eventDate": "04-02-1995",
+    "lastUpdated": "2010-09-20T13:07:43.000+0000",
+    "artist": {
+      "name": "Siouxsie and the Banshees",
+      "mbid": "78ea5ea1-3c4d-4b7e-ac5d-68900319ebe2",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "The Rapture Tour (English Leg)",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/siouxsie-and-the-banshees/1995/shepherds-bush-empire-london-england-63d44a6f.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "The Double Life"
+          },
+          {
+            "name": "Forever"
+          },
+          {
+            "name": "Tearing Apart"
+          },
+          {
+            "name": "Christine"
+          },
+          {
+            "name": "The Killing Jar"
+          },
+          {
+            "name": "Stargazer"
+          },
+          {
+            "name": "Fall From Grace"
+          },
+          {
+            "name": "Sick Child"
+          },
+          {
+            "name": "Dear Prudence",
+            "cover": {
+              "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+              "name": "The Beatles",
+              "sortName": "Beatles, The",
+              "disambiguation": "UK rock band, “The Fab Four”",
+              "url": "https://www.setlist.fm/setlists/the-beatles-23d6a88b.html"
+            }
+          },
+          {
+            "name": "Not Forgotten"
+          },
+          {
+            "name": "The Rapture"
+          },
+          {
+            "name": "Night Shift"
+          },
+          {
+            "name": "B Side Ourselves"
+          },
+          {
+            "name": "Falling Down"
+          },
+          {
+            "name": "Love Out Me"
+          },
+          {
+            "name": "O Baby"
+          },
+          {
+            "name": "Kiss Them for Me"
+          },
+          {
+            "name": "Peek-A-Boo"
+          }
+        ]
+      }
+    ]
+  }
+}

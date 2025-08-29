@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "6bdcc202",
+    "eventDate": "24-06-1995",
+    "lastUpdated": "2024-01-28T21:35:17.792+0000",
+    "artist": {
+      "name": "Weezer",
+      "mbid": "6fe07aa5-fec0-4eca-a456-f29bff451b04",
+      "tmid": null,
+      "disambiguation": "American rock band"
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": "World Domination Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/weezer/1995/worthy-farm-pilton-england-6bdcc202.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Jamie"
+          },
+          {
+            "name": "No One Else"
+          },
+          {
+            "name": "The World Has Turned and Left Me Here"
+          },
+          {
+            "name": "Getchoo"
+          },
+          {
+            "name": "In the Garage"
+          },
+          {
+            "name": "Say It Ain't So"
+          },
+          {
+            "name": "Undone - The Sweater Song"
+          },
+          {
+            "name": "My Name Is Jonas"
+          },
+          {
+            "name": "Buddy Holly"
+          },
+          {
+            "name": "Surf Wax America"
+          }
+        ]
+      }
+    ]
+  }
+}

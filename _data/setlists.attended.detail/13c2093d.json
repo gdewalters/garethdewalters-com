@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "13c2093d",
+    "eventDate": "14-09-1991",
+    "lastUpdated": "2020-05-11T21:21:06.441+0000",
+    "artist": {
+      "name": "Jane’s Addiction",
+      "mbid": "e3434cc7-d348-491a-9dc8-325af3d9086d",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Auckland Town Hall",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "A Show for the Whole Family",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/janes-addiction/1991/auckland-town-hall-auckland-new-zealand-13c2093d.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Been Caught Stealing"
+          },
+          {
+            "name": "Trip Away"
+          },
+          {
+            "name": "Pigs in Zen"
+          },
+          {
+            "name": "Jane Says"
+          }
+        ]
+      }
+    ]
+  }
+}

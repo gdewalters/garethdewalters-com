@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "43a1ef23",
+    "eventDate": "09-11-2023",
+    "lastUpdated": "2025-02-03T00:16:30.993+0000",
+    "artist": {
+      "name": "The Brian Jonestown Massacre",
+      "mbid": "381e8434-109a-439c-8acc-5d328359f2e0",
+      "tmid": null,
+      "disambiguation": "US rock band"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-brian-jonestown-massacre/2023/powerstation-auckland-new-zealand-43a1ef23.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "#1 Lucky Kitty"
+          },
+          {
+            "name": "The Real"
+          },
+          {
+            "name": "Fudge"
+          },
+          {
+            "name": "Do Rainbows Have Ends"
+          },
+          {
+            "name": "Wait a Minute (2:30 to Be Exact)"
+          },
+          {
+            "name": "Pish"
+          },
+          {
+            "name": "Your Mind Is My Cafe"
+          },
+          {
+            "name": "You Think I'm Joking?"
+          },
+          {
+            "name": "Don't Let Me Get in Your Way"
+          },
+          {
+            "name": "That Girl Suicide"
+          },
+          {
+            "name": "Forgotten Graves"
+          },
+          {
+            "name": "The Mother of All Fuckers"
+          },
+          {
+            "name": "Nightbird"
+          },
+          {
+            "name": "Anemone"
+          },
+          {
+            "name": "Servo"
+          },
+          {
+            "name": "Sailor"
+          },
+          {
+            "name": "Nevertheless"
+          },
+          {
+            "name": "Maybe Make It Right"
+          }
+        ]
+      }
+    ]
+  }
+}

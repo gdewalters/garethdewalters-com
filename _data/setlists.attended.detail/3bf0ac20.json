@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3bf0ac20",
+    "eventDate": "02-06-1995",
+    "lastUpdated": "2019-01-23T09:11:28.531+0000",
+    "artist": {
+      "name": "Teenage Fanclub",
+      "mbid": "e6f8912b-7df9-4aae-b551-2cd03dc29588",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/teenage-fanclub/1995/shepherds-bush-empire-london-england-3bf0ac20.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Hang On"
+          },
+          {
+            "name": "What You Do to Me"
+          },
+          {
+            "name": "Escher"
+          },
+          {
+            "name": "Don't Look Back"
+          },
+          {
+            "name": "The Cabbage"
+          },
+          {
+            "name": ""
+          },
+          {
+            "name": "Commercial Alternative"
+          },
+          {
+            "name": "Pet Rock"
+          },
+          {
+            "name": "Sparky's Dream"
+          },
+          {
+            "name": "Verisimilitude"
+          },
+          {
+            "name": "Alcoholiday"
+          },
+          {
+            "name": "Radio"
+          },
+          {
+            "name": "About You"
+          },
+          {
+            "name": "Star Sign"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Going Places"
+          },
+          {
+            "name": "The Concept"
+          },
+          {
+            "name": "Free Again",
+            "cover": {
+              "mbid": "18b2f43a-fc98-4aab-b69c-eaaba41fecbc",
+              "name": "Alex Chilton",
+              "sortName": "Chilton, Alex",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/alex-chilton-6bd686f2.html"
+            }
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Take the Skinheads Bowling",
+            "cover": {
+              "mbid": "0ee7e64d-90ca-406b-b59a-3e551c556dbe",
+              "name": "Camper Van Beethoven",
+              "sortName": "Camper Van Beethoven",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/camper-van-beethoven-73d6866d.html"
+            }
+          },
+          {
+            "name": "Rain",
+            "cover": {
+              "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+              "name": "The Beatles",
+              "sortName": "Beatles, The",
+              "disambiguation": "UK rock band, “The Fab Four”",
+              "url": "https://www.setlist.fm/setlists/the-beatles-23d6a88b.html"
+            }
+          },
+          {
+            "name": "I Heard You Looking",
+            "cover": {
+              "mbid": "3f542031-b054-454d-b57b-812fa2a81b11",
+              "name": "Yo La Tengo",
+              "sortName": "Yo La Tengo",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/yo-la-tengo-7bd6ae90.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

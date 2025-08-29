@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "63958a43",
+    "eventDate": "28-01-2019",
+    "lastUpdated": "2019-01-28T12:32:27.943+0000",
+    "artist": {
+      "name": "Florence + the Machine",
+      "mbid": "5fee3020-513b-48c2-b1f7-4681b01db0c6",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Albert Park",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "High as Hope Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/florence-the-machine/2019/albert-park-auckland-new-zealand-63958a43.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "June"
+          },
+          {
+            "name": "Hunger"
+          },
+          {
+            "name": "Between Two Lungs"
+          },
+          {
+            "name": "Only If for a Night"
+          },
+          {
+            "name": "Queen of Peace"
+          },
+          {
+            "name": "South London Forever"
+          },
+          {
+            "name": "Patricia"
+          },
+          {
+            "name": "Dog Days Are Over"
+          },
+          {
+            "name": "100 Years"
+          },
+          {
+            "name": "Ship to Wreck"
+          },
+          {
+            "name": "Sky Full of Song"
+          },
+          {
+            "name": "Cosmic Love"
+          },
+          {
+            "name": "Delilah"
+          },
+          {
+            "name": "What Kind of Man"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Moderation"
+          },
+          {
+            "name": "Big God"
+          },
+          {
+            "name": "Shake It Out"
+          }
+        ]
+      }
+    ]
+  }
+}

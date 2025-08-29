@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "33e870cd",
+    "eventDate": "31-08-2018",
+    "lastUpdated": "2018-09-01T23:46:32.557+0000",
+    "artist": {
+      "name": "Superette",
+      "mbid": "89055bb2-83c9-495b-97c4-1bd7800fe067",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Galatos",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/superette/2018/galatos-auckland-new-zealand-33e870cd.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Kiss Someone"
+          },
+          {
+            "name": "Touch Me"
+          },
+          {
+            "name": "Saskatchewan"
+          },
+          {
+            "name": "Cannibal"
+          },
+          {
+            "name": "Funny Weather"
+          },
+          {
+            "name": "Killer Clown"
+          },
+          {
+            "name": "Waves"
+          },
+          {
+            "name": "All Around the World"
+          },
+          {
+            "name": "The Horse"
+          }
+        ]
+      }
+    ]
+  }
+}

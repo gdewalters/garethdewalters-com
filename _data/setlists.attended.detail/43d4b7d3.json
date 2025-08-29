@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "43d4b7d3",
+    "eventDate": "11-03-2010",
+    "lastUpdated": "2020-05-06T18:38:01.210+0000",
+    "artist": {
+      "name": "Pixies",
+      "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Doolittle 20th Anniversary Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/pixies/2010/powerstation-auckland-new-zealand-43d4b7d3.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Dancing the Manta Ray"
+          },
+          {
+            "name": "Weird at My School"
+          },
+          {
+            "name": "Bailey's Walk"
+          },
+          {
+            "name": "Manta Ray"
+          },
+          {
+            "name": "Debaser"
+          },
+          {
+            "name": "Tame"
+          },
+          {
+            "name": "Wave of Mutilation"
+          },
+          {
+            "name": "I Bleed"
+          },
+          {
+            "name": "Here Comes Your Man"
+          },
+          {
+            "name": "Dead"
+          },
+          {
+            "name": "Monkey Gone to Heaven"
+          },
+          {
+            "name": "Mr. Grieves"
+          },
+          {
+            "name": "Crackity Jones"
+          },
+          {
+            "name": "La La Love You"
+          },
+          {
+            "name": "No. 13 Baby"
+          },
+          {
+            "name": "There Goes My Gun"
+          },
+          {
+            "name": "Hey"
+          },
+          {
+            "name": "Silver"
+          },
+          {
+            "name": "Gouge Away"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Wave of Mutilation",
+            "info": "UK Surf"
+          },
+          {
+            "name": "Into the White"
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Isla de Encanta"
+          },
+          {
+            "name": "Nimrod's Son"
+          },
+          {
+            "name": "U-Mass"
+          },
+          {
+            "name": "Bone Machine"
+          },
+          {
+            "name": "Vamos"
+          },
+          {
+            "name": "Caribou"
+          },
+          {
+            "name": "Gigantic"
+          },
+          {
+            "name": "Where Is My Mind?"
+          }
+        ]
+      }
+    ]
+  }
+}

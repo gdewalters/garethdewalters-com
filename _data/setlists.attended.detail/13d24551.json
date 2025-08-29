@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "13d24551",
+    "eventDate": "10-04-1998",
+    "lastUpdated": "2011-04-03T01:51:16.000+0000",
+    "artist": {
+      "name": "Portishead",
+      "mbid": "8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "North Shore Events Centre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Portishead (1998)",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/portishead/1998/north-shore-events-centre-auckland-new-zealand-13d24551.html",
+    "sets": []
+  }
+}

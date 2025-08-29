@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "1bd7d154",
+    "eventDate": "05-11-2002",
+    "lastUpdated": "2013-07-31T12:45:45.000+0000",
+    "artist": {
+      "name": "Morrissey",
+      "mbid": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+      "tmid": null,
+      "disambiguation": "English singer-songwriter"
+    },
+    "venue": {
+      "name": "Brixton Academy",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "2002 Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/morrissey/2002/brixton-academy-london-england-1bd7d154.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "I Want the One I Can't Have",
+            "cover": {
+              "mbid": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+              "name": "The Smiths",
+              "sortName": "Smiths, The",
+              "disambiguation": "1980s English rock band",
+              "url": "https://www.setlist.fm/setlists/the-smiths-6bd6b236.html"
+            }
+          },
+          {
+            "name": "Suedehead"
+          },
+          {
+            "name": "Little Man, What Now?"
+          },
+          {
+            "name": "Hairdresser on Fire"
+          },
+          {
+            "name": "Speedway"
+          },
+          {
+            "name": "The World Is Full of Crashing Bores"
+          },
+          {
+            "name": "First of the Gang to Die"
+          },
+          {
+            "name": "Jack the Ripper"
+          },
+          {
+            "name": "Everyday Is Like Sunday"
+          },
+          {
+            "name": "I Like You"
+          },
+          {
+            "name": "Alsatian Cousin"
+          },
+          {
+            "name": "Sister I'm a Poet"
+          },
+          {
+            "name": "Meat Is Murder",
+            "cover": {
+              "mbid": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+              "name": "The Smiths",
+              "sortName": "Smiths, The",
+              "disambiguation": "1980s English rock band",
+              "url": "https://www.setlist.fm/setlists/the-smiths-6bd6b236.html"
+            }
+          },
+          {
+            "name": "November Spawned a Monster"
+          },
+          {
+            "name": "Hand in Glove",
+            "cover": {
+              "mbid": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+              "name": "The Smiths",
+              "sortName": "Smiths, The",
+              "disambiguation": "1980s English rock band",
+              "url": "https://www.setlist.fm/setlists/the-smiths-6bd6b236.html"
+            }
+          },
+          {
+            "name": "Irish Blood, English Heart"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "There Is a Light That Never Goes Out",
+            "cover": {
+              "mbid": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+              "name": "The Smiths",
+              "sortName": "Smiths, The",
+              "disambiguation": "1980s English rock band",
+              "url": "https://www.setlist.fm/setlists/the-smiths-6bd6b236.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

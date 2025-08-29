@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "13d67985",
+    "eventDate": "04-06-2004",
+    "lastUpdated": "2023-10-06T04:37:20.954+0000",
+    "artist": {
+      "name": "Pixies",
+      "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Carling Academy Brixton",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/pixies/2004/carling-academy-brixton-london-england-13d67985.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Bone Machine"
+          },
+          {
+            "name": "Crackity Jones"
+          },
+          {
+            "name": "River Euphrates"
+          },
+          {
+            "name": "Wave of Mutilation"
+          },
+          {
+            "name": "Monkey Gone to Heaven"
+          },
+          {
+            "name": "I Bleed"
+          },
+          {
+            "name": "Caribou"
+          },
+          {
+            "name": "Cactus"
+          },
+          {
+            "name": "Broken Face"
+          },
+          {
+            "name": "Something Against You"
+          },
+          {
+            "name": "Isla de Encanta"
+          },
+          {
+            "name": "Hey"
+          },
+          {
+            "name": "No. 13 Baby"
+          },
+          {
+            "name": "Dead"
+          },
+          {
+            "name": "U-Mass"
+          },
+          {
+            "name": "Gigantic"
+          },
+          {
+            "name": "Velouria"
+          },
+          {
+            "name": "Ed Is Dead"
+          },
+          {
+            "name": "In Heaven (Lady in the Radiator Song)",
+            "cover": {
+              "mbid": "c917c220-da17-4bc7-beee-d1419205b679",
+              "name": "Peter Ivers & David Lynch",
+              "sortName": "Peter Ivers & David Lynch",
+              "disambiguation": "Co-wrote In Heaven, Lady in the Radiator song from Eraserhead",
+              "url": "https://www.setlist.fm/setlists/peter-ivers-and-david-lynch-33fafcd9.html"
+            }
+          },
+          {
+            "name": "Where Is My Mind?"
+          },
+          {
+            "name": "Mr. Grieves"
+          },
+          {
+            "name": "Here Comes Your Man"
+          },
+          {
+            "name": "The Holiday Song"
+          },
+          {
+            "name": "Vamos"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Into the White"
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Gouge Away"
+          },
+          {
+            "name": "Debaser"
+          },
+          {
+            "name": "Tame"
+          }
+        ]
+      },
+      {
+        "encore": 3,
+        "song": [
+          {
+            "name": "Planet of Sound"
+          }
+        ]
+      }
+    ]
+  }
+}

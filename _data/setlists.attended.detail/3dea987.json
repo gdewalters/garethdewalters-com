@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3dea987",
+    "eventDate": "02-06-2002",
+    "lastUpdated": "2018-02-04T14:12:24.448+0000",
+    "artist": {
+      "name": "The Breeders",
+      "mbid": "667e856e-f3a7-42e9-8244-95422ef31321",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Mean Fiddler",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "Title TK",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-breeders/2002/mean-fiddler-london-england-3dea987.html",
+    "sets": []
+  }
+}

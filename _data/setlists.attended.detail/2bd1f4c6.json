@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2bd1f4c6",
+    "eventDate": "13-05-2003",
+    "lastUpdated": "2011-11-15T11:53:15.000+0000",
+    "artist": {
+      "name": "The Raveonettes",
+      "mbid": "79255a50-40df-447f-9612-2cf669080196",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "ULU",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-raveonettes/2003/ulu-london-england-2bd1f4c6.html",
+    "sets": []
+  }
+}

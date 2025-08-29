@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "63ce56bf",
+    "eventDate": "31-08-2014",
+    "lastUpdated": "2020-10-30T10:37:22.344+0000",
+    "artist": {
+      "name": "Kristin Hersh",
+      "mbid": "0b461f11-c7af-4ddb-a30e-5cb0aabb3e7f",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Q Theatre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/kristin-hersh/2014/q-theatre-auckland-new-zealand-63ce56bf.html",
+    "sets": [
+      {
+        "name": "Acoustic",
+        "song": [
+          {
+            "name": "Hysterical Bending"
+          },
+          {
+            "name": "Your Dirty Answer"
+          },
+          {
+            "name": "Krait"
+          },
+          {
+            "name": "Mississippi Kite"
+          },
+          {
+            "name": "Flooding"
+          },
+          {
+            "name": "Down in the Willow Garden",
+            "cover": {
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+              "name": "[traditional]",
+              "sortName": "[traditional]",
+              "disambiguation": "special purpose artist",
+              "url": "https://www.setlist.fm/setlists/traditional-5bd2f7e4.html"
+            }
+          },
+          {
+            "name": "Broke",
+            "cover": {
+              "mbid": "b2d1207f-bc0e-4228-9d29-874973960f04",
+              "name": "50 Foot Wave",
+              "sortName": "50 Foot Wave",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/50-foot-wave-6bd6f2a6.html"
+            }
+          },
+          {
+            "name": "Gazebo Tree"
+          },
+          {
+            "name": "Detox"
+          },
+          {
+            "name": "Your Ghost"
+          },
+          {
+            "name": "Sunray Venus",
+            "cover": {
+              "mbid": "b1b9d5cc-7975-43e5-960e-670583da7bc8",
+              "name": "Throwing Muses",
+              "sortName": "Throwing Muses",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/throwing-muses-6bd6ae1e.html"
+            }
+          },
+          {
+            "name": "Vertigo"
+          },
+          {
+            "name": "Nowhere to Go"
+          },
+          {
+            "name": "The Wayfaring Stranger",
+            "cover": {
+              "mbid": "9be7f096-97ec-4615-8957-8d40b5dcbc41",
+              "name": "[traditional]",
+              "sortName": "[traditional]",
+              "disambiguation": "special purpose artist",
+              "url": "https://www.setlist.fm/setlists/traditional-5bd2f7e4.html"
+            }
+          },
+          {
+            "name": "Opiates",
+            "cover": {
+              "mbid": "b1b9d5cc-7975-43e5-960e-670583da7bc8",
+              "name": "Throwing Muses",
+              "sortName": "Throwing Muses",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/throwing-muses-6bd6ae1e.html"
+            }
+          },
+          {
+            "name": "White Suckers"
+          },
+          {
+            "name": "Speed and Sleep",
+            "cover": {
+              "mbid": "b1b9d5cc-7975-43e5-960e-670583da7bc8",
+              "name": "Throwing Muses",
+              "sortName": "Throwing Muses",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/throwing-muses-6bd6ae1e.html"
+            }
+          },
+          {
+            "name": "You Cage",
+            "cover": {
+              "mbid": "b1b9d5cc-7975-43e5-960e-670583da7bc8",
+              "name": "Throwing Muses",
+              "sortName": "Throwing Muses",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/throwing-muses-6bd6ae1e.html"
+            }
+          },
+          {
+            "name": "Cottonmouth",
+            "cover": {
+              "mbid": "b1b9d5cc-7975-43e5-960e-670583da7bc8",
+              "name": "Throwing Muses",
+              "sortName": "Throwing Muses",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/throwing-muses-6bd6ae1e.html"
+            }
+          },
+          {
+            "name": "Spain"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Milan",
+            "cover": {
+              "mbid": "b1b9d5cc-7975-43e5-960e-670583da7bc8",
+              "name": "Throwing Muses",
+              "sortName": "Throwing Muses",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/throwing-muses-6bd6ae1e.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

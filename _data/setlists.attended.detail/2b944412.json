@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2b944412",
+    "eventDate": "08-11-2000",
+    "lastUpdated": "2019-05-26T23:47:17.366+0000",
+    "artist": {
+      "name": "James",
+      "mbid": "a2accb58-6099-4cb5-a3c8-f6332f364db5",
+      "tmid": null,
+      "disambiguation": "Manchester indie rock band"
+    },
+    "venue": {
+      "name": "Brixton Academy",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/james/2000/brixton-academy-london-england-2b944412.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "",
+            "tape": true
+          },
+          {
+            "name": "What Is It Good For"
+          },
+          {
+            "name": "Stand"
+          },
+          {
+            "name": "Senorita"
+          },
+          {
+            "name": "Getting Away With It (All Messed Up)"
+          },
+          {
+            "name": "Say Something"
+          },
+          {
+            "name": "Sometimes (Lester Piggott)"
+          },
+          {
+            "name": "Tomorrow"
+          },
+          {
+            "name": "Johnny Yen"
+          },
+          {
+            "name": "Someone's Got It in for Me"
+          },
+          {
+            "name": "Junkie"
+          },
+          {
+            "name": "The Shining"
+          },
+          {
+            "name": "English Beefcake"
+          },
+          {
+            "name": "Pleased to Meet You"
+          },
+          {
+            "name": "Born of Frustration"
+          },
+          {
+            "name": "Destiny Calling"
+          },
+          {
+            "name": "She's a Star"
+          },
+          {
+            "name": "How Was It for You"
+          },
+          {
+            "name": "Stutter"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Top of the World"
+          },
+          {
+            "name": "Laid"
+          },
+          {
+            "name": "Ring the Bells"
+          },
+          {
+            "name": "Come Home"
+          }
+        ]
+      }
+    ]
+  }
+}

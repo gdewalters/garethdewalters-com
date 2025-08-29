@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3bd3644c",
+    "eventDate": "19-04-1995",
+    "lastUpdated": "2013-09-25T18:07:18.000+0000",
+    "artist": {
+      "name": "The Jesus and Mary Chain",
+      "mbid": "e938a15c-b17e-4e7a-9f68-ff0d536cab44",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Trinity Centre",
+      "city": "Bristol",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.45,
+        "long": -2.5833333
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-jesus-and-mary-chain/1995/trinity-centre-bristol-england-3bd3644c.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Reverence"
+          },
+          {
+            "name": "Snakedriver"
+          },
+          {
+            "name": "Come On"
+          },
+          {
+            "name": "Happy When It Rains"
+          },
+          {
+            "name": "Teenage Lust"
+          },
+          {
+            "name": "The Perfect Crime"
+          },
+          {
+            "name": "Everybody I Know"
+          },
+          {
+            "name": "Girlfriend"
+          },
+          {
+            "name": "Hole"
+          },
+          {
+            "name": "Head On"
+          },
+          {
+            "name": "Sugar Ray"
+          },
+          {
+            "name": "I Hate Rock 'n' Roll"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Catchfire"
+          },
+          {
+            "name": "In a Hole"
+          },
+          {
+            "name": "Far Gone and Out"
+          },
+          {
+            "name": "Blues From a Gun"
+          },
+          {
+            "name": "I'm in With the Out Crowd"
+          },
+          {
+            "name": "Sidewalking"
+          }
+        ]
+      }
+    ]
+  }
+}

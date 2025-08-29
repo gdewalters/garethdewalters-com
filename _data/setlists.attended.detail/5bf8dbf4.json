@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "5bf8dbf4",
+    "eventDate": "08-08-2008",
+    "lastUpdated": "2017-01-25T07:22:46.930+0000",
+    "artist": {
+      "name": "The Breeders",
+      "mbid": "667e856e-f3a7-42e9-8244-95422ef31321",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Bruce Mason Centre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-breeders/2008/bruce-mason-centre-auckland-new-zealand-5bf8dbf4.html",
+    "sets": []
+  }
+}

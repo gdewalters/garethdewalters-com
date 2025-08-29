@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3f50d53",
+    "eventDate": "10-11-2015",
+    "lastUpdated": "2023-09-23T21:27:50.159+0000",
+    "artist": {
+      "name": "The Brian Jonestown Massacre",
+      "mbid": "381e8434-109a-439c-8acc-5d328359f2e0",
+      "tmid": null,
+      "disambiguation": "US rock band"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-brian-jonestown-massacre/2015/powerstation-auckland-new-zealand-3f50d53.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Lantern"
+          },
+          {
+            "name": "Stairway to the Best Party in the Universe"
+          },
+          {
+            "name": "Goodbye (Butterfly)"
+          },
+          {
+            "name": "Anemone"
+          },
+          {
+            "name": "Vad Hände Med Dem?"
+          },
+          {
+            "name": "Leave It Alone"
+          },
+          {
+            "name": "Jennifer"
+          },
+          {
+            "name": "When Jokers Attack"
+          },
+          {
+            "name": "The Devil May Care (Mom and Dad Don't)"
+          },
+          {
+            "name": "Prozac Vs. Heroin"
+          },
+          {
+            "name": "Telegram"
+          },
+          {
+            "name": "Wisdom"
+          },
+          {
+            "name": "Open Heart Surgery"
+          },
+          {
+            "name": "Servo"
+          },
+          {
+            "name": "Who?"
+          },
+          {
+            "name": "Whatever Hippie Bitch"
+          },
+          {
+            "name": "That Girl Suicide"
+          },
+          {
+            "name": "Jam"
+          },
+          {
+            "name": "Sailor"
+          },
+          {
+            "name": "Here Comes the Waiting for the Sun"
+          },
+          {
+            "name": "Nevertheless"
+          },
+          {
+            "name": "Days, Weeks and Moths"
+          },
+          {
+            "name": "What You Isn't"
+          },
+          {
+            "name": "She's Gone"
+          },
+          {
+            "name": "Philadelphie Story"
+          },
+          {
+            "name": "Going to Hell"
+          }
+        ]
+      }
+    ]
+  }
+}

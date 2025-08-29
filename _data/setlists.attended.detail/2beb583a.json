@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2beb583a",
+    "eventDate": "05-02-2013",
+    "lastUpdated": "2023-05-03T17:21:55.930+0000",
+    "artist": {
+      "name": "Bailterspace",
+      "mbid": "74e750a2-e662-464c-b657-120f74e17fe6",
+      "tmid": null,
+      "disambiguation": "New Zealand shoegaze/noise rock"
+    },
+    "venue": {
+      "name": "Kings Arms",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/bailterspace/2013/kings-arms-auckland-new-zealand-2beb583a.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "The Aim"
+          },
+          {
+            "name": "EIP"
+          },
+          {
+            "name": "Fused"
+          },
+          {
+            "name": "Grader Spader"
+          },
+          {
+            "name": "Machine Song",
+            "cover": {
+              "mbid": "4fdcff65-5f50-4bcd-8e74-24a8f491a2d0",
+              "name": "Gordons",
+              "sortName": "Gordons",
+              "disambiguation": "1980's New Zealand post-punk",
+              "url": "https://www.setlist.fm/setlists/gordons-4bd32fea.html"
+            }
+          },
+          {
+            "name": "Skin"
+          },
+          {
+            "name": "Tanker"
+          },
+          {
+            "name": "Your Invisible Life"
+          },
+          {
+            "name": "Robot World"
+          }
+        ]
+      }
+    ]
+  }
+}

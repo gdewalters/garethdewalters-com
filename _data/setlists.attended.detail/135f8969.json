@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "135f8969",
+    "eventDate": "30-11-2024",
+    "lastUpdated": "2024-11-30T22:58:37.957+0000",
+    "artist": {
+      "name": "Mystery Waitress",
+      "mbid": "62481f75-f7aa-4160-bf30-64844770c576",
+      "tmid": null,
+      "disambiguation": "New Zealand singer/songwriter"
+    },
+    "venue": {
+      "name": "Whammy Bar",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/mystery-waitress/2024/whammy-bar-auckland-new-zealand-135f8969.html",
+    "sets": []
+  }
+}

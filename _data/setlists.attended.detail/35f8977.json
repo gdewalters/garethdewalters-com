@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "35f8977",
+    "eventDate": "30-11-2024",
+    "lastUpdated": "2024-11-30T22:55:35.590+0000",
+    "artist": {
+      "name": "Erny Belle",
+      "mbid": "992e6f05-536b-4825-8cd3-c35b0fc36016",
+      "tmid": null,
+      "disambiguation": "New Zealand singer-songwriter"
+    },
+    "venue": {
+      "name": "Double Whammy",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/erny-belle/2024/double-whammy-auckland-new-zealand-35f8977.html",
+    "sets": []
+  }
+}

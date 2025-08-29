@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3e9e1ab",
+    "eventDate": "10-08-2012",
+    "lastUpdated": "2018-09-19T08:47:33.015+0000",
+    "artist": {
+      "name": "Mark Gardener",
+      "mbid": "57f73c2e-ee2f-49d9-b3c6-839259bc7eba",
+      "tmid": null,
+      "disambiguation": "UK singer & guitarist, member of Ride"
+    },
+    "venue": {
+      "name": "Kings Arms",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/mark-gardener/2012/kings-arms-auckland-new-zealand-3e9e1ab.html",
+    "sets": []
+  }
+}

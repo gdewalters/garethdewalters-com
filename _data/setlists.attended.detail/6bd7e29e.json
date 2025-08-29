@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "6bd7e29e",
+    "eventDate": "14-08-2007",
+    "lastUpdated": "2019-05-02T01:19:20.953+0000",
+    "artist": {
+      "name": "The Cure",
+      "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Vector Arena",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "4Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-cure/2007/vector-arena-auckland-new-zealand-6bd7e29e.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Tape",
+            "tape": true
+          },
+          {
+            "name": "Open"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "alt.end"
+          },
+          {
+            "name": "The Blood"
+          },
+          {
+            "name": "The Walk"
+          },
+          {
+            "name": "The End of the World"
+          },
+          {
+            "name": "Lovesong"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "Lullaby"
+          },
+          {
+            "name": "Hot Hot Hot!!!"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "Friday I'm in Love"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "If Only Tonight We Could Sleep"
+          },
+          {
+            "name": "The Kiss"
+          },
+          {
+            "name": "Shake Dog Shake"
+          },
+          {
+            "name": "Never Enough"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Wrong Number"
+          },
+          {
+            "name": "One Hundred Years"
+          },
+          {
+            "name": "Shiver and Shake"
+          },
+          {
+            "name": "End"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Plainsong"
+          },
+          {
+            "name": "Disintegration"
+          },
+          {
+            "name": "Faith"
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Three Imaginary Boys"
+          },
+          {
+            "name": "Fire in Cairo"
+          },
+          {
+            "name": "Boys Don't Cry"
+          },
+          {
+            "name": "Jumping Someone Else's Train"
+          },
+          {
+            "name": "Grinding Halt"
+          },
+          {
+            "name": "10:15 Saturday Night"
+          },
+          {
+            "name": "Killing an Arab"
+          }
+        ]
+      },
+      {
+        "encore": 3,
+        "song": [
+          {
+            "name": "A Forest"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "1b9545b8",
+    "eventDate": "18-02-2019",
+    "lastUpdated": "2020-05-06T18:37:55.870+0000",
+    "artist": {
+      "name": "Teenage Fanclub",
+      "mbid": "e6f8912b-7df9-4aae-b551-2cd03dc29588",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/teenage-fanclub/2019/powerstation-auckland-new-zealand-1b9545b8.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "About You"
+          },
+          {
+            "name": "Start Again"
+          },
+          {
+            "name": "Happiness"
+          },
+          {
+            "name": "Everything Is Falling Apart"
+          },
+          {
+            "name": "The Cabbage"
+          },
+          {
+            "name": "Thaw Me"
+          },
+          {
+            "name": "Only With You"
+          },
+          {
+            "name": "I Don't Care"
+          },
+          {
+            "name": "Catholic Education"
+          },
+          {
+            "name": "Your Love Is the Place Where I Come From"
+          },
+          {
+            "name": "It's a Bad World"
+          },
+          {
+            "name": "Planets"
+          },
+          {
+            "name": "Verisimilitude"
+          },
+          {
+            "name": "Hold On"
+          },
+          {
+            "name": "I'm in Love"
+          },
+          {
+            "name": "My Uptight Life"
+          },
+          {
+            "name": "Everything Flows"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Heavy Metal II"
+          },
+          {
+            "name": "The Fall"
+          },
+          {
+            "name": "The Concept"
+          }
+        ]
+      }
+    ]
+  }
+}

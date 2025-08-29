@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "1356f5d1",
+    "eventDate": "18-08-2024",
+    "lastUpdated": "2024-09-09T20:31:47.046+0000",
+    "artist": {
+      "name": "Ride",
+      "mbid": "3f575ecd-627d-4f08-a89f-abd46d469c7e",
+      "tmid": null,
+      "disambiguation": "English rock band"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Interplay",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/ride/2024/powerstation-auckland-new-zealand-1356f5d1.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Monaco"
+          },
+          {
+            "name": "Portland Rocks"
+          },
+          {
+            "name": "Dreams Burn Down"
+          },
+          {
+            "name": "Kill Switch"
+          },
+          {
+            "name": "Last Frontier"
+          },
+          {
+            "name": "I Came to See the Wreck"
+          },
+          {
+            "name": "Unfamiliar"
+          },
+          {
+            "name": "Lannoy Point"
+          },
+          {
+            "name": "Peace Sign"
+          },
+          {
+            "name": "Taste"
+          },
+          {
+            "name": "Cool Your Boots"
+          },
+          {
+            "name": "Vapour Trail"
+          },
+          {
+            "name": "Seagull"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Light in a Quiet Room"
+          },
+          {
+            "name": "Leave Them All Behind"
+          },
+          {
+            "name": "Chelsea Girl"
+          }
+        ]
+      }
+    ]
+  }
+}

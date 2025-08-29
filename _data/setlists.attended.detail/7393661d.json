@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7393661d",
+    "eventDate": "04-06-1994",
+    "lastUpdated": "2019-04-21T11:01:22.792+0000",
+    "artist": {
+      "name": "Gene",
+      "mbid": "38b6fae0-dd60-47c2-8f46-cf5023d23664",
+      "tmid": null,
+      "disambiguation": "UK alternative rock quartet"
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/gene/1994/shepherds-bush-empire-london-england-7393661d.html",
+    "sets": []
+  }
+}

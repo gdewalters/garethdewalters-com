@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "238fc4c3",
+    "eventDate": "21-07-2021",
+    "lastUpdated": "2021-07-21T21:15:19.208+0000",
+    "artist": {
+      "name": "Courtney Barnett",
+      "mbid": "55111838-f001-494a-a1b5-9d818db85810",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Leigh Sawmill Cafe",
+      "city": "Leigh",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.283,
+        "long": 174.817
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/courtney-barnett/2021/leigh-sawmill-cafe-leigh-new-zealand-238fc4c3.html",
+    "sets": []
+  }
+}

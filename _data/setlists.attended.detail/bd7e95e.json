@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "bd7e95e",
+    "eventDate": "25-06-1995",
+    "lastUpdated": "2025-07-04T19:14:35.529+0000",
+    "artist": {
+      "name": "The Cure",
+      "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": "The Team Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-cure/1995/worthy-farm-pilton-england-bd7e95e.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Want"
+          },
+          {
+            "name": "Fascination Street"
+          },
+          {
+            "name": "A Night Like This"
+          },
+          {
+            "name": "Pictures of You"
+          },
+          {
+            "name": "Lullaby"
+          },
+          {
+            "name": "Just Like Heaven"
+          },
+          {
+            "name": "Trust"
+          },
+          {
+            "name": "Jupiter Crash"
+          },
+          {
+            "name": "High"
+          },
+          {
+            "name": "The Walk"
+          },
+          {
+            "name": "Let's Go to Bed"
+          },
+          {
+            "name": "Dressing Up"
+          },
+          {
+            "name": "A Strange Day"
+          },
+          {
+            "name": "Push"
+          },
+          {
+            "name": "Mint Car"
+          },
+          {
+            "name": "Friday I'm in Love"
+          },
+          {
+            "name": "In Between Days"
+          },
+          {
+            "name": "From the Edge of the Deep Green Sea"
+          },
+          {
+            "name": "Shiver and Shake"
+          },
+          {
+            "name": "Disintegration"
+          },
+          {
+            "name": "End",
+            "with": {
+              "mbid": "2b2a7e94-fdc6-4c2e-859c-441faa4089cd",
+              "name": "Porl Thompson",
+              "sortName": "Thompson, Porl",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/porl-thompson-6bd6b23e.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "13db0d5d",
+    "eventDate": "26-02-2013",
+    "lastUpdated": "2024-10-02T05:13:27.387+0000",
+    "artist": {
+      "name": "The Stone Roses",
+      "mbid": "b5fa29f1-6c22-4321-a488-b5f363b06b06",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Vector Arena",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Reunion Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-stone-roses/2013/vector-arena-auckland-new-zealand-13db0d5d.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "I Wanna Be Adored"
+          },
+          {
+            "name": "Mersey Paradise"
+          },
+          {
+            "name": "(Song for My) Sugar Spun Sister"
+          },
+          {
+            "name": "Sally Cinnamon"
+          },
+          {
+            "name": "Ten Storey Love Song"
+          },
+          {
+            "name": "Where Angels Play"
+          },
+          {
+            "name": "Shoot You Down"
+          },
+          {
+            "name": "Fools Gold"
+          },
+          {
+            "name": "Something's Burning"
+          },
+          {
+            "name": "Waterfall"
+          },
+          {
+            "name": "Don't Stop"
+          },
+          {
+            "name": "Made of Stone"
+          },
+          {
+            "name": "This Is the One"
+          },
+          {
+            "name": "Love Spreads"
+          },
+          {
+            "name": "She Bangs the Drums"
+          },
+          {
+            "name": "I Am the Resurrection"
+          }
+        ]
+      }
+    ]
+  }
+}

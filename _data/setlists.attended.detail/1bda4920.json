@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "1bda4920",
+    "eventDate": "14-05-2011",
+    "lastUpdated": "2012-12-30T13:01:07.000+0000",
+    "artist": {
+      "name": "Shayne Carter",
+      "mbid": "2e148441-ab1c-4ebf-ab34-77e9e54bc88f",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Kings Arms",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/shayne-carter/2011/kings-arms-auckland-new-zealand-1bda4920.html",
+    "sets": []
+  }
+}

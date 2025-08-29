@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7bdcda28",
+    "eventDate": "05-02-1994",
+    "lastUpdated": "2019-01-27T05:23:34.376+0000",
+    "artist": {
+      "name": "The Breeders",
+      "mbid": "667e856e-f3a7-42e9-8244-95422ef31321",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Mount Smart Stadium",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Last Splash",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-breeders/1994/mount-smart-stadium-auckland-new-zealand-7bdcda28.html",
+    "sets": []
+  }
+}

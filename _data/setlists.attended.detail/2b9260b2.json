@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2b9260b2",
+    "eventDate": "18-03-2019",
+    "lastUpdated": "2021-04-07T06:10:26.249+0000",
+    "artist": {
+      "name": "Neko Case",
+      "mbid": "e13d2935-8c42-4c0a-96d7-654062acf106",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Spiegeltent",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Hell-On",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/neko-case/2019/spiegeltent-auckland-new-zealand-2b9260b2.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Pitch or Honey"
+          },
+          {
+            "name": "Last Lion of Albion"
+          },
+          {
+            "name": "Deep Red Bells"
+          },
+          {
+            "name": "City Swans"
+          },
+          {
+            "name": "Margaret vs. Pauline"
+          },
+          {
+            "name": "Maybe Sparrow"
+          },
+          {
+            "name": "Winnie"
+          },
+          {
+            "name": "Bad Luck"
+          },
+          {
+            "name": "Curse of the I‐5 Corridor"
+          },
+          {
+            "name": "Gumball Blue"
+          },
+          {
+            "name": "Oracle of the Maritimes"
+          },
+          {
+            "name": "Hex",
+            "cover": {
+              "mbid": "aca1a407-540a-4cd7-bae2-e09004970b55",
+              "name": "Catherine Irwin",
+              "sortName": "Irwin, Catherine",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/catherine-irwin-1bd4e160.html"
+            }
+          },
+          {
+            "name": "This Tornado Loves You"
+          },
+          {
+            "name": "Halls of Sarah"
+          },
+          {
+            "name": "Hold On, Hold On"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "The Pharaohs"
+          },
+          {
+            "name": "Ragtime",
+            "info": "not on setlist"
+          }
+        ]
+      }
+    ]
+  }
+}

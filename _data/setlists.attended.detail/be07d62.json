@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "be07d62",
+    "eventDate": "18-01-1997",
+    "lastUpdated": "2017-12-01T19:26:18.645+0000",
+    "artist": {
+      "name": "The Lemonheads",
+      "mbid": "58a53082-a629-4ff1-a44d-7492d6f6e8fb",
+      "tmid": null,
+      "disambiguation": "US alternative rock band from Boston"
+    },
+    "venue": {
+      "name": "Kurtz Lounge",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-lemonheads/1997/kurtz-lounge-auckland-new-zealand-be07d62.html",
+    "sets": []
+  }
+}

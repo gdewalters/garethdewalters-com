@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3bccecdc",
+    "eventDate": "23-06-1995",
+    "lastUpdated": "2025-07-04T19:16:14.918+0000",
+    "artist": {
+      "name": "Dodgy",
+      "mbid": "9e82fd1f-b102-4890-a5f1-ed0af912fe01",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/dodgy/1995/worthy-farm-pilton-england-3bccecdc.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Making the Most Of"
+          },
+          {
+            "name": "Every Single Day"
+          },
+          {
+            "name": "Melodies Haunt You"
+          },
+          {
+            "name": "What Have I Done Wrong?"
+          },
+          {
+            "name": "So Let Me Go Far"
+          },
+          {
+            "name": "Staying Out for the Summer",
+            "info": "Snippet \"Good Vibrations\" by The Beach Boys"
+          },
+          {
+            "name": "Revolution",
+            "cover": {
+              "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+              "name": "The Beatles",
+              "sortName": "Beatles, The",
+              "disambiguation": "UK rock band, “The Fab Four”",
+              "url": "https://www.setlist.fm/setlists/the-beatles-23d6a88b.html"
+            }
+          },
+          {
+            "name": "U.K.R.I.P."
+          },
+          {
+            "name": "One Day"
+          },
+          {
+            "name": "Cold Tea"
+          },
+          {
+            "name": "Grassman"
+          },
+          {
+            "name": "The Snake",
+            "cover": {
+              "mbid": "5f9afa6a-ef83-44ba-b5f3-44c576b9d737",
+              "name": "Al Wilson",
+              "sortName": "Wilson, Al",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/al-wilson-33d7f0f1.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

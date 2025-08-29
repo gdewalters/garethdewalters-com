@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7bbb92d8",
+    "eventDate": "18-03-2023",
+    "lastUpdated": "2025-03-17T03:18:04.531+0000",
+    "artist": {
+      "name": "The D4",
+      "mbid": "2d65f84e-fbce-41ef-8db4-838590f5913c",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "6Twenty One",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-d4/2023/powerstation-auckland-new-zealand-7bbb92d8.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Get Loose"
+          },
+          {
+            "name": "Come On!"
+          },
+          {
+            "name": "Trust Nobody"
+          },
+          {
+            "name": "Out of Control",
+            "cover": {
+              "mbid": "04ab4a76-3ace-416d-aef1-14b8c0dbdafa",
+              "name": "Lime Spiders",
+              "sortName": "Lime Spiders",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/lime-spiders-33d69099.html"
+            }
+          },
+          {
+            "name": "Pirate Love",
+            "cover": {
+              "mbid": "ddf271e5-3505-4e08-8d08-d488b22550f7",
+              "name": "The Heartbreakers",
+              "sortName": "Heartbreakers, The",
+              "disambiguation": "1970’s punk band",
+              "url": "https://www.setlist.fm/setlists/the-heartbreakers-53d7b719.html"
+            }
+          },
+          {
+            "name": "Party"
+          },
+          {
+            "name": "Ladies Man"
+          },
+          {
+            "name": "Savage",
+            "cover": {
+              "mbid": "078313d6-5191-4475-8a57-5da9db25781a",
+              "name": "Fun Things",
+              "sortName": "Fun Things",
+              "disambiguation": "Punk band from Brisbane, Australia.",
+              "url": "https://www.setlist.fm/setlists/fun-things-43d7eb27.html"
+            }
+          },
+          {
+            "name": "What I Want"
+          },
+          {
+            "name": "Invader Ace",
+            "cover": {
+              "mbid": "060e47de-6ce8-4954-808a-689ac685c28d",
+              "name": "Guitar Wolf",
+              "sortName": "Guitar Wolf",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/guitar-wolf-1bd61994.html"
+            }
+          },
+          {
+            "name": "Sake Bomb"
+          },
+          {
+            "name": "Exit to the City"
+          },
+          {
+            "name": "Heartbreaker"
+          },
+          {
+            "name": "Rock 'n' Roll Motherfucker"
+          }
+        ]
+      }
+    ]
+  }
+}

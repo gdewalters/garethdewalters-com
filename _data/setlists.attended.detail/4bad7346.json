@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "4bad7346",
+    "eventDate": "02-03-2024",
+    "lastUpdated": "2024-03-03T22:10:37.144+0000",
+    "artist": {
+      "name": "Dinosaur Jr.",
+      "mbid": "77c167d2-4965-4421-830a-9815e4956475",
+      "tmid": null,
+      "disambiguation": "US rock band"
+    },
+    "venue": {
+      "name": "Auckland Town Hall",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Celebrating 30 years of Where You Been",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/dinosaur-jr/2024/auckland-town-hall-auckland-new-zealand-4bad7346.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Out There"
+          },
+          {
+            "name": "Start Choppin"
+          },
+          {
+            "name": "What Else Is New"
+          },
+          {
+            "name": "On the Way"
+          },
+          {
+            "name": "Not the Same"
+          },
+          {
+            "name": "Get Me"
+          },
+          {
+            "name": "Drawerings"
+          },
+          {
+            "name": "Hide"
+          },
+          {
+            "name": "Goin' Home"
+          },
+          {
+            "name": "I Ain't Sayin'"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "song": [
+          {
+            "name": "Garden"
+          },
+          {
+            "name": "Been There All the Time"
+          },
+          {
+            "name": "The Wagon"
+          },
+          {
+            "name": "Little Fury Things"
+          },
+          {
+            "name": "Feel the Pain"
+          },
+          {
+            "name": "Forget the Swan"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Freak Scene"
+          },
+          {
+            "name": "Just Like Heaven",
+            "cover": {
+              "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+              "name": "The Cure",
+              "sortName": "Cure, The",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/the-cure-6bd6b266.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

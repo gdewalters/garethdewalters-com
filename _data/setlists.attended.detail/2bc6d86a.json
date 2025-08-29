@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2bc6d86a",
+    "eventDate": "24-06-1995",
+    "lastUpdated": "2025-07-04T19:18:55.332+0000",
+    "artist": {
+      "name": "Portishead",
+      "mbid": "8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": "Dummy",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/portishead/1995/worthy-farm-pilton-england-2bc6d86a.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Glory Box"
+          }
+        ]
+      }
+    ]
+  }
+}

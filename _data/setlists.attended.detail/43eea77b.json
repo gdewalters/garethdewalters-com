@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "43eea77b",
+    "eventDate": "29-01-2018",
+    "lastUpdated": "2018-01-29T08:52:45.387+0000",
+    "artist": {
+      "name": "Slowdive",
+      "mbid": "a16371b9-7d36-497a-a9d4-42b0a0440c5e",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Albert Park",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Slowdive",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/slowdive/2018/albert-park-auckland-new-zealand-43eea77b.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Slowdive"
+          },
+          {
+            "name": "Catch the Breeze"
+          },
+          {
+            "name": "Crazy for You"
+          },
+          {
+            "name": "Star Roving"
+          },
+          {
+            "name": "Souvlaki Space Station"
+          },
+          {
+            "name": "When the Sun Hits"
+          },
+          {
+            "name": "Alison"
+          },
+          {
+            "name": "Sugar for the Pill"
+          },
+          {
+            "name": "Golden Hair",
+            "cover": {
+              "mbid": "12327d75-47d5-45d9-84c2-3760b9210c17",
+              "name": "Syd Barrett",
+              "sortName": "Barrett, Syd",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/syd-barrett-13d6dd09.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

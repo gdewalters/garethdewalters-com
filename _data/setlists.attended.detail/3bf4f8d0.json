@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3bf4f8d0",
+    "eventDate": "19-09-2015",
+    "lastUpdated": "2017-05-18T17:43:32.626+0000",
+    "artist": {
+      "name": "Luna",
+      "mbid": "dda04604-b50a-4bd1-8780-77564c659dc0",
+      "tmid": null,
+      "disambiguation": "US dream pop band, fronted by Dean Wareham"
+    },
+    "venue": {
+      "name": "The Tuning Fork",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/luna/2015/the-tuning-fork-auckland-new-zealand-3bf4f8d0.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "California (All the Way)"
+          },
+          {
+            "name": "Sideshow by the Seashore"
+          },
+          {
+            "name": "Anesthesia"
+          },
+          {
+            "name": "Malibu Love Nest"
+          },
+          {
+            "name": "Tiger Lily"
+          },
+          {
+            "name": "Tracy I Love You"
+          },
+          {
+            "name": "Lost in Space"
+          },
+          {
+            "name": "Cindy Tastes of Barbecue"
+          },
+          {
+            "name": "Moon Palace"
+          },
+          {
+            "name": "Slide"
+          },
+          {
+            "name": "Friendly Advice"
+          },
+          {
+            "name": "Chinatown"
+          },
+          {
+            "name": "23 Minutes in Brussels"
+          },
+          {
+            "name": "Bewitched"
+          },
+          {
+            "name": "Indian Summer",
+            "cover": {
+              "mbid": "449e44cb-bcae-4c48-a1af-5d8df0f81456",
+              "name": "Beat Happening",
+              "sortName": "Beat Happening",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/beat-happening-13d6a9a9.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

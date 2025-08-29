@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "5bd24328",
+    "eventDate": "22-06-1994",
+    "lastUpdated": "2020-05-06T18:38:02.561+0000",
+    "artist": {
+      "name": "Radiohead",
+      "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "1994 Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/radiohead/1994/powerstation-auckland-new-zealand-5bd24328.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Creep"
+          }
+        ]
+      }
+    ]
+  }
+}

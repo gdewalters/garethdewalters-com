@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "13d341ed",
+    "eventDate": "06-05-2001",
+    "lastUpdated": "2015-03-29T17:04:48.000+0000",
+    "artist": {
+      "name": "Nick Cave & the Bad Seeds",
+      "mbid": "172e1f1a-504d-4488-b053-6344ba63e6d0",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Brixton Academy",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "No More Shall We Part",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/nick-cave-and-the-bad-seeds/2001/brixton-academy-london-england-13d341ed.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "As I Sat Sadly by Her Side"
+          },
+          {
+            "name": "Oh My Lord"
+          },
+          {
+            "name": "Henry Lee"
+          },
+          {
+            "name": "Red Right Hand"
+          },
+          {
+            "name": "We Came Along This Road"
+          },
+          {
+            "name": "Do You Love Me?"
+          },
+          {
+            "name": "The Ship Song"
+          },
+          {
+            "name": "God Is in the House"
+          },
+          {
+            "name": "Hallelujah"
+          },
+          {
+            "name": "Fifteen Feet of Pure White Snow"
+          },
+          {
+            "name": "Papa Won't Leave You, Henry"
+          },
+          {
+            "name": "The Weeping Song"
+          },
+          {
+            "name": "The Mercy Seat"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Into My Arms"
+          },
+          {
+            "name": "Long Time Man",
+            "cover": {
+              "mbid": "b98acf93-4656-4983-bc0c-f0ab273a842a",
+              "name": "Tim Rose",
+              "sortName": "Rose, Tim",
+              "disambiguation": "US singer/songwriter based mostly in UK",
+              "url": "https://www.setlist.fm/setlists/tim-rose-53d283e5.html"
+            }
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Little Janey's Gone"
+          },
+          {
+            "name": "The Curse of Millhaven"
+          }
+        ]
+      }
+    ]
+  }
+}

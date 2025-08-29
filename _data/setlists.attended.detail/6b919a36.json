@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "6b919a36",
+    "eventDate": "15-06-1995",
+    "lastUpdated": "2024-01-30T18:50:30.206+0000",
+    "artist": {
+      "name": "J Mascis",
+      "mbid": "82315599-2215-4c3e-a36f-87be58d06ec0",
+      "tmid": null,
+      "disambiguation": "US musician, member of Dinosaur Jr."
+    },
+    "venue": {
+      "name": "The Underworld",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/j-mascis/1995/the-underworld-london-england-6b919a36.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "The Boy With the Thorn in His Side",
+            "cover": {
+              "mbid": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+              "name": "The Smiths",
+              "sortName": "Smiths, The",
+              "disambiguation": "1980s English rock band",
+              "url": "https://www.setlist.fm/setlists/the-smiths-6bd6b236.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "139f6559",
+    "eventDate": "29-08-2019",
+    "lastUpdated": "2020-05-06T18:37:55.492+0000",
+    "artist": {
+      "name": "Ride",
+      "mbid": "3f575ecd-627d-4f08-a89f-abd46d469c7e",
+      "tmid": null,
+      "disambiguation": "English rock band"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/ride/2019/powerstation-auckland-new-zealand-139f6559.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "",
+            "tape": true,
+            "info": "R.I.D.E."
+          },
+          {
+            "name": "Jump Jet"
+          },
+          {
+            "name": "Repetition"
+          },
+          {
+            "name": "Seagull"
+          },
+          {
+            "name": "Like a Daydream"
+          },
+          {
+            "name": "Unfamiliar"
+          },
+          {
+            "name": "Twisterella"
+          },
+          {
+            "name": "Lannoy Point"
+          },
+          {
+            "name": "Future Love"
+          },
+          {
+            "name": "All I Want"
+          },
+          {
+            "name": "OX4"
+          },
+          {
+            "name": "Taste"
+          },
+          {
+            "name": "Vapour Trail"
+          },
+          {
+            "name": "Drive Blind"
+          },
+          {
+            "name": "Kill Switch"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Dreams Burn Down"
+          },
+          {
+            "name": "Leave Them All Behind"
+          },
+          {
+            "name": "Chelsea Girl"
+          }
+        ]
+      }
+    ]
+  }
+}

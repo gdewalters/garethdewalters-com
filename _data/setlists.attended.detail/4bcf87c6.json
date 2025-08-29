@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "4bcf87c6",
+    "eventDate": "13-02-2008",
+    "lastUpdated": "2014-09-10T20:30:02.000+0000",
+    "artist": {
+      "name": "PJ Harvey",
+      "mbid": "e795e03d-b5d5-4a5f-834d-162cfb308a2c",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Civic Theatre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "White Chalk",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/pj-harvey/2008/civic-theatre-auckland-new-zealand-4bcf87c6.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "To Bring You My Love"
+          },
+          {
+            "name": "Send His Love to Me"
+          },
+          {
+            "name": "When Under Ether"
+          },
+          {
+            "name": "The Devil"
+          },
+          {
+            "name": "White Chalk"
+          },
+          {
+            "name": "Man-Size"
+          },
+          {
+            "name": "Angelene"
+          },
+          {
+            "name": "My Beautiful Leah"
+          },
+          {
+            "name": "Nina in Ecstasy 2"
+          },
+          {
+            "name": "Electric Light"
+          },
+          {
+            "name": "Shame"
+          },
+          {
+            "name": "Snake"
+          },
+          {
+            "name": "Big Exit"
+          },
+          {
+            "name": "Who the Fuck?"
+          },
+          {
+            "name": "Down by the Water"
+          },
+          {
+            "name": "Grow Grow Grow"
+          },
+          {
+            "name": "The Mountain"
+          },
+          {
+            "name": "Silence"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "The Garden"
+          },
+          {
+            "name": "C'mon Billy"
+          },
+          {
+            "name": "The Piano"
+          },
+          {
+            "name": "The Desperate Kingdom of Love"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7ba9ba54",
+    "eventDate": "30-07-2024",
+    "lastUpdated": "2024-08-24T02:07:04.456+0000",
+    "artist": {
+      "name": "The Jesus and Mary Chain",
+      "mbid": "e938a15c-b17e-4e7a-9f68-ff0d536cab44",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-jesus-and-mary-chain/2024/powerstation-auckland-new-zealand-7ba9ba54.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Jamcod"
+          },
+          {
+            "name": "Head On"
+          },
+          {
+            "name": "Happy When It Rains"
+          },
+          {
+            "name": "All Things Must Pass"
+          },
+          {
+            "name": "Chemical Animal"
+          },
+          {
+            "name": "Blues From a Gun"
+          },
+          {
+            "name": "In a Hole"
+          },
+          {
+            "name": "Venal Joy"
+          },
+          {
+            "name": "Pure Poor"
+          },
+          {
+            "name": "Some Candy Talking"
+          },
+          {
+            "name": "Girl 71",
+            "info": "Rachel Conti as guest singer on backing vocals"
+          },
+          {
+            "name": "Sometimes Always",
+            "info": "Simone Butler accompanied on vocals"
+          },
+          {
+            "name": "Darklands"
+          },
+          {
+            "name": "Just Like Honey"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Taste of Cindy"
+          },
+          {
+            "name": "I Hate Rock 'n' Roll"
+          },
+          {
+            "name": "Reverence"
+          }
+        ]
+      }
+    ]
+  }
+}

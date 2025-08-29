@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "33f4a419",
+    "eventDate": "24-06-1995",
+    "lastUpdated": "2025-07-04T19:16:14.774+0000",
+    "artist": {
+      "name": "Skunk Anansie",
+      "mbid": "e212efdf-98b2-4dce-92ed-62cfc1e29854",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/skunk-anansie/1995/worthy-farm-pilton-england-33f4a419.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Little Baby Swastikkka"
+          },
+          {
+            "name": "Selling Jesus"
+          },
+          {
+            "name": "I Can Dream"
+          },
+          {
+            "name": "Intellectualise My Blackness"
+          },
+          {
+            "name": "Charity",
+            "info": "Skin & Ace acoustic on another stage"
+          }
+        ]
+      }
+    ]
+  }
+}

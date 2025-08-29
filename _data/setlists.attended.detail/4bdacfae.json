@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "4bdacfae",
+    "eventDate": "22-05-2001",
+    "lastUpdated": "2019-12-21T05:13:57.752+0000",
+    "artist": {
+      "name": "Echo & the Bunnymen",
+      "mbid": "ccd4879c-5e88-4385-b131-bf65296bf245",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "Flowers Tour (English Leg)",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/echo-and-the-bunnymen/2001/shepherds-bush-empire-london-england-4bdacfae.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Lips Like Sugar"
+          },
+          {
+            "name": "Rescue"
+          },
+          {
+            "name": "King of Kings"
+          },
+          {
+            "name": "Villiers Terrace"
+          },
+          {
+            "name": "SuperMellow Man"
+          },
+          {
+            "name": "Seven Seas"
+          },
+          {
+            "name": "An Eternity Turns"
+          },
+          {
+            "name": "The Back of Love"
+          },
+          {
+            "name": "Burn for Me"
+          },
+          {
+            "name": "The Killing Moon"
+          },
+          {
+            "name": "Heads Will Roll"
+          },
+          {
+            "name": "Bring On the Dancing Horses"
+          },
+          {
+            "name": "Flowers"
+          },
+          {
+            "name": "Silver"
+          },
+          {
+            "name": "The Cutter"
+          },
+          {
+            "name": "Over the Wall"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Nothing Lasts Forever"
+          },
+          {
+            "name": "Do It Clean"
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Ocean Rain"
+          }
+        ]
+      }
+    ]
+  }
+}

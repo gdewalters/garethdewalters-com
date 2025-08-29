@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2bd798ba",
+    "eventDate": "23-06-1995",
+    "lastUpdated": "2025-07-04T19:14:35.799+0000",
+    "artist": {
+      "name": "Oasis",
+      "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+      "tmid": null,
+      "disambiguation": "Noel & Liam Gallagher"
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": "(What's the Story) Morning Glory?",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/oasis/1995/worthy-farm-pilton-england-2bd798ba.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "The Swamp Song"
+          },
+          {
+            "name": "Acquiesce",
+            "info": "with Sally Cinnamon - The Stone Roses outro"
+          },
+          {
+            "name": "Supersonic",
+            "info": "Restarted due to audio issues"
+          },
+          {
+            "name": "Hello"
+          },
+          {
+            "name": "Some Might Say"
+          },
+          {
+            "name": "Roll With It"
+          },
+          {
+            "name": "Shakermaker"
+          },
+          {
+            "name": "Slide Away"
+          },
+          {
+            "name": "(It's Good) To Be Free"
+          },
+          {
+            "name": "Morning Glory"
+          },
+          {
+            "name": "Cigarettes & Alcohol"
+          },
+          {
+            "name": "I Am the Walrus",
+            "cover": {
+              "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+              "name": "The Beatles",
+              "sortName": "Beatles, The",
+              "disambiguation": "UK rock band, “The Fab Four”",
+              "url": "https://www.setlist.fm/setlists/the-beatles-23d6a88b.html"
+            }
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Don't Look Back in Anger"
+          },
+          {
+            "name": "Live Forever"
+          },
+          {
+            "name": "Rock 'n' Roll Star"
+          }
+        ]
+      }
+    ]
+  }
+}

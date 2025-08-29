@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "23d638c7",
+    "eventDate": "12-11-2003",
+    "lastUpdated": "2016-01-20T17:19:36.000+0000",
+    "artist": {
+      "name": "Jane’s Addiction",
+      "mbid": "e3434cc7-d348-491a-9dc8-325af3d9086d",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Carling Apollo Hammersmith",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "Strays World Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/janes-addiction/2003/carling-apollo-hammersmith-london-england-23d638c7.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Up the Beach"
+          },
+          {
+            "name": "Stop!"
+          },
+          {
+            "name": "Strays"
+          },
+          {
+            "name": "Been Caught Stealing"
+          },
+          {
+            "name": "Wrong Girl"
+          },
+          {
+            "name": "Then She Did..."
+          },
+          {
+            "name": "Everybody's Friend",
+            "info": "\"Slow Divers\" intro"
+          },
+          {
+            "name": "Just Because",
+            "info": "Acoustic"
+          },
+          {
+            "name": "The Riches"
+          },
+          {
+            "name": "Born on the Bayou",
+            "cover": {
+              "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+              "name": "Creedence Clearwater Revival",
+              "sortName": "Creedence Clearwater Revival",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/creedence-clearwater-revival-5bd69794.html"
+            }
+          },
+          {
+            "name": "Wild Thing",
+            "cover": {
+              "mbid": "df66124c-0c71-40ca-b5c1-0992c1f57f39",
+              "name": "Chip Taylor",
+              "sortName": "Taylor, Chip",
+              "disambiguation": "US singer/songwriter",
+              "url": "https://www.setlist.fm/setlists/chip-taylor-3d669eb.html"
+            }
+          },
+          {
+            "name": "True Nature"
+          },
+          {
+            "name": "Ocean Size"
+          },
+          {
+            "name": "1%"
+          },
+          {
+            "name": "Price I Pay"
+          },
+          {
+            "name": "Jane Says"
+          }
+        ]
+      }
+    ]
+  }
+}

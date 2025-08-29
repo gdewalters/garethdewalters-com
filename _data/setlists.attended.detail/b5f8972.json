@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "b5f8972",
+    "eventDate": "30-11-2024",
+    "lastUpdated": "2024-11-30T22:54:32.870+0000",
+    "artist": {
+      "name": "Dean & Britta",
+      "mbid": "b8d2e1cd-1062-40ba-bd9c-d5f964631f1d",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Double Whammy",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/dean-and-britta/2024/double-whammy-auckland-new-zealand-b5f8972.html",
+    "sets": []
+  }
+}

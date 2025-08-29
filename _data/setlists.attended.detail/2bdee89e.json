@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2bdee89e",
+    "eventDate": "14-01-2010",
+    "lastUpdated": "2012-03-02T23:08:29.000+0000",
+    "artist": {
+      "name": "The Veils",
+      "mbid": "c3bf5aee-646e-4030-9ab4-d1fbd4947a97",
+      "tmid": null,
+      "disambiguation": "English/New Zealand rock band"
+    },
+    "venue": {
+      "name": "Kings Arms",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-veils/2010/kings-arms-auckland-new-zealand-2bdee89e.html",
+    "sets": []
+  }
+}

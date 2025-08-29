@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "53c03fe1",
+    "eventDate": "07-09-2000",
+    "lastUpdated": "2025-04-22T02:09:57.449+0000",
+    "artist": {
+      "name": "Ween",
+      "mbid": "c0eee88b-47f2-4cd2-ac48-a045e902a432",
+      "tmid": null,
+      "disambiguation": "US alternative rock band"
+    },
+    "venue": {
+      "name": "London Astoria",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/ween/2000/london-astoria-london-england-53c03fe1.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "She Wanted to Leave"
+          },
+          {
+            "name": "The Grobe"
+          },
+          {
+            "name": "The HIV Song"
+          },
+          {
+            "name": "Spinal Meningitis (Got Me Down)"
+          },
+          {
+            "name": "Stay Forever"
+          },
+          {
+            "name": "Don't Get 2 Close (2 My Fantasy)"
+          },
+          {
+            "name": "Take Me Away"
+          },
+          {
+            "name": "Dr. Rock"
+          },
+          {
+            "name": "What Deaner Was Talkin' About"
+          },
+          {
+            "name": "Roses Are Free"
+          },
+          {
+            "name": "Back to Basom"
+          },
+          {
+            "name": "Bananas and Blow"
+          },
+          {
+            "name": "Mister, Would You Please Help My Pony?"
+          },
+          {
+            "name": "Ocean Man"
+          },
+          {
+            "name": "Tick"
+          },
+          {
+            "name": "Stroker Ace"
+          },
+          {
+            "name": "Frank"
+          },
+          {
+            "name": "The Mollusk"
+          },
+          {
+            "name": "Push th' Little Daisies"
+          },
+          {
+            "name": "Piss Up a Rope"
+          },
+          {
+            "name": "Voodoo Lady"
+          },
+          {
+            "name": "Drifter in the Dark"
+          },
+          {
+            "name": "Mister Richard Smoker"
+          },
+          {
+            "name": "Waving My Dick in the Wind"
+          },
+          {
+            "name": "Pandy Fackler"
+          },
+          {
+            "name": "Buckingham Green"
+          },
+          {
+            "name": "Exactly Where I'm At"
+          },
+          {
+            "name": "Baby Bitch"
+          },
+          {
+            "name": "The Blarney Stone"
+          },
+          {
+            "name": "You Fucked Up"
+          },
+          {
+            "name": "Hot for Teacher",
+            "cover": {
+              "mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+              "name": "Van Halen",
+              "sortName": "Van Halen",
+              "disambiguation": "American hard rock band",
+              "url": "https://www.setlist.fm/setlists/van-halen-2bd68066.html"
+            }
+          },
+          {
+            "name": "Buenas tardes amigo"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Even If You Don't"
+          },
+          {
+            "name": "Reggaejunkiejew"
+          },
+          {
+            "name": "Poopship Destroyer"
+          }
+        ]
+      }
+    ]
+  }
+}

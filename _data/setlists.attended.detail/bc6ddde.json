@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "bc6ddde",
+    "eventDate": "23-06-1995",
+    "lastUpdated": "2023-02-25T03:56:02.424+0000",
+    "artist": {
+      "name": "Belly",
+      "mbid": "c118bc97-11a7-41dc-a55e-48c3bcf22ac2",
+      "tmid": null,
+      "disambiguation": "US pop-rock band"
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": "King",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/belly/1995/worthy-farm-pilton-england-bc6ddde.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "King"
+          },
+          {
+            "name": "Puberty"
+          },
+          {
+            "name": "Now They'll Sleep"
+          },
+          {
+            "name": "Untitled and Unsung"
+          },
+          {
+            "name": "Full Moon, Empty Heart"
+          },
+          {
+            "name": "Dusted"
+          },
+          {
+            "name": "Judas My Heart"
+          },
+          {
+            "name": "Feed the Tree"
+          },
+          {
+            "name": "Slow Dog"
+          },
+          {
+            "name": "Red"
+          },
+          {
+            "name": "Super-Connected"
+          },
+          {
+            "name": "Seal My Fate"
+          },
+          {
+            "name": "Gepetto"
+          }
+        ]
+      }
+    ]
+  }
+}

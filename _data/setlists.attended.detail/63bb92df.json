@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "63bb92df",
+    "eventDate": "18-03-2023",
+    "lastUpdated": "2023-03-18T11:41:50.021+0000",
+    "artist": {
+      "name": "The Schizophonics",
+      "mbid": "cd4449d1-eca9-41fc-8f15-0e69c70d685d",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-schizophonics/2023/powerstation-auckland-new-zealand-63bb92df.html",
+    "sets": []
+  }
+}

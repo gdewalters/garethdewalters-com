@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "43ee77eb",
+    "eventDate": "25-02-2018",
+    "lastUpdated": "2022-08-25T02:30:09.904+0000",
+    "artist": {
+      "name": "Primal Scream",
+      "mbid": "55704c38-224f-4b75-b29f-d43653f8bc9a",
+      "tmid": null,
+      "disambiguation": "Scottish rock band"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/primal-scream/2018/powerstation-auckland-new-zealand-43ee77eb.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Slip Inside This House",
+            "cover": {
+              "mbid": "1964494f-9f1a-41c1-b054-80ef3b95025c",
+              "name": "13th Floor Elevators",
+              "sortName": "13th Floor Elevators",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/13th-floor-elevators-7bd0a2bc.html"
+            }
+          },
+          {
+            "name": "Jailbird"
+          },
+          {
+            "name": "Can't Go Back"
+          },
+          {
+            "name": "Shoot Speed/Kill Light"
+          },
+          {
+            "name": "Kill All Hippies"
+          },
+          {
+            "name": "Trippin' on Your Love"
+          },
+          {
+            "name": "Higher Than the Sun"
+          },
+          {
+            "name": "(I'm Gonna) Cry Myself Blind"
+          },
+          {
+            "name": "100% or Nothing"
+          },
+          {
+            "name": "Swastika Eyes"
+          },
+          {
+            "name": "Loaded"
+          },
+          {
+            "name": "Country Girl"
+          },
+          {
+            "name": "Rocks"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "I'm Losing More Than I'll Ever Have"
+          },
+          {
+            "name": "Come Together"
+          },
+          {
+            "name": "Movin' on Up"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "4b917b42",
+    "eventDate": "11-08-2009",
+    "lastUpdated": "2020-05-06T18:38:01.263+0000",
+    "artist": {
+      "name": "Head Like a Hole",
+      "mbid": "7dfe56b2-ed4a-4cea-b5a5-b9d42ee36234",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/head-like-a-hole/2009/powerstation-auckland-new-zealand-4b917b42.html",
+    "sets": []
+  }
+}

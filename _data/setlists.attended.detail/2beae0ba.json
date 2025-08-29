@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2beae0ba",
+    "eventDate": "16-06-2018",
+    "lastUpdated": "2020-05-06T18:37:56.467+0000",
+    "artist": {
+      "name": "The Brian Jonestown Massacre",
+      "mbid": "381e8434-109a-439c-8acc-5d328359f2e0",
+      "tmid": null,
+      "disambiguation": "US rock band"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-brian-jonestown-massacre/2018/powerstation-auckland-new-zealand-2beae0ba.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "We Never Had a Chance"
+          },
+          {
+            "name": "Hold That Thought"
+          },
+          {
+            "name": "Forgotten Graves"
+          },
+          {
+            "name": "When Jokers Attack"
+          },
+          {
+            "name": "Sailor"
+          },
+          {
+            "name": "Who Dreams of Cats?"
+          },
+          {
+            "name": "Pish"
+          },
+          {
+            "name": "Who?"
+          },
+          {
+            "name": "That Girl Suicide"
+          },
+          {
+            "name": "A Word",
+            "info": "Govt Beard listed next with maybe, but don't think played"
+          },
+          {
+            "name": "Nevertheless"
+          },
+          {
+            "name": "Anemone"
+          },
+          {
+            "name": "Drained"
+          },
+          {
+            "name": "What Can I Say"
+          },
+          {
+            "name": "Servo"
+          },
+          {
+            "name": "Yeah Yeah"
+          }
+        ]
+      }
+    ]
+  }
+}

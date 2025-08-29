@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "6bd85256",
+    "eventDate": "21-05-2003",
+    "lastUpdated": "2024-02-18T02:28:37.029+0000",
+    "artist": {
+      "name": "The Kills",
+      "mbid": "2c629b8c-d751-4131-b785-5690bb5e0fd7",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "ULU",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "Keep on Your Mean Side",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-kills/2003/ulu-london-england-6bd85256.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Superstition"
+          },
+          {
+            "name": "Pull a U"
+          },
+          {
+            "name": "Cat Claw"
+          },
+          {
+            "name": "Fuck the People"
+          },
+          {
+            "name": "Monkey 23"
+          },
+          {
+            "name": "Kissy Kissy"
+          },
+          {
+            "name": "Fried My Little Brains"
+          },
+          {
+            "name": "Black Rooster"
+          },
+          {
+            "name": "Dropout Boogie",
+            "cover": {
+              "mbid": "8dcd04e4-7695-4d80-bae9-1d7d680a38ef",
+              "name": "Captain Beefheart & His Magic Band",
+              "sortName": "Captain Beefheart & His Magic Band",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/captain-beefheart-and-his-magic-band-1bd6a170.html"
+            }
+          },
+          {
+            "name": "Gypsy Death & You"
+          },
+          {
+            "name": "Hitched"
+          }
+        ]
+      }
+    ]
+  }
+}

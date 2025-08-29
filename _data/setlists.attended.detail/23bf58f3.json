@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "23bf58f3",
+    "eventDate": "06-12-2022",
+    "lastUpdated": "2023-12-09T08:00:53.778+0000",
+    "artist": {
+      "name": "Ride",
+      "mbid": "3f575ecd-627d-4f08-a89f-abd46d469c7e",
+      "tmid": null,
+      "disambiguation": "English rock band"
+    },
+    "venue": {
+      "name": "Studio The Venue",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Nowhere 30th",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/ride/2022/studio-the-venue-auckland-new-zealand-23bf58f3.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Seagull"
+          },
+          {
+            "name": "Kaleidoscope"
+          },
+          {
+            "name": "In a Different Place"
+          },
+          {
+            "name": "Polar Bear"
+          },
+          {
+            "name": "Dreams Burn Down"
+          },
+          {
+            "name": "Decay"
+          },
+          {
+            "name": "Paralysed"
+          },
+          {
+            "name": "Vapour Trail"
+          },
+          {
+            "name": "Taste"
+          },
+          {
+            "name": "Unfamiliar"
+          },
+          {
+            "name": "Nowhere"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Lannoy Point"
+          },
+          {
+            "name": "Future Love"
+          },
+          {
+            "name": "OX4"
+          },
+          {
+            "name": "Twisterella",
+            "info": "(with audience singing 'Happy Birthday' to Mark Gardener)"
+          },
+          {
+            "name": "Kill Switch"
+          },
+          {
+            "name": "Leave Them All Behind"
+          }
+        ]
+      }
+    ]
+  }
+}

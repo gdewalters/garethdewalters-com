@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "13d099f9",
+    "eventDate": "25-06-1995",
+    "lastUpdated": "2025-07-04T19:16:14.723+0000",
+    "artist": {
+      "name": "The Verve",
+      "mbid": "d4d17620-fd97-4574-92a8-a2cb7e72ce42",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": "A Northern Soul Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-verve/1995/worthy-farm-pilton-england-13d099f9.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "A New Decade"
+          },
+          {
+            "name": "Slide Away"
+          },
+          {
+            "name": "This Is Music"
+          },
+          {
+            "name": "Life's an Ocean"
+          },
+          {
+            "name": "The Rolling People"
+          },
+          {
+            "name": "Come On"
+          },
+          {
+            "name": "The Sun, the Sea"
+          }
+        ]
+      }
+    ]
+  }
+}

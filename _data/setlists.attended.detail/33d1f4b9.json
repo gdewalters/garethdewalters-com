@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "33d1f4b9",
+    "eventDate": "02-12-2002",
+    "lastUpdated": "2020-07-16T09:32:13.181+0000",
+    "artist": {
+      "name": "Black Rebel Motorcycle Club",
+      "mbid": "32b90c92-9978-4a07-90eb-caa4b22f4907",
+      "tmid": null,
+      "disambiguation": "US rock band from San Francisco"
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/black-rebel-motorcycle-club/2002/shepherds-bush-empire-london-england-33d1f4b9.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Spread Your Love"
+          },
+          {
+            "name": "Whatever Happened to My Rock 'n' Roll (Punk Song)"
+          }
+        ]
+      }
+    ]
+  }
+}

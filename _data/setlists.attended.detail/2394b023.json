@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2394b023",
+    "eventDate": "11-12-2018",
+    "lastUpdated": "2025-01-25T03:12:50.140+0000",
+    "artist": {
+      "name": "The Breeders",
+      "mbid": "667e856e-f3a7-42e9-8244-95422ef31321",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-breeders/2018/powerstation-auckland-new-zealand-2394b023.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Saints"
+          },
+          {
+            "name": "Wait in the Car"
+          },
+          {
+            "name": "No Aloha"
+          },
+          {
+            "name": "Divine Hammer"
+          },
+          {
+            "name": "All Nerve"
+          },
+          {
+            "name": "Invisible Man"
+          },
+          {
+            "name": "Fortunately Gone"
+          },
+          {
+            "name": "Walking with a Killer",
+            "cover": {
+              "mbid": "760e4df4-e851-46c8-b34d-afa2e9706831",
+              "name": "Kim Deal",
+              "sortName": "Deal, Kim",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/kim-deal-3bd6845c.html"
+            }
+          },
+          {
+            "name": "Glorious"
+          },
+          {
+            "name": "I Just Wanna Get Along"
+          },
+          {
+            "name": "Safari"
+          },
+          {
+            "name": "New Year"
+          },
+          {
+            "name": "Cannonball"
+          },
+          {
+            "name": "Bang On"
+          },
+          {
+            "name": "Howl at the Summit"
+          },
+          {
+            "name": "Drivin' on 9",
+            "cover": {
+              "mbid": "c5d3c3d6-76df-468d-8cf3-9b79f3b36d8c",
+              "name": "Ed’s Redeeming Qualities",
+              "sortName": "Ed’s Redeeming Qualities",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/eds-redeeming-qualities-5bd2072c.html"
+            }
+          },
+          {
+            "name": "Off You"
+          },
+          {
+            "name": "Spacewoman"
+          },
+          {
+            "name": "S.O.S."
+          },
+          {
+            "name": "Nervous Mary"
+          },
+          {
+            "name": "MetaGoth"
+          },
+          {
+            "name": "Gigantic",
+            "cover": {
+              "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+              "name": "Pixies",
+              "sortName": "Pixies",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/pixies-2bd6846a.html"
+            }
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Do You Love Me Now?"
+          },
+          {
+            "name": "When I Was a Painter"
+          },
+          {
+            "name": "Iris"
+          }
+        ]
+      }
+    ]
+  }
+}

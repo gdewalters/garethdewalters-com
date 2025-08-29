@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "23c59077",
+    "eventDate": "03-12-2003",
+    "lastUpdated": "2019-02-18T16:44:49.177+0000",
+    "artist": {
+      "name": "Franz Ferdinand",
+      "mbid": "aa7a2827-f74b-473c-bd79-03d065835cf7",
+      "tmid": null,
+      "disambiguation": "Scottish rock band"
+    },
+    "venue": {
+      "name": "Carling Academy Islington",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/franz-ferdinand/2003/carling-academy-islington-london-england-23c59077.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Cheating on You"
+          },
+          {
+            "name": "Jacqueline"
+          },
+          {
+            "name": "Tell Her Tonight"
+          },
+          {
+            "name": "Shopping for Blood"
+          },
+          {
+            "name": "Take Me Out"
+          },
+          {
+            "name": "Auf Achse"
+          },
+          {
+            "name": "40'"
+          },
+          {
+            "name": "Van Tango"
+          },
+          {
+            "name": "Michael"
+          },
+          {
+            "name": "Darts of Pleasure"
+          }
+        ]
+      }
+    ]
+  }
+}

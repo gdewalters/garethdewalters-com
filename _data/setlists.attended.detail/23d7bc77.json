@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "23d7bc77",
+    "eventDate": "24-06-1995",
+    "lastUpdated": "2025-07-04T19:14:35.651+0000",
+    "artist": {
+      "name": "Pulp",
+      "mbid": "76b2e842-5e85-4c97-ab62-d5bc315595b5",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/pulp/1995/worthy-farm-pilton-england-23d7bc77.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Do You Remember the First Time?"
+          },
+          {
+            "name": "Razzmatazz"
+          },
+          {
+            "name": "Monday Morning"
+          },
+          {
+            "name": "Underwear"
+          },
+          {
+            "name": "Sorted for E's & Wizz",
+            "info": "Live debut"
+          },
+          {
+            "name": "Disco 2000",
+            "info": "Live debut"
+          },
+          {
+            "name": "Joyriders"
+          },
+          {
+            "name": "Acrylic Afternoons"
+          },
+          {
+            "name": "Mis-Shapes",
+            "info": "Live debut"
+          },
+          {
+            "name": "Pink Glove"
+          },
+          {
+            "name": "Babies"
+          },
+          {
+            "name": "Common People"
+          }
+        ]
+      }
+    ]
+  }
+}

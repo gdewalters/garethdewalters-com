@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "4bcbeb9a",
+    "eventDate": "01-07-2003",
+    "lastUpdated": "2015-03-09T10:13:21.000+0000",
+    "artist": {
+      "name": "The Datsuns",
+      "mbid": "7a5bcae1-45e5-495b-9f5b-254987b364bf",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Shepherd's Bush Empire",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-datsuns/2003/shepherds-bush-empire-london-england-4bcbeb9a.html",
+    "sets": []
+  }
+}

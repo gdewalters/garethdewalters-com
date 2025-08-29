@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7b958a30",
+    "eventDate": "28-01-2019",
+    "lastUpdated": "2019-02-04T01:08:38.809+0000",
+    "artist": {
+      "name": "Parquet Courts",
+      "mbid": "e01755e3-58ab-4a5b-a9e9-a0a3bd3dff4c",
+      "tmid": null,
+      "disambiguation": "US garage rock band"
+    },
+    "venue": {
+      "name": "Albert Park",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Wide Awake!",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/parquet-courts/2019/albert-park-auckland-new-zealand-7b958a30.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Total Football"
+          },
+          {
+            "name": "Dust"
+          },
+          {
+            "name": "Almost Had to Start a Fight / In and Out of Patience"
+          },
+          {
+            "name": "Freebird II"
+          },
+          {
+            "name": "Before the Water Gets Too High"
+          },
+          {
+            "name": "Master of My Craft"
+          },
+          {
+            "name": "Borrowed Time"
+          },
+          {
+            "name": "Tenderness"
+          },
+          {
+            "name": "Pretty Machines"
+          },
+          {
+            "name": "Wide Awake"
+          },
+          {
+            "name": "One Man No City"
+          },
+          {
+            "name": "Light Up Gold II"
+          },
+          {
+            "name": "Mardi Gras Beads"
+          }
+        ]
+      }
+    ]
+  }
+}

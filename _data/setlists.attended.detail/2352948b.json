@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2352948b",
+    "eventDate": "22-08-2024",
+    "lastUpdated": "2024-08-25T04:47:49.222+0000",
+    "artist": {
+      "name": "Loves Ugly Children",
+      "mbid": "00d747cc-8e16-49bd-aa40-b16a63066b15",
+      "tmid": null,
+      "disambiguation": "New Zealand rock"
+    },
+    "venue": {
+      "name": "The Mothership",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/loves-ugly-children/2024/the-mothership-auckland-new-zealand-2352948b.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Senseless"
+          },
+          {
+            "name": "Voodoo Girl"
+          },
+          {
+            "name": "City That Shines"
+          },
+          {
+            "name": "Totally Down"
+          },
+          {
+            "name": "Space Suit"
+          },
+          {
+            "name": "Latest Product"
+          },
+          {
+            "name": "Sixpack"
+          },
+          {
+            "name": "Personal World"
+          },
+          {
+            "name": "Bleed"
+          },
+          {
+            "name": "Falling Down"
+          },
+          {
+            "name": "Suck"
+          },
+          {
+            "name": "Good Thing"
+          },
+          {
+            "name": "Nothing Is True"
+          },
+          {
+            "name": "Song to the Siren",
+            "cover": {
+              "mbid": "8546949d-f46c-45ab-8391-85b26dda6b65",
+              "name": "Tim Buckley",
+              "sortName": "Buckley, Tim",
+              "disambiguation": "1960s~1970s US vocalist, songwriter, guitarist & producer",
+              "url": "https://www.setlist.fm/setlists/tim-buckley-2bd680fa.html"
+            }
+          },
+          {
+            "name": "Love You Dead"
+          }
+        ]
+      }
+    ]
+  }
+}

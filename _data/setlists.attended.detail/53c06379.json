@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "53c06379",
+    "eventDate": "10-10-1988",
+    "lastUpdated": "2014-09-24T17:54:56.000+0000",
+    "artist": {
+      "name": "INXS",
+      "mbid": "481bf5f9-2e7c-4c44-b08a-05b32bc7c00d",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Mount Smart Stadium",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Calling All Nations",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/inxs/1988/mount-smart-stadium-auckland-new-zealand-53c06379.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Kick"
+          },
+          {
+            "name": "Guns in the Sky"
+          },
+          {
+            "name": "Tiny Daggers"
+          },
+          {
+            "name": "Mystify"
+          },
+          {
+            "name": "The Loved One",
+            "cover": {
+              "mbid": "533ef679-c1f8-4ea7-b4b9-4aab518e556f",
+              "name": "The Loved Ones",
+              "sortName": "Loved Ones, The",
+              "disambiguation": "1965-1967 Australian rock group",
+              "url": "https://www.setlist.fm/setlists/the-loved-ones-3d6f187.html"
+            }
+          },
+          {
+            "name": "The One Thing"
+          },
+          {
+            "name": "Shine Like It Does"
+          },
+          {
+            "name": "Wild Life"
+          },
+          {
+            "name": "Listen Like Thieves"
+          },
+          {
+            "name": "Kiss the Dirt (Falling Down the Mountain)"
+          },
+          {
+            "name": "This Time"
+          },
+          {
+            "name": "Burn for You"
+          },
+          {
+            "name": "New Sensation"
+          },
+          {
+            "name": "Calling All Nations"
+          },
+          {
+            "name": "Devil Inside"
+          },
+          {
+            "name": "What You Need"
+          },
+          {
+            "name": "Johnson's Aeroplane"
+          },
+          {
+            "name": "Just Keep Walking"
+          },
+          {
+            "name": "Original Sin"
+          },
+          {
+            "name": "I Send a Message"
+          },
+          {
+            "name": "Need You Tonight"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Mediate"
+          },
+          {
+            "name": "Never Tear Us Apart"
+          },
+          {
+            "name": "Don't Change"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3974517",
+    "eventDate": "08-12-2018",
+    "lastUpdated": "2020-05-06T18:37:56.010+0000",
+    "artist": {
+      "name": "Dimmer",
+      "mbid": "6f806db9-c470-4e0e-8013-68843e8188f1",
+      "tmid": null,
+      "disambiguation": "New Zealand group with Shayne Carter"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/dimmer/2018/powerstation-auckland-new-zealand-3974517.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Degrees of Existence"
+          },
+          {
+            "name": "I Believe You Are a Star"
+          },
+          {
+            "name": "Scrapbook"
+          },
+          {
+            "name": "Dawn’s Coming In"
+          },
+          {
+            "name": "Wrong Bus"
+          },
+          {
+            "name": "What's a Few Tears to the Ocean?"
+          },
+          {
+            "name": "Drop You Off"
+          },
+          {
+            "name": "Drift"
+          },
+          {
+            "name": "Seed"
+          }
+        ]
+      }
+    ]
+  }
+}

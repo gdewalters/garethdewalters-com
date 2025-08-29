@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "43f95797",
+    "eventDate": "09-02-1992",
+    "lastUpdated": "2020-01-17T23:04:57.314+0000",
+    "artist": {
+      "name": "3Ds",
+      "mbid": "718a88a0-6d93-4f2f-8c76-acc2edf1a79c",
+      "tmid": null,
+      "disambiguation": "New Zealand noise pop band"
+    },
+    "venue": {
+      "name": "Logan Campbell Centre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/3ds/1992/logan-campbell-centre-auckland-new-zealand-43f95797.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Spooky"
+          }
+        ]
+      }
+    ]
+  }
+}

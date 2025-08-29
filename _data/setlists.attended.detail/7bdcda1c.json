@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7bdcda1c",
+    "eventDate": "19-01-1996",
+    "lastUpdated": "2020-01-25T15:48:38.050+0000",
+    "artist": {
+      "name": "Nick Cave & the Bad Seeds",
+      "mbid": "172e1f1a-504d-4488-b053-6344ba63e6d0",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Mount Smart Stadium",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Murder Ballads",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/nick-cave-and-the-bad-seeds/1996/mount-smart-stadium-auckland-new-zealand-7bdcda1c.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Stagger Lee"
+          },
+          {
+            "name": "Do You Love Me?"
+          },
+          {
+            "name": "From Her to Eternity"
+          },
+          {
+            "name": "Mercy"
+          },
+          {
+            "name": "Loverman"
+          },
+          {
+            "name": "Jack the Ripper"
+          },
+          {
+            "name": "Red Right Hand"
+          },
+          {
+            "name": "Into My Arms"
+          },
+          {
+            "name": "Your Funeral... My Trial"
+          },
+          {
+            "name": "The Willow Garden"
+          },
+          {
+            "name": "The Weeping Song"
+          },
+          {
+            "name": "The Mercy Seat"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "53f883b5",
+    "eventDate": "26-02-2002",
+    "lastUpdated": "2020-07-18T01:12:14.404+0000",
+    "artist": {
+      "name": "Black Rebel Motorcycle Club",
+      "mbid": "32b90c92-9978-4a07-90eb-caa4b22f4907",
+      "tmid": null,
+      "disambiguation": "US rock band from San Francisco"
+    },
+    "venue": {
+      "name": "London Astoria",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "B.R.M.C.",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/black-rebel-motorcycle-club/2002/london-astoria-london-england-53f883b5.html",
+    "sets": []
+  }
+}

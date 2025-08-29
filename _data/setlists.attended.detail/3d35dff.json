@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3d35dff",
+    "eventDate": "11-11-2004",
+    "lastUpdated": "2018-01-04T10:04:28.120+0000",
+    "artist": {
+      "name": "Nick Cave & the Bad Seeds",
+      "mbid": "172e1f1a-504d-4488-b053-6344ba63e6d0",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Carling Academy Brixton",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "The Abattoir Blues Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/nick-cave-and-the-bad-seeds/2004/carling-academy-brixton-london-england-3d35dff.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Hiding All Away"
+          },
+          {
+            "name": "Messiah Ward"
+          },
+          {
+            "name": "Easy Money"
+          },
+          {
+            "name": "Supernaturally"
+          },
+          {
+            "name": "The Lyre of Orpheus"
+          },
+          {
+            "name": "Babe, You Turn Me On"
+          },
+          {
+            "name": "Nature Boy"
+          },
+          {
+            "name": "Get Ready for Love"
+          },
+          {
+            "name": "Carry Me"
+          },
+          {
+            "name": "There She Goes, My Beautiful World"
+          },
+          {
+            "name": "God Is in the House"
+          },
+          {
+            "name": "Red Right Hand"
+          },
+          {
+            "name": "The Ship Song"
+          },
+          {
+            "name": "Stagger Lee"
+          }
+        ]
+      }
+    ]
+  }
+}

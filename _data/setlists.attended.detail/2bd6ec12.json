@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2bd6ec12",
+    "eventDate": "07-07-2001",
+    "lastUpdated": "2024-08-22T15:04:52.748+0000",
+    "artist": {
+      "name": "Radiohead",
+      "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "South Park",
+      "city": "Oxford",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.7522210025796,
+        "long": -1.25596046447754
+      }
+    },
+    "tour": "Kid A/Amnesiac Tour (Third Leg)",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/radiohead/2001/south-park-oxford-england-2bd6ec12.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "The National Anthem"
+          },
+          {
+            "name": "Airbag"
+          },
+          {
+            "name": "Morning Bell",
+            "info": "released on 'I Might Be Wrong: Live Recordings'"
+          },
+          {
+            "name": "Lucky"
+          },
+          {
+            "name": "Packt Like Sardines in a Crushd Tin Box"
+          },
+          {
+            "name": "My Iron Lung"
+          },
+          {
+            "name": "Exit Music (For a Film)"
+          },
+          {
+            "name": "Knives Out"
+          },
+          {
+            "name": "No Surprises"
+          },
+          {
+            "name": "Dollars and Cents",
+            "info": "released on 'I Might Be Wrong: Live Recordings'"
+          },
+          {
+            "name": "Street Spirit (Fade Out)"
+          },
+          {
+            "name": "I Might Be Wrong",
+            "info": "released on 'I Might Be Wrong: Live Recordings'"
+          },
+          {
+            "name": "Pyramid Song"
+          },
+          {
+            "name": "Paranoid Android"
+          },
+          {
+            "name": "Idioteque",
+            "info": "released on 'I Might Be Wrong: Live Recordings'"
+          },
+          {
+            "name": "Everything in Its Right Place"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Fake Plastic Trees"
+          },
+          {
+            "name": "Karma Police"
+          },
+          {
+            "name": "You and Whose Army?"
+          },
+          {
+            "name": "How to Disappear Completely"
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "Talk Show Host"
+          },
+          {
+            "name": "The Bends"
+          }
+        ]
+      },
+      {
+        "encore": 3,
+        "song": [
+          {
+            "name": "Motion Picture Soundtrack",
+            "info": "The organ broke down at the start of the song; they decided to drop it and play \"Creep\" instead"
+          },
+          {
+            "name": "Creep",
+            "info": "Tour debut"
+          }
+        ]
+      }
+    ]
+  }
+}

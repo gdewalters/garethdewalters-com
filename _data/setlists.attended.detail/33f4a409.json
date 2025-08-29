@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "33f4a409",
+    "eventDate": "25-06-1995",
+    "lastUpdated": "2025-04-06T17:35:45.653+0000",
+    "artist": {
+      "name": "Morphine",
+      "mbid": "42689657-cbec-4f66-a9ed-80f939ea23ed",
+      "tmid": null,
+      "disambiguation": "rock band"
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/morphine/1995/worthy-farm-pilton-england-33f4a409.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Honey White"
+          },
+          {
+            "name": "Radar"
+          }
+        ]
+      }
+    ]
+  }
+}

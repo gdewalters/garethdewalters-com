@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "1b533ddc",
+    "eventDate": "07-06-2025",
+    "lastUpdated": "2025-06-27T11:34:21.510+0000",
+    "artist": {
+      "name": "Supergrass",
+      "mbid": "6386ddff-0d13-4685-9f0a-a82bf022fb1c",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Forum Theatre",
+      "city": "Melbourne",
+      "state": "Victoria",
+      "stateCode": "VIC",
+      "country": "Australia",
+      "countryCode": "AU",
+      "coords": {
+        "lat": -37.8139965641595,
+        "long": 144.963322877884
+      }
+    },
+    "tour": "I Should Coco 30th Anniversary Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/supergrass/2025/forum-theatre-melbourne-australia-1b533ddc.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Blockbuster",
+            "tape": true,
+            "cover": {
+              "mbid": "dc73bb40-b697-4df9-a2ec-0555bebdba75",
+              "name": "Sweet",
+              "sortName": "Sweet",
+              "disambiguation": "UK glam rock band",
+              "url": "https://www.setlist.fm/setlists/sweet-6bd6e2aa.html"
+            },
+            "info": "(Sweet Song)"
+          }
+        ]
+      },
+      {
+        "name": "I Should Coco",
+        "song": [
+          {
+            "name": "I'd Like to Know"
+          },
+          {
+            "name": "Caught by the Fuzz"
+          },
+          {
+            "name": "Mansize Rooster"
+          },
+          {
+            "name": "Alright"
+          },
+          {
+            "name": "Lose It",
+            "info": "Started playing Lenny before accidentally"
+          },
+          {
+            "name": "Lenny"
+          },
+          {
+            "name": "Strange Ones"
+          },
+          {
+            "name": "Sitting Up Straight"
+          },
+          {
+            "name": "She's So Loose"
+          },
+          {
+            "name": "We're Not Supposed To"
+          },
+          {
+            "name": "Time"
+          },
+          {
+            "name": "Sofa (of My Lethargy)"
+          },
+          {
+            "name": "Time To Go"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "song": [
+          {
+            "name": "Richard III"
+          },
+          {
+            "name": "Late in the Day"
+          },
+          {
+            "name": "Mary"
+          },
+          {
+            "name": "Moving"
+          },
+          {
+            "name": "Grace"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Sun Hits the Sky"
+          },
+          {
+            "name": "Pumping on Your Stereo"
+          },
+          {
+            "name": "(I've Had) The Time of My Life",
+            "tape": true,
+            "info": "Bill Medley & Jennifer Warnes"
+          }
+        ]
+      }
+    ]
+  }
+}

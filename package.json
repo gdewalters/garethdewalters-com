@@ -8,6 +8,8 @@
     "build:prod": "cross-env ELEVENTY_ENV=production npm run build:js && cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
     "build:js": "node _helpers/build-js.js",
     "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
+    "harvest:setlists": "node ./_helpers/fetch-setlists.js",
+    "harvest:setlists:full": "SETLISTFM_FULL_RESCAN=1 node ./_helpers/fetch-setlists.js",
     "start": "npx @11ty/eleventy --serve --quiet",
     "start:ppe": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --serve --quiet",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",

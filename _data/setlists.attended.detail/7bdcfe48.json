@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7bdcfe48",
+    "eventDate": "21-11-2001",
+    "lastUpdated": "2025-03-12T06:43:48.588+0000",
+    "artist": {
+      "name": "The White Stripes",
+      "mbid": "11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "London Astoria",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "White Blood Cells",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-white-stripes/2001/london-astoria-london-england-7bdcfe48.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Let's Shake Hands"
+          },
+          {
+            "name": "When I Hear My Name"
+          },
+          {
+            "name": "Dead Leaves and the Dirty Ground"
+          },
+          {
+            "name": "I Think I Smell a Rat"
+          },
+          {
+            "name": "Fell in Love With a Girl"
+          },
+          {
+            "name": "Expecting"
+          },
+          {
+            "name": "I'm Finding It Harder to Be a Gentleman"
+          },
+          {
+            "name": "Jolene",
+            "cover": {
+              "mbid": "1d543e07-d0d2-4834-a8db-d65c50c2a856",
+              "name": "Dolly Parton",
+              "sortName": "Parton, Dolly",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/dolly-parton-4bd6e7ae.html"
+            }
+          },
+          {
+            "name": "Death Letter",
+            "cover": {
+              "mbid": "8c87dda0-be58-4e48-a3b5-2626f26364c7",
+              "name": "Son House",
+              "sortName": "House, Son",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/son-house-1bd60174.html"
+            }
+          },
+          {
+            "name": "Mother's Children Have a Hard Time",
+            "cover": {
+              "mbid": "8a14c00b-4779-44e4-9b2e-4cc9dcd92e9b",
+              "name": "Blind Willie Johnson",
+              "sortName": "Johnson, Blind Willie",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/blind-willie-johnson-bd60156.html"
+            }
+          },
+          {
+            "name": "Let's Build a Home"
+          },
+          {
+            "name": "Goin' Back to Memphis",
+            "cover": {
+              "mbid": "db9fbcdb-8585-4a18-97bf-42ceaa37b3d4",
+              "name": "Soledad Brothers",
+              "sortName": "Soledad Brothers",
+              "disambiguation": "USA rock band",
+              "url": "https://www.setlist.fm/setlists/soledad-brothers-33d6f4c1.html"
+            }
+          },
+          {
+            "name": "Hotel Yorba"
+          },
+          {
+            "name": "Little Room"
+          },
+          {
+            "name": "The Union Forever"
+          },
+          {
+            "name": "We're Going to Be Friends"
+          },
+          {
+            "name": "Lord, Send Me an Angel",
+            "cover": {
+              "mbid": "81e02e29-e46a-49cb-bf13-d204cbe86daa",
+              "name": "Blind Willie McTell",
+              "sortName": "McTell, Blind Willie",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/blind-willie-mctell-63d62693.html"
+            }
+          },
+          {
+            "name": "Astro"
+          },
+          {
+            "name": "Jack the Ripper",
+            "cover": {
+              "mbid": "721204a6-1b6f-4ef2-9d34-fe79237177f7",
+              "name": "Clarence Stacy",
+              "sortName": "Stacy, Clarence",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/clarence-stacy-3bfcc098.html"
+            }
+          },
+          {
+            "name": "Cannon"
+          },
+          {
+            "name": "Screwdriver"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Rated \"X\"",
+            "cover": {
+              "mbid": "613260c3-d620-4645-94cd-33cd55f29b1e",
+              "name": "Loretta Lynn",
+              "sortName": "Lynn, Loretta",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/loretta-lynn-33d638c9.html"
+            }
+          },
+          {
+            "name": "Boll Weevil",
+            "cover": {
+              "mbid": "ddcfbdcf-cf8d-4776-8a69-10f39376b5a2",
+              "name": "Lead Belly",
+              "sortName": "Lead Belly",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/lead-belly-63d626e7.html"
+            }
+          }
+        ]
+      },
+      {
+        "encore": 2,
+        "song": [
+          {
+            "name": "You're Pretty Good Looking (for a Girl)"
+          },
+          {
+            "name": "Look Me Over Closely",
+            "cover": {
+              "mbid": "0a8df504-df94-4d77-a3c5-2b9e5c9727e2",
+              "name": "Terry Gilkyson",
+              "sortName": "Gilkyson, Terry",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/terry-gilkyson-2bd6cc02.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

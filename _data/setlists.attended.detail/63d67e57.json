@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "63d67e57",
+    "eventDate": "09-02-1992",
+    "lastUpdated": "2024-03-20T15:43:53.614+0000",
+    "artist": {
+      "name": "Nirvana",
+      "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "tmid": null,
+      "disambiguation": "1980s–1990s US grunge band"
+    },
+    "venue": {
+      "name": "Logan Campbell Centre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Nevermind",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/nirvana/1992/logan-campbell-centre-auckland-new-zealand-63d67e57.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Negative Creep"
+          },
+          {
+            "name": "Been a Son"
+          },
+          {
+            "name": "On a Plain"
+          },
+          {
+            "name": "Something in the Way"
+          },
+          {
+            "name": "Blew"
+          },
+          {
+            "name": "Come as You Are"
+          },
+          {
+            "name": "Lithium"
+          },
+          {
+            "name": "Breed"
+          },
+          {
+            "name": "Sliver"
+          },
+          {
+            "name": "Drain You"
+          },
+          {
+            "name": "About a Girl"
+          },
+          {
+            "name": "School"
+          },
+          {
+            "name": "Love Buzz",
+            "cover": {
+              "mbid": "8b399704-17f4-4001-943b-1d2b848940aa",
+              "name": "Shocking Blue",
+              "sortName": "Shocking Blue",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/shocking-blue-3d64da3.html"
+            }
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Polly"
+          },
+          {
+            "name": "Lounge Act"
+          },
+          {
+            "name": "Territorial Pissings"
+          },
+          {
+            "name": "Smells Like Teen Spirit"
+          }
+        ]
+      }
+    ]
+  }
+}

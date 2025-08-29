@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "3bf4a434",
+    "eventDate": "23-06-1995",
+    "lastUpdated": "2025-07-04T19:16:14.844+0000",
+    "artist": {
+      "name": "Ash",
+      "mbid": "99164692-c02d-407c-81c9-25d338dd21f4",
+      "tmid": null,
+      "disambiguation": "Northern Ireland alternative rock band"
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": "Trailer",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/ash/1995/worthy-farm-pilton-england-3bf4a434.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Silver Surfer"
+          },
+          {
+            "name": "Jack Names the Planets"
+          },
+          {
+            "name": "Intense Thing"
+          },
+          {
+            "name": "Uncle Pat"
+          },
+          {
+            "name": "Season"
+          },
+          {
+            "name": "Petrol"
+          },
+          {
+            "name": "Angel Interceptor"
+          },
+          {
+            "name": "Punk Boy",
+            "cover": {
+              "mbid": "eda80ec9-730c-41d2-a2f2-6bf1140126f7",
+              "name": "Helen Love",
+              "sortName": "Helen Love",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/helen-love-63d666f3.html"
+            }
+          },
+          {
+            "name": "Girl From Mars"
+          },
+          {
+            "name": "Kung Fu"
+          }
+        ]
+      }
+    ]
+  }
+}

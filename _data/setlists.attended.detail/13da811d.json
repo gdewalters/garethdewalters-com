@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "13da811d",
+    "eventDate": "25-06-1995",
+    "lastUpdated": "2025-07-04T19:16:14.755+0000",
+    "artist": {
+      "name": "Elastica",
+      "mbid": "46693641-1e2e-4aae-80ed-6b28170de63a",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Worthy Farm",
+      "city": "Pilton",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.0869868802263,
+        "long": -4.0620231628418
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/elastica/1995/worthy-farm-pilton-england-13da811d.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Gloria"
+          },
+          {
+            "name": "Line Up"
+          },
+          {
+            "name": "Annie"
+          },
+          {
+            "name": "Rockunroll"
+          },
+          {
+            "name": "Car Song"
+          },
+          {
+            "name": "Never Here"
+          },
+          {
+            "name": "Jam (II)"
+          },
+          {
+            "name": "Stutter"
+          },
+          {
+            "name": "2:1"
+          },
+          {
+            "name": "See That Animal"
+          },
+          {
+            "name": "Smile"
+          },
+          {
+            "name": "Waking Up"
+          },
+          {
+            "name": "S.O.F.T."
+          },
+          {
+            "name": "Connection"
+          },
+          {
+            "name": "Blue"
+          },
+          {
+            "name": "Vaseline"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "7bcc5ee0",
+    "eventDate": "21-02-2001",
+    "lastUpdated": "2025-01-17T02:30:17.714+0000",
+    "artist": {
+      "name": "Frank Black and the Catholics",
+      "mbid": "b025b720-a68c-4bd1-95fa-0ba95ed7a920",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "London Astoria",
+      "city": "London",
+      "state": "England",
+      "stateCode": "ENG",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "coords": {
+        "lat": 51.5084152563931,
+        "long": -0.125532746315002
+      }
+    },
+    "tour": "Dog In the Sand",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/frank-black-and-the-catholics/2001/london-astoria-london-england-7bcc5ee0.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "All the Tired Horses",
+            "cover": {
+              "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+              "name": "Bob Dylan",
+              "sortName": "Dylan, Bob",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html"
+            }
+          },
+          {
+            "name": "Hermaphroditos"
+          },
+          {
+            "name": "Superabound",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "So Hard to Make Things Out"
+          },
+          {
+            "name": "Fiddle Riddle",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "666 (The Anti-Christ)",
+            "cover": {
+              "mbid": "4d4c3444-f06e-4591-9f3c-55a21fa7ebc2",
+              "name": "Larry Norman",
+              "sortName": "Norman, Larry",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/larry-norman-53d61fb9.html"
+            }
+          },
+          {
+            "name": "Gouge Away",
+            "cover": {
+              "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+              "name": "Pixies",
+              "sortName": "Pixies",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/pixies-2bd6846a.html"
+            }
+          },
+          {
+            "name": "Dancing the Manta Ray",
+            "cover": {
+              "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+              "name": "Pixies",
+              "sortName": "Pixies",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/pixies-2bd6846a.html"
+            }
+          },
+          {
+            "name": "I'll Be Blue"
+          },
+          {
+            "name": "Calistan",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "Los Angeles",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "Coming Into Los Angeles",
+            "cover": {
+              "mbid": "b8efe8ac-45db-4a71-bb51-c1503986172f",
+              "name": "Arlo Guthrie",
+              "sortName": "Guthrie, Arlo",
+              "disambiguation": "American folk singer-songwriter",
+              "url": "https://www.setlist.fm/setlists/arlo-guthrie-6bd62666.html"
+            }
+          },
+          {
+            "name": "Bullet"
+          },
+          {
+            "name": "Nimrod's Son",
+            "cover": {
+              "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+              "name": "Pixies",
+              "sortName": "Pixies",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/pixies-2bd6846a.html"
+            }
+          },
+          {
+            "name": "Why Do You Hate Me?"
+          },
+          {
+            "name": "Dog Gone"
+          },
+          {
+            "name": "I've Seen Your Picture"
+          },
+          {
+            "name": "Oddball",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "Monkey Gone to Heaven",
+            "cover": {
+              "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+              "name": "Pixies",
+              "sortName": "Pixies",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/pixies-2bd6846a.html"
+            }
+          },
+          {
+            "name": "Mr. Grieves",
+            "cover": {
+              "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+              "name": "Pixies",
+              "sortName": "Pixies",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/pixies-2bd6846a.html"
+            }
+          },
+          {
+            "name": "I Switched You"
+          },
+          {
+            "name": "I Love Your Brain"
+          },
+          {
+            "name": "All My Ghosts"
+          },
+          {
+            "name": "Sir Rockaby",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "Steak'n'Sabre"
+          },
+          {
+            "name": "The Black Rider",
+            "cover": {
+              "mbid": "c3aeb863-7b26-4388-94e8-5a240f2be21b",
+              "name": "Tom Waits",
+              "sortName": "Waits, Tom",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/tom-waits-3bd6c0ac.html"
+            }
+          },
+          {
+            "name": "Don't Ya Rile Em",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "Every Time I Go Around Here",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "Fu Manchu",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "I'll Be Blue"
+          },
+          {
+            "name": "Robert Onion"
+          },
+          {
+            "name": "Where Is My Mind?",
+            "cover": {
+              "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+              "name": "Pixies",
+              "sortName": "Pixies",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/pixies-2bd6846a.html"
+            }
+          },
+          {
+            "name": "Blast Off"
+          },
+          {
+            "name": "The Marsist",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "Men in Black",
+            "cover": {
+              "mbid": "98a35a4d-a845-4282-bc7c-5679f2bb9bd2",
+              "name": "Frank Black",
+              "sortName": "Black, Frank",
+              "disambiguation": "US singer, songwriter & guitarist",
+              "url": "https://www.setlist.fm/setlists/frank-black-3bd6a418.html"
+            }
+          },
+          {
+            "name": "If It Takes All Night"
+          },
+          {
+            "name": "Re-Make/Re-Model",
+            "cover": {
+              "mbid": "331ce348-1b08-40b9-8ed7-0763b92bd003",
+              "name": "Roxy Music",
+              "sortName": "Roxy Music",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/roxy-music-23d6a0e7.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

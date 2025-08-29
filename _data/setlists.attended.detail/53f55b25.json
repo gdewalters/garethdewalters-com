@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-29T23:43:31.987Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "53f55b25",
+    "eventDate": "21-11-2015",
+    "lastUpdated": "2017-06-04T20:38:29.198+0000",
+    "artist": {
+      "name": "Florence + the Machine",
+      "mbid": "5fee3020-513b-48c2-b1f7-4681b01db0c6",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Vector Arena",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "How Big Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/florence-the-machine/2015/vector-arena-auckland-new-zealand-53f55b25.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "What the Water Gave Me"
+          },
+          {
+            "name": "Ship to Wreck"
+          },
+          {
+            "name": "Rabbit Heart (Raise It Up)"
+          },
+          {
+            "name": "Third Eye"
+          },
+          {
+            "name": "Delilah"
+          },
+          {
+            "name": "You Got the Love",
+            "cover": {
+              "mbid": "6afcc957-d742-41c6-ad0b-31b2f1967353",
+              "name": "Candi Staton",
+              "sortName": "Staton, Candi",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/candi-staton-53d65745.html"
+            }
+          },
+          {
+            "name": "How Big, How Blue, How Beautiful"
+          },
+          {
+            "name": "Caught"
+          },
+          {
+            "name": "Shake It Out"
+          },
+          {
+            "name": "Cosmic Love"
+          },
+          {
+            "name": "Queen of Peace"
+          },
+          {
+            "name": "What Kind of Man"
+          },
+          {
+            "name": "Spectrum"
+          },
+          {
+            "name": "Dog Days Are Over"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Mother"
+          },
+          {
+            "name": "Drumming Song"
+          }
+        ]
+      }
+    ]
+  }
+}
