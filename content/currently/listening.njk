@@ -54,12 +54,12 @@
 
             <section class="mt-16">
 
-                {# _data/setlists.views.json -> setlists_views #}
+                {# _data/setlists/views.json -> setlists.views, _data/setlists/attended/index.json -> setlists.attended.index #}
                 <h1>Live shows</h1>
                 <p>Marked as attended on <a href="https://www.setlist.fm/">setlist.fm</a></p>
 
-                {% set byYear = setlists_views and setlists_views.byYear %}
-                {% set index = setlists_attended_index and setlists_attended_index.items %}
+                {% set byYear = setlists.views and setlists.views.byYear %}
+                {% set index = setlists.attended.index and setlists.attended.index.items %}
 
                 {% if byYear and index %}
                 {# dictsort returns [key, value] pairs; reverse to get newest year first #}
