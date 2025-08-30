@@ -82,19 +82,38 @@ export default function(eleventyConfig) {
     });
 
     // Add a filter to format the date from 'DD-MM-YYYY' to a more readable format.
-    eleventyConfig.addFilter("date_format", (dateStr) => {
-        if (!dateStr) return '';
-        const [day, month, year] = dateStr.split('-');
-        // Create a Date object in a consistent way (YYYY-MM-DD for reliable parsing)
-        const date = new Date(`${year}-${month}-${day}T00:00:00`);
-        if (isNaN(date.getTime())) { // Check for invalid date
-            return dateStr; // Return original string if date is invalid
+    // Default: "DD MMMM YYYY" => e.g., "20 August 2024"
+    // Supports tokens: DD, MM, MMM, MMMM, Month, YYYY
+    eleventyConfig.addFilter("date_format", (input, pattern = "DD MMMM YYYY") => {
+        if (!input) return "";
+
+        // Try Setlist.fm format first: "DD-MM-YYYY"
+        let dt = DateTime.fromFormat(String(input), "dd-LL-yyyy", { zone: "utc" });
+
+        // Fallback to ISO/Date (e.g., harvestedAt)
+        if (!dt.isValid) dt = DateTime.fromISO(String(input), { zone: "utc" });
+        if (!dt.isValid) {
+            const d = new Date(String(input));
+            if (Number.isNaN(d.getTime())) return String(input);
+            dt = DateTime.fromJSDate(d, { zone: "utc" });
         }
-        return date.toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
+
+        const tokens = {
+            // Day
+            D:    dt.toFormat("d"),   // 1..31 (no leading zero)
+            DD:   dt.toFormat("dd"),  // 01..31
+            // Month
+            M:    dt.toFormat("L"),   // 1..12 (no leading zero)
+            MM:   dt.toFormat("LL"),  // 01..12
+            MMM:  dt.toFormat("LLL"), // Jan..Dec
+            MMMM: dt.toFormat("LLLL"),// January..December
+            Month: dt.toFormat("LLLL"),
+            // Year
+            YYYY: dt.toFormat("yyyy"),
+        };
+
+        // Replace longest tokens first to avoid collisions
+        return pattern.replace(/(MMMM|Month|MMM|MM|M|DD|D|YYYY)/g, t => tokens[t]);
     });
 
     // Add a slugify filter for creating clean URLs.

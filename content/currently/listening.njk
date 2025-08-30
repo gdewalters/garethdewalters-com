@@ -49,7 +49,7 @@
             <section>
             <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="font-serif text-3xl font-medium mb-4 text-center">Live shows</h2>
-                <p class="text-muted-foreground mb-12 text-center">A running list of gigs I’ve been lucky enough to see.</p>
+                <p class="text-muted-foreground mb-12 text-center">A running list of gigs I’ve been lucky enough to see. Last updated on {{ setlists.attended.index.harvestedAt | date_format("D MMMM YYYY") }}.</p>
 
                 {% set byYear = setlists.views.byYear %}
                 {% set index  = setlists.attended.index.items %}
@@ -75,7 +75,7 @@
                                 {% endif %}
                             </p>
                             <p class="text-muted-foreground text-sm">
-                                {{ item.eventDate }} at {{ item.venue }}
+                                {{ item.eventDate | date_format("D MMMM YYYY") }} at {{ item.venue }}
                                 {% if item.city %}, {{ item.city }}{% endif %}
                                 {% if item.countryCode %}, {{ item.countryCode }}{% endif %}
                             </p>

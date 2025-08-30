@@ -27,7 +27,7 @@ My personal website built with [Eleventy](https://www.11ty.dev/) and Tailwind th
 │   ├── setlists.views.json            # Precomputed views/groups (byYear/byArtist/...)
 │   └── setlists.attended.detail/      # Per-setlist detail JSON (one file per ID)
 ├── _helpers/        # Utility modules (cache, Contentful client, builders, harvesters)
-│   └── fetch-setlists.mjs             # Setlist.fm harvester (runs outside Eleventy)
+│   └── fetch-setlists.js             # Setlist.fm harvester (runs outside Eleventy)
 ├── _includes/       # Nunjucks layouts and reusable patterns
 ├── content/         # Page templates and content files
 ├── css/             # Tailwind source styles
@@ -138,7 +138,7 @@ npm run build:prod
 
 Benefits:
 
-* Generates optimized assets ready for deployment.
+* Generates optimised assets ready for deployment.
 * Applies production-specific settings.
 
 ---
@@ -188,12 +188,12 @@ Benefits:
 
 ---
 
-# Setlist.fm (attended gigs) — Offline harvesting & local views
+## Setlist.fm (attended gigs) — Offline harvesting & local views
 
 This site **does not call the Setlist.fm API during Eleventy builds**.
 Instead, a small Node harvester fetches all **attended gigs** for a user and writes JSON into `_data/`. Eleventy renders from those local files (fast, deterministic builds, no rate limits).
 
-## Getting started with Setlist.fm
+### Getting started with Setlist.fm
 
 1. **Create a Setlist.fm account** and mark your gigs as *Attended*.
 2. **Request an API key** on Setlist.fm’s API page (free for personal use).
@@ -205,19 +205,19 @@ Instead, a small Node harvester fetches all **attended gigs** for a user and wri
    ```
 5. **Render locally** with Eleventy — the pages pull from `_data/` (no live API calls).
 
-## What gets created
+### What gets created
 
 * `_data/setlists.attended.index.json` — compact **index** of all attended shows
   `items[]` = summary rows (id, date, artist, venue/city/country, tour, festival, url)
 * `_data/setlists.views.json` — precomputed **views** for quick grouping
   `byYear`, `byArtist`, `byVenue`, `byFestival`, `byCountry`, plus `labels.country`
   *(Optional) `byId` — id → summary item map for O(1) lookups*
-* `_data/setlists.attended.detail/ID.json` — **detail** per setlist (full normalized record incl. sets)
+* `_data/setlists.attended.detail/ID.json` — **detail** per setlist (full normalised record incl. sets)
 
 Remember: dotted filenames are **nested globals** in Nunjucks:
 `setlists.attended.index` and `setlists.views`.
 
-## NPM scripts
+### NPM scripts
 
 Add to `package.json`:
 
@@ -230,7 +230,7 @@ Add to `package.json`:
 }
 ```
 
-## Ongoing updates
+### Ongoing updates
 
 * Run manually when needed:
 
@@ -270,7 +270,7 @@ Add to `package.json`:
             git push
   ```
 
-## Harvester behavior
+### Harvester behaviour
 
 * Endpoint: `GET /user/{username}/attended` (paged; newest first; 20 per page)
 * **Delta sync**: fetches until it hits a page that’s all *known* and *older than last harvest*
@@ -279,7 +279,7 @@ Add to `package.json`:
 * **Integrity hash**: avoids rewriting `index`/`views` when nothing changed
 * **Full rescan**: set `SETLISTFM_FULL_RESCAN=1` to rebuild everything
 
-## Data shapes (reference)
+### Data shapes (reference)
 
 **Index** (`_data/setlists.attended.index.json`)
 
@@ -292,16 +292,16 @@ Add to `package.json`:
   "items": [
     {
       "id": "3bd6443c",
-      "eventDate": "20-08-2024",
+      "eventDate": "07-06-2025",
       "artist": "Supergrass",
-      "venue": "Powerstation",
-      "city": "Auckland",
-      "country": "New Zealand",
-      "countryCode": "NZ",
-      "tour": "European Tour 2024",
-      "festival": "Reading Festival",
+      "venue": "Forum Theatre",
+      "city": "Melbourne",
+      "country": "Australia",
+      "countryCode": "AU",
+      "tour": "Should Coco 30th Anniversary Tour",
+      "festival": "Rising 2025",
       "url": "https://www.setlist.fm/...",
-      "lastUpdated": "2024-08-21T12:34:56Z"
+      "lastUpdated": "2025-08-21T12:34:56Z"
     }
   ]
 }
@@ -330,7 +330,7 @@ Add to `package.json`:
   "schemaVersion": 1,
   "harvestedAt": "...",
   "username": "example",
-  "setlist": { /* normalized full setlist incl. sets[] */ }
+  "setlist": { /* normalised full setlist incl. sets[] */ }
 }
 ```
 
@@ -373,7 +373,7 @@ Render gigs **by year** (no API calls during build):
 ```
 
 **Helper filter (add once in `eleventy.config.js`)**
-*(Skip this if you added `views.byId`):*
+*(Skip this if already added `views.byId`):*
 
 ```js
 export default function (config) {
