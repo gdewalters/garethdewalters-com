@@ -42,11 +42,11 @@ permalink: "/currently/listening.html",
             </section>
 
             {# Live shows section fetched from local JSON version data #}
-            <section id="live-shows">
+            <section id="gigs-attended"">
                 <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                     <!-- Gig section header -->
                     <header class="text-center mb-8">
-                        <h2 class="font-serif text-3xl font-medium mb-4 text-center mb-2">Live shows</h2>
+                        <h2 class="font-serif text-3xl font-medium mb-4 text-center mb-2">Concerts</h2>
                         <p class="text-muted-foreground mb-12 text-center">
                             A running list of gigs I’ve been lucky enough to see. Last updated on {{ setlists.attended.index.harvestedAt | date_format("D MMMM YYYY") }}.
                         </p>
@@ -64,7 +64,7 @@ permalink: "/currently/listening.html",
 
                                 <!-- Gigs by year header -->
                                 <div class="flex items-center space-x-4 mb-4">
-                                    <h2 class="text-3xl font-bold">{{ year }}</h2>
+                                    <h3 class="text-2xl font-serif font-bold">{{ year }}</h3>
                                     <div class="flex-grow border-t border-huntergreen"></div>
                                 </div>
 
@@ -73,42 +73,40 @@ permalink: "/currently/listening.html",
                                     {% set item = setlists.views.byId and setlists.views.byId[id] or (index | findById(id)) %}
                                     {% if item %}
                                         <!-- Gig card -->
-                                        <div class="bg-secondary p-6 rounded-lg shadow-md mb-4">
-                                            <!-- Gig card: artist title -->
-                                            <h3 class="text-xl font-bold text-huntergreen mb-1">
-                                                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="">
-                                                    {{ item.artist }}
-                                                </a>
-                                            </h3>
+                                        <article itemscope itemtype="http://schema.org/MusicEvent" class="bg-secondary p-6 rounded-lg shadow-md mb-4">
+                                            <header>
+                                                <h3 class="text-xl font-bold text-huntergreen mb-1">
+                                                    <a itemprop="url" href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="link-artist">
+                                                        <span itemprop="name">{{ item.artist }}</span>
+                                                    </a>
+                                                </h3>
+                                                <p>
+                                                    <span class="text-muted-foreground text-sm">
+                                                        {% if item.eventDate %}<time itemprop="startDate" datetime="{{ item.eventDate | date_format("YYYY-MM-DD") }}">{{ item.eventDate | date_format("D MMMM YYYY") }}</time>{% endif %}
+                                                        at
+                                                        <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                                                            <span itemprop="name">{% if item.venue %}{{ item.venue }}{% endif %}</span>
+                                                            ,
+                                                            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                                                <span itemprop="addressLocality">{% if item.city %}{{ item.city }}{% endif %}</span>
+                                                                ,
+                                                                <span itemprop="addressCountry">{% if item.countryCode %}{{ item.countryCode }}{% endif %}</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </p>
+                                            </header>
 
+                                            <div class="mt-2 text-sm text-muted-foreground">
+                                                <p itemprop="tour" itemscope itemtype="http://schema.org/Music">
+                                                    Tour: <span itemprop="name">{% if item.tour %}{{ item.tour }}{% endif %}</span>
+                                                </p>
+                                                <p itemprop="superEvent" itemscope itemtype="http://schema.org/MusicEvent">
+                                                    Festival: <span itemprop="name">{% if item.festival %}{{ item.festival }}{% endif %}</span>
+                                                </p>
+                                            </div>
+                                        </article>
 
- 
-                                            <!-- Gig card: details -->
-                                            <p class="text-muted-foreground text-sm">
-                                                {% if item.tour %}
-                                                    {{ item.tour }}
-                                                {% endif %}
-                                                {% if item.tour and item.eventDate %}, {% endif %}
-                                                {% if item.eventDate %}
-                                                    {{ item.eventDate | date_format("D MMMM YYYY") }}
-                                                {% endif %}
-                                                {% if (item.eventDate and item.venue) %} at {% endif %}
-                                                {% if item.venue %}
-                                                    {{ item.venue }}
-                                                {% endif %}
-                                                {% if (item.venue and item.city) %}, {% endif %}
-                                                {% if item.city %}
-                                                    {{ item.city }}
-                                                {% endif %}
-                                                {% if (item.city and item.countryCode) %}, {% endif %}
-                                                {% if item.countryCode %}
-                                                    {{ item.countryCode }}
-                                                {% endif %}
-                                                {% if item.festival %}
-                                                    {{ item.festival }}
-                                                {% endif %}
-                                            </p>
-                                        </div>
                                     {% endif %}
                                 {% endfor %}
                                     
