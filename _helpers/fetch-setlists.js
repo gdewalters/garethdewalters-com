@@ -127,7 +127,7 @@ async function paginateUserAttendedDelta(username, knownIds, alwaysRefreshPages,
   return all;
 }
 
-// ---------- NEW: views precompute ----------
+// ---------- Views precompute ----------
 function parseYMD(ddmmyyyy){
   // dd-mm-yyyy -> [yyyy, mm, dd] strings padded
   if(!ddmmyyyy) return ["0000","00","00"];
@@ -179,10 +179,14 @@ function buildViews(items){
     return code;
   });
 
+  // O(1) lookup
+  const byId = Object.fromEntries(sorted.map(it => [it.id, it]));
+
   return {
     schemaVersion: SCHEMA_VERSION,
     byYear, byArtist, byVenue, byFestival, byCountry,
-    labels
+    labels,
+    byId,
   };
 }
 // ---------- /views precompute ----------
