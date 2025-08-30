@@ -86,7 +86,7 @@ function toIndexEntry(n){
     city: n.venue?.city ?? null,
     country: n.venue?.country ?? null,
     countryCode: n.venue?.countryCode ?? null,
-    festival: n.festival ? n.festival.name : null,
+    festival: n.festival?.name ?? null,
     tour: n.tour,
     url: n.url,
     lastUpdated: n.lastUpdated,
@@ -102,7 +102,8 @@ async function ensureDirs(){ await fs.mkdir(OUT_DIR,{recursive:true}); await fs.
 function isAfter(aISO,bISO){ if(!aISO||!bISO) return false; return new Date(aISO).getTime() > new Date(bISO).getTime(); }
 
 async function fetchUserAttendedPage(username,page){
-  const usp = new URLSearchParams({p:String(page)});
+  // Request festival information for each setlist page
+  const usp = new URLSearchParams({ p: String(page), inc: "festival" });
   const url = `${API_BASE}/user/${encodeURIComponent(username)}/attended?${usp}`;
   const data = await fetchWithBackoff(url);
   const items = Array.isArray(data.setlist) ? data.setlist : (data.setlist ? [data.setlist] : []);
