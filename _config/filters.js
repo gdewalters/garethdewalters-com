@@ -106,4 +106,11 @@ export default function(eleventyConfig) {
             .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
     });
 
+    // Add a filter to find an item by its 'id' property in an array of objects.
+    eleventyConfig.addFilter("findById", (items, id) =>
+        Array.isArray(items) ? items.find(i => i.id === id) : null
+    );
+
+
+
 };

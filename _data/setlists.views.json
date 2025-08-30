@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-08-30T00:05:57.214Z",
+  "byYear": {
+    "1988": [
+      "53c06379"
+    ],
+    "1990": [
+      "43fc2b17"
+    ],
+    "1991": [
+      "13c2093d"
+    ],
+    "1992": [
+      "73d7ee5d",
+      "43f95797",
+      "63d67e57",
+      "4bf95796"
+    ],
+    "1993": [
+      "73d83a21",
+      "3b905084"
+    ],
+    "1994": [
+      "5bd24328",
+      "7393661d",
+      "7bdcda28",
+      "7ba32298",
+      "6bdcda2a"
+    ],
+    "1995": [
+      "6bd38e06",
+      "23ca5c83",
+      "63d5323f",
+      "7be40244",
+      "23f4a40b",
+      "13da811d",
+      "33f4a409",
+      "bd7e95e",
+      "13d099f9",
+      "4bd28b8a",
+      "2bc6d86a",
+      "23d7bc77",
+      "33f4a419",
+      "6bdcc202",
+      "3bf4a434",
+      "bc6ddde",
+      "3bccecdc",
+      "2bd798ba",
+      "6b919a36",
+      "3bf0ac20",
+      "3bd3644c",
+      "63d44a6f"
+    ],
+    "1996": [
+      "7bdcda1c"
+    ],
+    "1997": [
+      "6bdfaad2",
+      "be07d62"
+    ],
+    "1998": [
+      "13d24551"
+    ],
+    "2000": [
+      "33d5c87d",
+      "2b944412",
+      "53c03fe1",
+      "53d2ff2d"
+    ],
+    "2001": [
+      "43d1ef17",
+      "7bdcfe48",
+      "2bd6ec12",
+      "63d55eb7",
+      "4bdacfae",
+      "13d341ed",
+      "63d47ebb",
+      "7bcc5ee0"
+    ],
+    "2002": [
+      "33d1f4b9",
+      "1bd7d154",
+      "3dea987",
+      "7bdeca3c",
+      "5bdb57e0",
+      "53f883b5"
+    ],
+    "2003": [
+      "23c59077",
+      "23d638c7",
+      "4bcbeb9a",
+      "6bd85256",
+      "2bd1f4c6"
+    ],
+    "2004": [
+      "3d35dff",
+      "43c637b3",
+      "13d67985"
+    ],
+    "2005": [
+      "3bc26060"
+    ],
+    "2007": [
+      "6bd7e29e"
+    ],
+    "2008": [
+      "5bf8dbf4",
+      "4bcf87c6"
+    ],
+    "2009": [
+      "4b917b42"
+    ],
+    "2010": [
+      "43d4b7d3",
+      "2bdee89e"
+    ],
+    "2011": [
+      "1bda4920"
+    ],
+    "2012": [
+      "3e9e1ab"
+    ],
+    "2013": [
+      "2bdb74b2",
+      "13db0d5d",
+      "2beb583a"
+    ],
+    "2014": [
+      "63ce56bf"
+    ],
+    "2015": [
+      "53f55b25",
+      "3f50d53",
+      "3bf4f8d0"
+    ],
+    "2016": [
+      "33f0fcd1"
+    ],
+    "2017": [
+      "4be27f7a"
+    ],
+    "2018": [
+      "2394b023",
+      "3974517",
+      "1b974510",
+      "33e870cd",
+      "2beae0ba",
+      "43ee77eb",
+      "7bee065c",
+      "43eea77b"
+    ],
+    "2019": [
+      "139f6559",
+      "2b9260b2",
+      "4b92e356",
+      "1b9545b8",
+      "63958a43",
+      "7b958a30"
+    ],
+    "2020": [
+      "5bbb97e0"
+    ],
+    "2021": [
+      "238fc4c3",
+      "5b8eabcc"
+    ],
+    "2022": [
+      "23bf58f3"
+    ],
+    "2023": [
+      "43a1ef23",
+      "7bbb92d8",
+      "63bb92df",
+      "3ba0913"
+    ],
+    "2024": [
+      "b5f8972",
+      "35f8977",
+      "135f8969",
+      "2352948b",
+      "1356f5d1",
+      "7ba9ba54",
+      "4bad7346",
+      "73ada60d"
+    ],
+    "2025": [
+      "1b533ddc"
+    ]
+  },
+  "byArtist": {
+    "Supergrass": [
+      "1b533ddc",
+      "63d55eb7"
+    ],
+    "Dean & Britta": [
+      "b5f8972"
+    ],
+    "Erny Belle": [
+      "35f8977"
+    ],
+    "Mystery Waitress": [
+      "135f8969"
+    ],
+    "Loves Ugly Children": [
+      "2352948b"
+    ],
+    "Ride": [
+      "1356f5d1",
+      "23bf58f3",
+      "139f6559"
+    ],
+    "The Jesus and Mary Chain": [
+      "7ba9ba54",
+      "4b92e356",
+      "33f0fcd1",
+      "23ca5c83",
+      "3bd3644c"
+    ],
+    "Dinosaur Jr.": [
+      "4bad7346",
+      "2bdb74b2"
+    ],
+    "Calexico": [
+      "73ada60d"
+    ],
+    "The Brian Jonestown Massacre": [
+      "43a1ef23",
+      "2beae0ba",
+      "3f50d53"
+    ],
+    "The D4": [
+      "7bbb92d8"
+    ],
+    "The Schizophonics": [
+      "63bb92df",
+      "5bbb97e0"
+    ],
+    "Pavement": [
+      "3ba0913"
+    ],
+    "Courtney Barnett": [
+      "238fc4c3"
+    ],
+    "The Veils": [
+      "5b8eabcc",
+      "2bdee89e"
+    ],
+    "Neko Case": [
+      "2b9260b2"
+    ],
+    "Teenage Fanclub": [
+      "1b9545b8",
+      "3bf0ac20"
+    ],
+    "Florence + the Machine": [
+      "63958a43",
+      "53f55b25"
+    ],
+    "Parquet Courts": [
+      "7b958a30"
+    ],
+    "The Breeders": [
+      "2394b023",
+      "5bf8dbf4",
+      "3dea987",
+      "7bdcda28"
+    ],
+    "Dimmer": [
+      "3974517"
+    ],
+    "Straitjacket Fits": [
+      "1b974510"
+    ],
+    "Superette": [
+      "33e870cd"
+    ],
+    "Primal Scream": [
+      "43ee77eb"
+    ],
+    "Protomartyr": [
+      "7bee065c"
+    ],
+    "Slowdive": [
+      "43eea77b"
+    ],
+    "The Dandy Warhols": [
+      "4be27f7a"
+    ],
+    "Luna": [
+      "3bf4f8d0",
+      "3bc26060"
+    ],
+    "Kristin Hersh": [
+      "63ce56bf"
+    ],
+    "The Stone Roses": [
+      "13db0d5d"
+    ],
+    "Bailterspace": [
+      "2beb583a"
+    ],
+    "Mark Gardener": [
+      "3e9e1ab"
+    ],
+    "Shayne Carter": [
+      "1bda4920"
+    ],
+    "Pixies": [
+      "43d4b7d3",
+      "13d67985"
+    ],
+    "Head Like a Hole": [
+      "4b917b42"
+    ],
+    "PJ Harvey": [
+      "4bcf87c6",
+      "43c637b3",
+      "4bd28b8a"
+    ],
+    "The Cure": [
+      "6bd7e29e",
+      "bd7e95e",
+      "73d7ee5d"
+    ],
+    "Nick Cave & the Bad Seeds": [
+      "3d35dff",
+      "13d341ed",
+      "7bdcda1c"
+    ],
+    "Franz Ferdinand": [
+      "23c59077"
+    ],
+    "Jane’s Addiction": [
+      "23d638c7",
+      "13c2093d"
+    ],
+    "The Datsuns": [
+      "4bcbeb9a"
+    ],
+    "The Kills": [
+      "6bd85256"
+    ],
+    "The Raveonettes": [
+      "2bd1f4c6"
+    ],
+    "Black Rebel Motorcycle Club": [
+      "33d1f4b9",
+      "53f883b5"
+    ],
+    "Morrissey": [
+      "1bd7d154"
+    ],
+    "The Hives": [
+      "7bdeca3c"
+    ],
+    "Yeah Yeah Yeahs": [
+      "5bdb57e0"
+    ],
+    "Pulp": [
+      "43d1ef17",
+      "23d7bc77"
+    ],
+    "The White Stripes": [
+      "7bdcfe48"
+    ],
+    "Radiohead": [
+      "2bd6ec12",
+      "5bd24328"
+    ],
+    "Echo & the Bunnymen": [
+      "4bdacfae"
+    ],
+    "Neil Finn": [
+      "63d47ebb"
+    ],
+    "Frank Black and the Catholics": [
+      "7bcc5ee0"
+    ],
+    "Queens of the Stone Age": [
+      "33d5c87d"
+    ],
+    "James": [
+      "2b944412"
+    ],
+    "Ween": [
+      "53c03fe1"
+    ],
+    "JJ72": [
+      "53d2ff2d"
+    ],
+    "Portishead": [
+      "13d24551",
+      "2bc6d86a"
+    ],
+    "Blur": [
+      "6bdfaad2"
+    ],
+    "The Lemonheads": [
+      "be07d62"
+    ],
+    "Electrafixion": [
+      "6bd38e06"
+    ],
+    "Ramones": [
+      "63d5323f"
+    ],
+    "Cast": [
+      "7be40244"
+    ],
+    "Drugstore": [
+      "23f4a40b"
+    ],
+    "Elastica": [
+      "13da811d"
+    ],
+    "Morphine": [
+      "33f4a409"
+    ],
+    "The Verve": [
+      "13d099f9"
+    ],
+    "Skunk Anansie": [
+      "33f4a419"
+    ],
+    "Weezer": [
+      "6bdcc202"
+    ],
+    "Ash": [
+      "3bf4a434"
+    ],
+    "Belly": [
+      "bc6ddde"
+    ],
+    "Dodgy": [
+      "3bccecdc"
+    ],
+    "Oasis": [
+      "2bd798ba"
+    ],
+    "J Mascis": [
+      "6b919a36"
+    ],
+    "Siouxsie and the Banshees": [
+      "63d44a6f"
+    ],
+    "Gene": [
+      "7393661d"
+    ],
+    "The Jean-Paul Sartre Experience": [
+      "7ba32298"
+    ],
+    "The Smashing Pumpkins": [
+      "6bdcda2a"
+    ],
+    "Faith No More": [
+      "73d83a21"
+    ],
+    "Throwing Muses": [
+      "3b905084"
+    ],
+    "3Ds": [
+      "43f95797"
+    ],
+    "Nirvana": [
+      "63d67e57"
+    ],
+    "Second Child": [
+      "4bf95796"
+    ],
+    "The Mission": [
+      "43fc2b17"
+    ],
+    "INXS": [
+      "53c06379"
+    ]
+  },
+  "byVenue": {
+    "Forum Theatre, Melbourne, AU": [
+      "1b533ddc"
+    ],
+    "Double Whammy, Auckland, NZ": [
+      "b5f8972",
+      "35f8977"
+    ],
+    "Whammy Bar, Auckland, NZ": [
+      "135f8969",
+      "7bee065c"
+    ],
+    "The Mothership, Auckland, NZ": [
+      "2352948b"
+    ],
+    "Powerstation, Auckland, NZ": [
+      "1356f5d1",
+      "7ba9ba54",
+      "73ada60d",
+      "43a1ef23",
+      "7bbb92d8",
+      "63bb92df",
+      "5b8eabcc",
+      "139f6559",
+      "4b92e356",
+      "1b9545b8",
+      "2394b023",
+      "3974517",
+      "1b974510",
+      "2beae0ba",
+      "43ee77eb",
+      "4be27f7a",
+      "33f0fcd1",
+      "3f50d53",
+      "2bdb74b2",
+      "43d4b7d3",
+      "4b917b42",
+      "5bd24328",
+      "3b905084"
+    ],
+    "Auckland Town Hall, Auckland, NZ": [
+      "4bad7346",
+      "73d83a21",
+      "13c2093d",
+      "43fc2b17"
+    ],
+    "Civic Theatre, Auckland, NZ": [
+      "3ba0913",
+      "4bcf87c6"
+    ],
+    "Studio The Venue, Auckland, NZ": [
+      "23bf58f3"
+    ],
+    "Leigh Sawmill Cafe, Leigh, NZ": [
+      "238fc4c3"
+    ],
+    "Panhead Brewery, Upper Hutt, NZ": [
+      "5bbb97e0"
+    ],
+    "Spiegeltent, Auckland, NZ": [
+      "2b9260b2"
+    ],
+    "Albert Park, Auckland, NZ": [
+      "63958a43",
+      "7b958a30",
+      "43eea77b"
+    ],
+    "Galatos, Auckland, NZ": [
+      "33e870cd"
+    ],
+    "Vector Arena, Auckland, NZ": [
+      "53f55b25",
+      "13db0d5d",
+      "6bd7e29e"
+    ],
+    "The Tuning Fork, Auckland, NZ": [
+      "3bf4f8d0"
+    ],
+    "Q Theatre, Auckland, NZ": [
+      "63ce56bf"
+    ],
+    "Kings Arms, Auckland, NZ": [
+      "2beb583a",
+      "3e9e1ab",
+      "1bda4920",
+      "2bdee89e"
+    ],
+    "Bruce Mason Centre, Auckland, NZ": [
+      "5bf8dbf4"
+    ],
+    "ULU, London, GB": [
+      "3bc26060",
+      "6bd85256",
+      "2bd1f4c6"
+    ],
+    "Carling Academy Brixton, London, GB": [
+      "3d35dff",
+      "43c637b3",
+      "13d67985"
+    ],
+    "Carling Academy Islington, London, GB": [
+      "23c59077"
+    ],
+    "Carling Apollo Hammersmith, London, GB": [
+      "23d638c7"
+    ],
+    "Shepherd's Bush Empire, London, GB": [
+      "4bcbeb9a",
+      "33d1f4b9",
+      "4bdacfae",
+      "63d47ebb",
+      "53d2ff2d",
+      "6bd38e06",
+      "23ca5c83",
+      "7be40244",
+      "3bf0ac20",
+      "63d44a6f",
+      "7393661d"
+    ],
+    "Brixton Academy, London, GB": [
+      "1bd7d154",
+      "7bdeca3c",
+      "5bdb57e0",
+      "43d1ef17",
+      "13d341ed",
+      "2b944412"
+    ],
+    "Mean Fiddler, London, GB": [
+      "3dea987"
+    ],
+    "London Astoria, London, GB": [
+      "53f883b5",
+      "7bdcfe48",
+      "7bcc5ee0",
+      "33d5c87d",
+      "53c03fe1",
+      "63d5323f"
+    ],
+    "South Park, Oxford, GB": [
+      "2bd6ec12",
+      "63d55eb7"
+    ],
+    "North Shore Events Centre, Auckland, NZ": [
+      "13d24551",
+      "6bdfaad2"
+    ],
+    "Kurtz Lounge, Auckland, NZ": [
+      "be07d62"
+    ],
+    "Mount Smart Stadium, Auckland, NZ": [
+      "7bdcda1c",
+      "7bdcda28",
+      "7ba32298",
+      "6bdcda2a",
+      "53c06379"
+    ],
+    "Worthy Farm, Pilton, GB": [
+      "23f4a40b",
+      "13da811d",
+      "33f4a409",
+      "bd7e95e",
+      "13d099f9",
+      "4bd28b8a",
+      "2bc6d86a",
+      "23d7bc77",
+      "33f4a419",
+      "6bdcc202",
+      "3bf4a434",
+      "bc6ddde",
+      "3bccecdc",
+      "2bd798ba"
+    ],
+    "The Underworld, London, GB": [
+      "6b919a36"
+    ],
+    "Trinity Centre, Bristol, GB": [
+      "3bd3644c"
+    ],
+    "The Supertop, Auckland, NZ": [
+      "73d7ee5d"
+    ],
+    "Logan Campbell Centre, Auckland, NZ": [
+      "43f95797",
+      "63d67e57",
+      "4bf95796"
+    ]
+  },
+  "byFestival": {},
+  "byCountry": {
+    "AU": [
+      "1b533ddc"
+    ],
+    "NZ": [
+      "b5f8972",
+      "35f8977",
+      "135f8969",
+      "2352948b",
+      "1356f5d1",
+      "7ba9ba54",
+      "4bad7346",
+      "73ada60d",
+      "43a1ef23",
+      "7bbb92d8",
+      "63bb92df",
+      "3ba0913",
+      "23bf58f3",
+      "238fc4c3",
+      "5b8eabcc",
+      "5bbb97e0",
+      "139f6559",
+      "2b9260b2",
+      "4b92e356",
+      "1b9545b8",
+      "63958a43",
+      "7b958a30",
+      "2394b023",
+      "3974517",
+      "1b974510",
+      "33e870cd",
+      "2beae0ba",
+      "43ee77eb",
+      "7bee065c",
+      "43eea77b",
+      "4be27f7a",
+      "33f0fcd1",
+      "53f55b25",
+      "3f50d53",
+      "3bf4f8d0",
+      "63ce56bf",
+      "2bdb74b2",
+      "13db0d5d",
+      "2beb583a",
+      "3e9e1ab",
+      "1bda4920",
+      "43d4b7d3",
+      "2bdee89e",
+      "4b917b42",
+      "5bf8dbf4",
+      "4bcf87c6",
+      "6bd7e29e",
+      "13d24551",
+      "6bdfaad2",
+      "be07d62",
+      "7bdcda1c",
+      "5bd24328",
+      "7bdcda28",
+      "7ba32298",
+      "6bdcda2a",
+      "73d83a21",
+      "3b905084",
+      "73d7ee5d",
+      "43f95797",
+      "63d67e57",
+      "4bf95796",
+      "13c2093d",
+      "43fc2b17",
+      "53c06379"
+    ],
+    "GB": [
+      "3bc26060",
+      "3d35dff",
+      "43c637b3",
+      "13d67985",
+      "23c59077",
+      "23d638c7",
+      "4bcbeb9a",
+      "6bd85256",
+      "2bd1f4c6",
+      "33d1f4b9",
+      "1bd7d154",
+      "3dea987",
+      "7bdeca3c",
+      "5bdb57e0",
+      "53f883b5",
+      "43d1ef17",
+      "7bdcfe48",
+      "2bd6ec12",
+      "63d55eb7",
+      "4bdacfae",
+      "13d341ed",
+      "63d47ebb",
+      "7bcc5ee0",
+      "33d5c87d",
+      "2b944412",
+      "53c03fe1",
+      "53d2ff2d",
+      "6bd38e06",
+      "23ca5c83",
+      "63d5323f",
+      "7be40244",
+      "23f4a40b",
+      "13da811d",
+      "33f4a409",
+      "bd7e95e",
+      "13d099f9",
+      "4bd28b8a",
+      "2bc6d86a",
+      "23d7bc77",
+      "33f4a419",
+      "6bdcc202",
+      "3bf4a434",
+      "bc6ddde",
+      "3bccecdc",
+      "2bd798ba",
+      "6b919a36",
+      "3bf0ac20",
+      "3bd3644c",
+      "63d44a6f",
+      "7393661d"
+    ]
+  },
+  "labels": {
+    "country": {
+      "AU": "Australia",
+      "NZ": "New Zealand",
+      "GB": "United Kingdom"
+    }
+  },
+  "__integrityHash": "d4b39655e9e58a0f2555d670341ad78b39d97c8e00559d4a2296fface4cf9dda"
+}

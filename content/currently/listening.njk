@@ -49,7 +49,57 @@
 
             </section>
 
-            {# Live shows section #}
+
+
+
+            <section class="mt-16">
+
+                {# _data/setlists.views.json -> setlists_views #}
+                <h1>Live shows</h1>
+                <p>Marked as attended on <a href="https://www.setlist.fm/">setlist.fm</a></p>
+
+                {% set byYear = setlists_views and setlists_views.byYear %}
+                {% set index = setlists_attended_index and setlists_attended_index.items %}
+
+                {% if byYear and index %}
+                {# dictsort returns [key, value] pairs; reverse to get newest year first #}
+                {% for pair in (byYear | dictsort) | reverse %}
+                    {% set year = pair[0] %}
+                    {% set ids  = pair[1] %}
+
+                    <h2>{{ year }}</h2>
+                    <ul>
+                    {% for id in ids %}
+                        {% set item = index | findById(id) %}
+                        {% if item %}
+                        <li>
+                            <strong>{{ item.artist }}</strong>
+                            {% if item.tour %} for {{ item.tour }}{% endif %}<br/>
+                            <small>{{ item.eventDate }} at {{ item.venue }}, {{ item.city }}{% if item.countryCode %}, {{ item.countryCode }}{% endif %}</small>
+                            {% if item.festival %}<br/><em>{{ item.festival }}</em>{% endif %}
+                        </li>
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
+                {% endfor %}
+                {% else %}
+                <p class="text-muted-foreground">No local setlist data found.</p>
+                {% endif %}
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+            {# Live shows section (API fetch version) #}
             <section>
                 <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 class="font-serif text-3xl font-medium mb-4 text-center">Live shows</h2>
@@ -81,6 +131,8 @@
                     {% endif %}
                 </div>
             </section>
+
+
 
         </div>
     </section>
