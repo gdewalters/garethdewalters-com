@@ -42,97 +42,57 @@
                         2024
                         </a> 
                     </nav>
-
-
                 </div>
-
-
             </section>
 
+            {# Live shows section fetched from local JSON version data #}
+            <section>
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-serif text-3xl font-medium mb-4 text-center">Live shows</h2>
+                <p class="text-muted-foreground mb-12 text-center">A running list of gigs I’ve been lucky enough to see.</p>
 
-
-
-            <section class="mt-16">
-
-                {# _data/setlists/views.json -> setlists.views, _data/setlists/attended/index.json -> setlists.attended.index #}
-                <h1>Live shows</h1>
-                <p>Marked as attended on <a href="https://www.setlist.fm/">setlist.fm</a></p>
-
-                {% set byYear = setlists.views and setlists.views.byYear %}
-                {% set index = setlists.attended.index and setlists.attended.index.items %}
+                {% set byYear = setlists.views.byYear %}
+                {% set index  = setlists.attended.index.items %}
 
                 {% if byYear and index %}
-                {# dictsort returns [key, value] pairs; reverse to get newest year first #}
+                {# dictsort gives [key, value] pairs; reverse => newest year first #}
                 {% for pair in (byYear | dictsort) | reverse %}
                     {% set year = pair[0] %}
                     {% set ids  = pair[1] %}
 
-                    <h2>{{ year }}</h2>
-                    <ul>
-                    {% for id in ids %}
-                        {% set item = index | findById(id) %}
+                    <div class="mb-10">
+                    <h3 class="font-serif text-2xl font-medium mb-4">{{ year }}</h3>
+                    <ul class="space-y-6">
+                        {% for id in ids %}
+                        {# Prefer fast lookup if you added views.byId; otherwise use findById filter #}
+                        {% set item = setlists.views.byId and setlists.views.byId[id] or (index | findById(id)) %}
                         {% if item %}
-                        <li>
-                            <strong>{{ item.artist }}</strong>
-                            {% if item.tour %} for {{ item.tour }}{% endif %}<br/>
-                            <small>{{ item.eventDate }} at {{ item.venue }}, {{ item.city }}{% if item.countryCode %}, {{ item.countryCode }}{% endif %}</small>
-                            {% if item.festival %}<br/><em>{{ item.festival }}</em>{% endif %}
-                        </li>
+                            <li class="pb-6 border-b border-gray-200 last:border-b-0">
+                            <p class="font-medium text-lg text-foreground">
+                                <span><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.artist }}</a></span>
+                                {% if item.tour %}
+                                <span class="text-muted-foreground">{{ item.tour }}</span>
+                                {% endif %}
+                            </p>
+                            <p class="text-muted-foreground text-sm">
+                                {{ item.eventDate }} at {{ item.venue }}
+                                {% if item.city %}, {{ item.city }}{% endif %}
+                                {% if item.countryCode %}, {{ item.countryCode }}{% endif %}
+                            </p>
+                            {% if item.festival %}
+                                <p class="text-muted-foreground text-sm"><em>{{ item.festival }}</em></p>
+                            {% endif %}
+                            </li>
                         {% endif %}
-                    {% endfor %}
+                        {% endfor %}
                     </ul>
+                    </div>
                 {% endfor %}
                 {% else %}
-                <p class="text-muted-foreground">No local setlist data found.</p>
+                <p class="text-muted-foreground text-center">No attended shows found or there was an error retrieving Setlist.fm data.</p>
                 {% endif %}
-
+            </div>
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
-            {# Live shows section (API fetch version) #}
-            <section>
-                <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h2 class="font-serif text-3xl font-medium mb-4 text-center">Live shows</h2>
-                    <p class="text-muted-foreground mb-12 text-center">A running list of gigs I’ve been lucky enough to see.</p>
-
-                    {% set gigsByYear = getSetlistFmAttended %}
-                    {% if gigsByYear and (gigsByYear | length) > 0 %}
-                    {% for year in gigsByYear | keys | sort(true) %}
-                    <div class="mb-10">
-                        <h3 class="font-serif text-2xl font-medium mb-4">{{ year }}</h3>
-                        <ul class="space-y-6">
-                            {% for gig in gigsByYear[year] %}
-                            <li class="pb-6 border-b border-gray-200 last:border-b-0">
-                                <p class="font-medium text-lg text-foreground">
-                                    <span><a href="{{ gig.url }}" target="_blank" rel="noopener noreferrer">{{ gig.artist.name }}</a></span>
-                                    
-                                    {% if gig.tour and gig.tour.name %}
-                                    <span class="text-muted-foreground">{{ gig.tour.name }}</span>
-                                    {% endif %}
-                                </p>
-                                <p class="text-muted-foreground text-sm">{{ gig.eventDate }} at {{ gig.venue.name }}, {{ gig.venue.city.name }}{% if gig.venue.city.stateCode %}, {{ gig.venue.city.stateCode }}{% endif %}</p>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    {% endfor %}
-                    {% else %}
-                    <p class="text-muted-foreground text-center">No attended shows found or there was an error retrieving Setlist.fm data.</p>
-                    {% endif %}
-                </div>
-            </section>
-
-
 
         </div>
     </section>
