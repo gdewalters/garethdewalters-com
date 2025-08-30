@@ -1,11 +1,10 @@
 ---js
 {    
-    layout: "layouts/base.njk",
-    title: "Currently",
-    permalink: "/currently/listening.html",
+layout: "layouts/base.njk",
+title: "Currently",
+permalink: "/currently/listening.html",
 }
 ---
-
 <article class="w-full max-w-7xl mx-auto">
     <!-- Page meta section -->
     <section class="mb-16 text-center">
@@ -13,15 +12,13 @@
             <h1 class="font-serif text-4xl leading-tight font-medium md:text-5xl lg:text-6xl mb-6 text-left sm:text-center">Listening</h1>
         </div>
     </section>
-
     <!-- Page content -->
     <section class="flex justify-center">
-        <!-- The 'prose' class from @tailwindcss/typography plugin will style the content -->
-        <div class="prose max-w-prose w-full">
-
+        <!-- The 'prose' class from @tailwindcss/typography plugin will style the content [prose max-w-prose w-full] -->
+        <div class="w-full">
             {# Annual Playlists Section #}
-            <section class="">
-                <div class="">
+            <section id="annual-playlists">
+                <div class="standard-text">
                     <h2 class="font-serif text-3xl font-medium mb-8 text-center">Annual playlists</h2>
                     <p class="text-muted-foreground mb-12 text-center">A collection of my yearly playlists, showcasing the music I've been enjoying each year.</p>
                     {# Placeholder for Annual Playlists Navigation/Filters #}
@@ -33,7 +30,6 @@
                             class="">
                         2025
                         </a> 
-
                         <a 
                             href="https://tidal.com/playlist/44c473cd-099f-4a58-9949-67c681ee9402" 
                             target="_blank" 
@@ -46,54 +42,83 @@
             </section>
 
             {# Live shows section fetched from local JSON version data #}
-            <section>
-            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="font-serif text-3xl font-medium mb-4 text-center">Live shows</h2>
-                <p class="text-muted-foreground mb-12 text-center">A running list of gigs I’ve been lucky enough to see. Last updated on {{ setlists.attended.index.harvestedAt | date_format("D MMMM YYYY") }}.</p>
+            <section id="live-shows">
+                <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <!-- Gig section header -->
+                    <header class="text-center mb-8">
+                        <h2 class="font-serif text-3xl font-medium mb-4 text-center mb-2">Live shows</h2>
+                        <p class="text-muted-foreground mb-12 text-center">
+                            A running list of gigs I’ve been lucky enough to see. Last updated on {{ setlists.attended.index.harvestedAt | date_format("D MMMM YYYY") }}.
+                        </p>
+                    </header>
 
-                {% set byYear = setlists.views.byYear %}
-                {% set index  = setlists.attended.index.items %}
+                    {% set byYear = setlists.views.byYear %}
+                    {% set index  = setlists.attended.index.items %}
+                    {% if byYear and index %}
+                        {# dictsort gives [key, value] pairs; reverse => newest year first #}
+                        {% for pair in (byYear | dictsort) | reverse %}
+                            {% set year = pair[0] %}
+                            {% set ids  = pair[1] %}
 
-                {% if byYear and index %}
-                {# dictsort gives [key, value] pairs; reverse => newest year first #}
-                {% for pair in (byYear | dictsort) | reverse %}
-                    {% set year = pair[0] %}
-                    {% set ids  = pair[1] %}
+                            <div class="mb-12">
 
-                    <div class="mb-10">
-                    <h3 class="font-serif text-2xl font-medium mb-4">{{ year }}</h3>
-                    <ul class="space-y-6">
-                        {% for id in ids %}
-                        {# Prefer fast lookup if you added views.byId; otherwise use findById filter #}
-                        {% set item = setlists.views.byId and setlists.views.byId[id] or (index | findById(id)) %}
-                        {% if item %}
-                            <li class="pb-6 border-b border-gray-200 last:border-b-0">
-                            <p class="font-medium text-lg text-foreground">
-                                <span><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.artist }}</a></span>
-                                {% if item.tour %}
-                                <span class="text-muted-foreground">{{ item.tour }}</span>
-                                {% endif %}
-                            </p>
-                            <p class="text-muted-foreground text-sm">
-                                {{ item.eventDate | date_format("D MMMM YYYY") }} at {{ item.venue }}
-                                {% if item.city %}, {{ item.city }}{% endif %}
-                                {% if item.countryCode %}, {{ item.countryCode }}{% endif %}
-                            </p>
-                            {% if item.festival %}
-                                <p class="text-muted-foreground text-sm"><em>{{ item.festival }}</em></p>
-                            {% endif %}
-                            </li>
-                        {% endif %}
+                                <!-- Gigs by year header -->
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <h2 class="text-3xl font-bold">{{ year }}</h2>
+                                    <div class="flex-grow border-t border-huntergreen"></div>
+                                </div>
+
+                                {% for id in ids %}
+                                    {# Prefer fast lookup if using views.byId; otherwise use findById filter #}
+                                    {% set item = setlists.views.byId and setlists.views.byId[id] or (index | findById(id)) %}
+                                    {% if item %}
+                                        <!-- Gig card -->
+                                        <div class="bg-secondary p-6 rounded-lg shadow-md mb-4">
+                                            <!-- Gig card: artist title -->
+                                            <h3 class="text-xl font-bold text-huntergreen mb-1">
+                                                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="">
+                                                    {{ item.artist }}
+                                                </a>
+                                            </h3>
+
+
+ 
+                                            <!-- Gig card: details -->
+                                            <p class="text-muted-foreground text-sm">
+                                                {% if item.tour %}
+                                                    {{ item.tour }}
+                                                {% endif %}
+                                                {% if item.tour and item.eventDate %}, {% endif %}
+                                                {% if item.eventDate %}
+                                                    {{ item.eventDate | date_format("D MMMM YYYY") }}
+                                                {% endif %}
+                                                {% if (item.eventDate and item.venue) %} at {% endif %}
+                                                {% if item.venue %}
+                                                    {{ item.venue }}
+                                                {% endif %}
+                                                {% if (item.venue and item.city) %}, {% endif %}
+                                                {% if item.city %}
+                                                    {{ item.city }}
+                                                {% endif %}
+                                                {% if (item.city and item.countryCode) %}, {% endif %}
+                                                {% if item.countryCode %}
+                                                    {{ item.countryCode }}
+                                                {% endif %}
+                                                {% if item.festival %}
+                                                    {{ item.festival }}
+                                                {% endif %}
+                                            </p>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                                    
+                            </div>
                         {% endfor %}
-                    </ul>
-                    </div>
-                {% endfor %}
-                {% else %}
-                <p class="text-muted-foreground text-center">No attended shows found or there was an error retrieving Setlist.fm data.</p>
-                {% endif %}
-            </div>
+                    {% else %}
+                        <p class="text-muted-foreground text-center">No attended shows found or there was an error retrieving Setlist.fm data.</p>
+                    {% endif %}
+                </div>
             </section>
-
         </div>
     </section>
 </article>

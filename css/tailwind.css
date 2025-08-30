@@ -31,12 +31,13 @@
 }
 
 /* ──────────────────────────────────────────────────────────
-   Prose body links (only)
+   Prose body links
    - crimson + slight weight + tidy underline
    - hover/focus: no underline
    - keyboard focus: accessible ring
 ────────────────────────────────────────────────────────── */
-.prose a {
+.prose a,
+.standard-text a {
   color: var(--color-vividcrimson);
   font-weight: 500; /* slight weight increase */
   text-decoration: underline;
@@ -44,11 +45,14 @@
   transition: text-decoration 0.2s ease, color 0.2s ease;
 }
 .prose a:hover,
-.prose a:focus {
+.prose a:focus,
+.standard-text a:hover,
+.standard-text a:focus {
   text-decoration: none;
   color: var(--color-vividcrimson);
 }
-.prose a:focus-visible {
+.prose a:focus-visible,
+.standard-text a:focus-visible {
   outline: none;
   /* Tailwind-style ring replicated in plain CSS for consistency */
   box-shadow:
