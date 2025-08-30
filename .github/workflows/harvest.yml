@@ -1,0 +1,45 @@
+name: Harvest setlist.fm (attended)
+
+on:
+  schedule:
+    # Runs at 03:00 UTC on the 1st of each month
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+
+# Needed so the job can commit JSON back to the repo
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # use GITHUB_TOKEN for pushes
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run harvester
+        run: npm run harvest:setlists
+        env:
+          SETLISTFM_API_KEY: ${{ secrets.SETLISTFM_API_KEY }}
+          SETLISTFM_USERNAME: ${{ secrets.SETLISTFM_USERNAME }}
+          SETLISTFM_LOCALE: en
+          SETLISTFM_REFRESH_PAGES: 3
+
+      - name: Commit & push data (if changed)
+        run: |
+          git config user.name "setlist-harvest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add _data/
+          git diff --staged --quiet || git commit -m "chore(data): monthly setlist.fm harvest"
+          git push
