@@ -1,0 +1,52 @@
+---js
+{
+    // Data for the Eleventy Navigation plugin
+    eleventyNavigation: {
+        key: "Notes",
+        order: 3,
+		parent: "mainNav"
+    },
+    
+    // Other page-specific front matter
+    layout: "layouts/base.njk",
+    title: "Links, notes, and ephemera",
+    permalink: "/notes/index.html",
+    eleventyComputed: {
+        post: async (data) => data.getContentfulPageNotes
+    },
+}
+---
+
+
+{# Section for Notes, links, and emphemera #}
+<section class="py-6 bg-white">
+  <div class="w-full max-w-3xl mx-auto">
+    <h2 class="font-serif text-3xl font-medium mb-8 text-left">Links, notes, and ephemera</h2>
+    
+    <div class="grid grid-cols-1 gap-8">
+      {% for note in notesDeck %}
+        <article class="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+          <a href="{{ note.externalLink }}" target="_blank" rel="noopener noreferrer" class="block no-underline hover:underline underline-offset-2">
+            <h3 class="font-serif text-xl font-medium mb-2">
+              {{ note.noteTitle }}
+              <svg xmlns="http://www.w3.org/2000/svg" class="inline-block ml-2 w-4 h-4 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </h3>
+          </a>
+          {% if note.authorCommentary %}
+          <div class="text-foreground text-sm mb-4">
+            <div class="prose">
+              {{ note.authorCommentary | safe }}
+            </div>
+          </div>
+          {% endif %}
+
+          {% if note.datePublished %}
+          <div class="text-muted-foreground text-xs">
+            <span>{{ note.datePublished | readableDate }}</span>
+          </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
