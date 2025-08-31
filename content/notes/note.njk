@@ -39,16 +39,21 @@
 
               <div class="mt-6 space-y-12 not-prose">
                 <div class="mt-4">
-                  <a class="group inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm 
-                          !text-white bg-red-500 hover:bg-red-600 active:bg-red-700 
-                          focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 
+                  <a 
+                    class="group inline-flex items-center 
+                          px-6 py-3 text-base md:px-6 md:py-3 md:text-base 
+                          sm:px-4 sm:py-2 sm:text-sm 
+                          border border-transparent font-medium rounded-md shadow-sm 
+                          !text-white bg-[rgba(51,103,59,0.6)] active:bg-[rgba(51,103,59,0.85)]
+                          focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[rgba(51,103,59,0.6)]
                           transition-colors duration-200"
-                    href="{{ note.externalLink }}" rel="noopener noreferrer" target="_blank">
-                    Visit '{{ note.noteTitle }}'
+                    href="{{ note.externalLink }}" rel="noopener noreferrer" target="_blank"
+                  >
+                    {{ note.noteTitle }}
                     <span class="ml-2 inline-flex">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                           stroke-width="1.5" stroke="currentColor" 
-                          class="size-5 text-white transform transition-transform duration-200 ease-in-out group-hover:translate-x-1">
+                          class="size-5 sm:size-4 text-white transform transition-transform duration-200 ease-in-out group-hover:translate-x-1">
                         <path stroke-linecap="round" stroke-linejoin="round"
                               d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                       </svg>
