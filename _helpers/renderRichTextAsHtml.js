@@ -7,6 +7,7 @@
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
 import parseImageWrapper from './parseImageWrapper.js';
+import parseVideoWrapper from './parseVideoWrapper.js';
 
 export default function renderRichTextAsHtml(json) {
   const options = {
@@ -17,6 +18,12 @@ export default function renderRichTextAsHtml(json) {
           const img = parseImageWrapper(entry);
           if (img) {
             return `<figure><img src="${img.url}" alt="${img.alt}">${img.caption ? `<figcaption>${img.caption}</figcaption>` : ''}</figure>`;
+          }
+        }
+        if (entry?.sys?.contentType?.sys?.id === 'mediaVideoAsset') {
+          const video = parseVideoWrapper(entry);
+          if (video) {
+            return `<figure><iframe src="${video.url}" title="${video.title}" allowfullscreen></iframe>${video.caption ? `<figcaption>${video.caption}</figcaption>` : ''}</figure>`;
           }
         }
         return '';
