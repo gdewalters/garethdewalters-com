@@ -1,0 +1,36 @@
+---js
+{
+  pagination: {
+    data: "getContentfulNotes",
+    size: 1,
+    alias: "note",
+  },
+  layout: "layouts/base.njk",
+  eleventyComputed: {
+    permalink: (data) => {
+      if (data.note && data.note.noteTitle && data.note.datePublished) {
+        const slug = String(data.note.noteTitle)
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-+|-+$/g, '');
+        const datePart = new Date(data.note.datePublished).toISOString().split('T')[0];
+        return `/notes/${datePart}-${slug}/index.html`;
+      }
+      return false;
+    },
+  },
+  tags: ["notes"],
+}
+---
+<article class="w-full max-w-3xl mx-auto">
+  <h1 class="font-serif text-3xl font-medium mb-4">{{ note.noteTitle }}</h1>
+  {% if note.authorCommentary %}
+  <div class="prose mb-4">{{ note.authorCommentary | safe }}</div>
+  {% endif %}
+  {% if note.externalLink %}
+  <p class="mb-4"><a href="{{ note.externalLink }}" target="_blank" rel="noopener noreferrer" class="underline">Visit link ↗</a></p>
+  {% endif %}
+  {% if note.datePublished %}
+  <p class="text-muted-foreground text-xs">Published on <time datetime="{{ note.datePublished | htmlDateString }}">{{ note.datePublished | readableDate }}</time></p>
+  {% endif %}
+</article>

@@ -17,6 +17,7 @@
 }
 ---
 
+{% set notesDeck = getContentfulNotes %}
 
 {# Section for Notes, links, and emphemera #}
 <section class="py-6 bg-white">
@@ -26,11 +27,8 @@
     <div class="grid grid-cols-1 gap-8">
       {% for note in notesDeck %}
         <article class="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
-          <a href="{{ note.externalLink }}" target="_blank" rel="noopener noreferrer" class="block no-underline hover:underline underline-offset-2">
-            <h3 class="font-serif text-xl font-medium mb-2">
-              {{ note.noteTitle }}
-              <svg xmlns="http://www.w3.org/2000/svg" class="inline-block ml-2 w-4 h-4 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-            </h3>
+          <a href="/notes/{{ note.datePublished | htmlDateString }}-{{ note.noteTitle | slug }}/" class="block no-underline hover:underline underline-offset-2">
+            <h3 class="font-serif text-xl font-medium mb-2">{{ note.noteTitle }}</h3>
           </a>
           {% if note.authorCommentary %}
           <div class="text-foreground text-sm mb-4">
