@@ -23,6 +23,7 @@ export default async function getContentfulNotes() {
       return {
         noteTitle: fields.noteTitle,
         externalLink: fields.externalLink,
+        externalLinkLabel: fields.externalLinkLabel || fields.noteTitle, // Fallback to noteTitle if label is missing
         authorCommentary: fields.authorCommentary ? renderRichTextAsHtml(fields.authorCommentary) : null,
         datePublished: fields.datePublished || item.sys?.publishedAt || item.sys?.createdAt,
       };
