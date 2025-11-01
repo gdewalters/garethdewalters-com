@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2025-08-30T02:43:47.282Z",
+  "harvestedAt": "2025-11-01T03:39:23.982Z",
   "byYear": {
     "1988": [
+      "23c06097",
       "53c06379"
     ],
     "1990": [
@@ -472,6 +473,7 @@
       "43fc2b17"
     ],
     "INXS": [
+      "23c06097",
       "53c06379"
     ]
   },
@@ -629,6 +631,7 @@
       "7bdcda28",
       "7ba32298",
       "6bdcda2a",
+      "23c06097",
       "53c06379"
     ],
     "Worthy Farm, Pilton, GB": [
@@ -731,6 +734,7 @@
       "4bf95796",
       "13c2093d",
       "43fc2b17",
+      "23c06097",
       "53c06379"
     ],
     "GB": [
@@ -1650,7 +1654,7 @@
       "festival": null,
       "tour": "Kid A/Amnesiac Tour (Third Leg)",
       "url": "https://www.setlist.fm/setlist/radiohead/2001/south-park-oxford-england-2bd6ec12.html",
-      "lastUpdated": "2024-08-22T15:04:52.748+0000"
+      "lastUpdated": "2025-10-26T17:55:26.611+0000"
     },
     "63d55eb7": {
       "id": "63d55eb7",
@@ -1923,7 +1927,7 @@
       "festival": null,
       "tour": "The Team Tour",
       "url": "https://www.setlist.fm/setlist/the-cure/1995/worthy-farm-pilton-england-bd7e95e.html",
-      "lastUpdated": "2025-07-04T19:14:35.529+0000"
+      "lastUpdated": "2025-09-30T18:33:52.588+0000"
     },
     "13d099f9": {
       "id": "13d099f9",
@@ -1949,7 +1953,7 @@
       "festival": null,
       "tour": "To Bring You My Love",
       "url": "https://www.setlist.fm/setlist/pj-harvey/1995/worthy-farm-pilton-england-4bd28b8a.html",
-      "lastUpdated": "2025-07-04T19:14:35.718+0000"
+      "lastUpdated": "2025-09-30T19:11:28.880+0000"
     },
     "2bc6d86a": {
       "id": "2bc6d86a",
@@ -1975,7 +1979,7 @@
       "festival": null,
       "tour": null,
       "url": "https://www.setlist.fm/setlist/pulp/1995/worthy-farm-pilton-england-23d7bc77.html",
-      "lastUpdated": "2025-07-04T19:14:35.651+0000"
+      "lastUpdated": "2025-09-30T18:35:57.094+0000"
     },
     "33f4a419": {
       "id": "33f4a419",
@@ -2053,7 +2057,7 @@
       "festival": null,
       "tour": "(What's the Story) Morning Glory?",
       "url": "https://www.setlist.fm/setlist/oasis/1995/worthy-farm-pilton-england-2bd798ba.html",
-      "lastUpdated": "2025-07-04T19:14:35.799+0000"
+      "lastUpdated": "2025-10-09T05:06:03.487+0000"
     },
     "6b919a36": {
       "id": "6b919a36",
@@ -2183,7 +2187,7 @@
       "festival": null,
       "tour": "Angel Dust",
       "url": "https://www.setlist.fm/setlist/faith-no-more/1993/auckland-town-hall-auckland-new-zealand-73d83a21.html",
-      "lastUpdated": "2023-12-03T08:31:45.319+0000"
+      "lastUpdated": "2025-09-25T21:55:23.909+0000"
     },
     "3b905084": {
       "id": "3b905084",
@@ -2276,6 +2280,19 @@
       "url": "https://www.setlist.fm/setlist/the-mission/1990/auckland-town-hall-auckland-new-zealand-43fc2b17.html",
       "lastUpdated": "2018-03-10T06:23:56.811+0000"
     },
+    "23c06097": {
+      "id": "23c06097",
+      "eventDate": "17-10-1988",
+      "artist": "INXS",
+      "venue": "Mount Smart Stadium",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "festival": null,
+      "tour": "Calling All Nations",
+      "url": "https://www.setlist.fm/setlist/inxs/1988/mount-smart-stadium-auckland-new-zealand-23c06097.html",
+      "lastUpdated": "2014-09-24T17:54:56.000+0000"
+    },
     "53c06379": {
       "id": "53c06379",
       "eventDate": "10-10-1988",
@@ -2290,5 +2307,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   },
-  "__integrityHash": "1c5293fb76ef2780fdc0a512ff98202dd9fdb62b69336afcc6ab80570933c3e6"
+  "__integrityHash": "5b8ef368e052f0ca4bb39e65a7ac08a5116fa44c15e1adf23ed58edf2364d31b"
 }
