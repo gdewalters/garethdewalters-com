@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2025-11-01T03:39:23.982Z",
+  "harvestedAt": "2025-12-01T04:07:22.610Z",
   "username": "gdewalters",
   "summary": {
-    "total": 116,
+    "total": 117,
     "festivals": 0,
     "uniqueArtists": 85,
     "byCountry": {
-      "NZ": 65,
+      "NZ": 66,
       "GB": 50,
       "AU": 1
     }

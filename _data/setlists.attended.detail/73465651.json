@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2025-12-01T04:07:22.610Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "73465651",
+    "eventDate": "23-11-2025",
+    "lastUpdated": "2025-11-23T11:11:26.939+0000",
+    "artist": {
+      "name": "Pixies",
+      "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Auckland Town Hall",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "2025 Australia & New Zealand Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/pixies/2025/auckland-town-hall-auckland-new-zealand-73465651.html",
+    "sets": [
+      {
+        "name": "Bossanova",
+        "song": [
+          {
+            "name": "Cecilia Ann",
+            "cover": {
+              "mbid": "601ea213-3d15-4f85-9be0-ea03caf68ccc",
+              "name": "The Surftones",
+              "sortName": "Surftones, The",
+              "disambiguation": "one-off surf rock duo, track \"Cecilia Ann\"",
+              "url": "https://www.setlist.fm/setlists/the-surftones-4bd77fa6.html"
+            }
+          },
+          {
+            "name": "Rock Music"
+          },
+          {
+            "name": "Velouria"
+          },
+          {
+            "name": "Allison"
+          },
+          {
+            "name": "Is She Weird"
+          },
+          {
+            "name": "Ana"
+          },
+          {
+            "name": "All Over the World"
+          },
+          {
+            "name": "Dig for Fire"
+          },
+          {
+            "name": "Down to the Well"
+          },
+          {
+            "name": "The Happening"
+          },
+          {
+            "name": "Blown Away"
+          },
+          {
+            "name": "Hang Wire"
+          },
+          {
+            "name": "Stormy Weather"
+          },
+          {
+            "name": "Havalina"
+          }
+        ]
+      },
+      {
+        "name": "Trompe Le Monde",
+        "song": [
+          {
+            "name": "Trompe le Monde"
+          },
+          {
+            "name": "Planet of Sound"
+          },
+          {
+            "name": "Alec Eiffel"
+          },
+          {
+            "name": "The Sad Punk"
+          },
+          {
+            "name": "Head On",
+            "cover": {
+              "mbid": "e938a15c-b17e-4e7a-9f68-ff0d536cab44",
+              "name": "The Jesus and Mary Chain",
+              "sortName": "Jesus and Mary Chain, The",
+              "disambiguation": "",
+              "url": "https://www.setlist.fm/setlists/the-jesus-and-mary-chain-7bd6b2d0.html"
+            }
+          },
+          {
+            "name": "U-Mass"
+          },
+          {
+            "name": "Palace of the Brine"
+          },
+          {
+            "name": "Letter to Memphis"
+          },
+          {
+            "name": "Bird Dream of the Olympus Mons"
+          },
+          {
+            "name": "Space (I Believe In)"
+          },
+          {
+            "name": "Subbacultcha"
+          },
+          {
+            "name": "Distance Equals Rate Times Time"
+          },
+          {
+            "name": "Lovely Day"
+          },
+          {
+            "name": "Motorway to Roswell"
+          },
+          {
+            "name": "The Navajo Know"
+          }
+        ]
+      },
+      {
+        "name": "The Bonus Songs",
+        "song": [
+          {
+            "name": "Wave of Mutilation",
+            "info": "UK Surf"
+          },
+          {
+            "name": "Where Is My Mind?"
+          },
+          {
+            "name": "Winterlong",
+            "cover": {
+              "mbid": "75167b8b-44e4-407b-9d35-effe87b223cf",
+              "name": "Neil Young",
+              "sortName": "Young, Neil",
+              "disambiguation": "Canadian singer, songwriter & musician",
+              "url": "https://www.setlist.fm/setlists/neil-young-6bd6b662.html"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

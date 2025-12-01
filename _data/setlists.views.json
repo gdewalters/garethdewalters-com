@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2025-11-01T03:39:23.982Z",
+  "harvestedAt": "2025-12-01T04:07:22.610Z",
   "byYear": {
     "1988": [
       "23c06097",
@@ -186,10 +186,16 @@
       "73ada60d"
     ],
     "2025": [
+      "73465651",
       "1b533ddc"
     ]
   },
   "byArtist": {
+    "Pixies": [
+      "73465651",
+      "43d4b7d3",
+      "13d67985"
+    ],
     "Supergrass": [
       "1b533ddc",
       "63d55eb7"
@@ -306,10 +312,6 @@
     ],
     "Shayne Carter": [
       "1bda4920"
-    ],
-    "Pixies": [
-      "43d4b7d3",
-      "13d67985"
     ],
     "Head Like a Hole": [
       "4b917b42"
@@ -478,6 +480,13 @@
     ]
   },
   "byVenue": {
+    "Auckland Town Hall, Auckland, NZ": [
+      "73465651",
+      "4bad7346",
+      "73d83a21",
+      "13c2093d",
+      "43fc2b17"
+    ],
     "Forum Theatre, Melbourne, AU": [
       "1b533ddc"
     ],
@@ -516,12 +525,6 @@
       "4b917b42",
       "5bd24328",
       "3b905084"
-    ],
-    "Auckland Town Hall, Auckland, NZ": [
-      "4bad7346",
-      "73d83a21",
-      "13c2093d",
-      "43fc2b17"
     ],
     "Civic Theatre, Auckland, NZ": [
       "3ba0913",
@@ -667,10 +670,8 @@
   },
   "byFestival": {},
   "byCountry": {
-    "AU": [
-      "1b533ddc"
-    ],
     "NZ": [
+      "73465651",
       "b5f8972",
       "35f8977",
       "135f8969",
@@ -737,6 +738,9 @@
       "23c06097",
       "53c06379"
     ],
+    "AU": [
+      "1b533ddc"
+    ],
     "GB": [
       "3bc26060",
       "3d35dff",
@@ -792,8 +796,8 @@
   },
   "labels": {
     "country": {
-      "AU": "Australia",
       "NZ": "New Zealand",
+      "AU": "Australia",
       "GB": "United Kingdom"
     }
   },
@@ -810,6 +814,19 @@
       "tour": null,
       "url": "https://www.setlist.fm/setlist/dimmer/2018/powerstation-auckland-new-zealand-3974517.html",
       "lastUpdated": "2020-05-06T18:37:56.010+0000"
+    },
+    "73465651": {
+      "id": "73465651",
+      "eventDate": "23-11-2025",
+      "artist": "Pixies",
+      "venue": "Auckland Town Hall",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "festival": null,
+      "tour": "2025 Australia & New Zealand Tour",
+      "url": "https://www.setlist.fm/setlist/pixies/2025/auckland-town-hall-auckland-new-zealand-73465651.html",
+      "lastUpdated": "2025-11-23T11:11:26.939+0000"
     },
     "1b533ddc": {
       "id": "1b533ddc",
@@ -2307,5 +2324,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   },
-  "__integrityHash": "5b8ef368e052f0ca4bb39e65a7ac08a5116fa44c15e1adf23ed58edf2364d31b"
+  "__integrityHash": "148ed03d8bffd4cdf884647ca6b0594f835e0665167d9ec5347df29fb2e6a082"
 }
