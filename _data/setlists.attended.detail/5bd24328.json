@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2025-08-30T02:44:50.364Z",
+  "harvestedAt": "2026-01-01T04:06:07.837Z",
   "username": "gdewalters",
   "setlist": {
     "id": "5bd24328",
     "eventDate": "22-06-1994",
-    "lastUpdated": "2020-05-06T18:38:02.561+0000",
+    "lastUpdated": "2025-11-30T07:39:25.959+0000",
     "artist": {
       "name": "Radiohead",
       "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
@@ -31,7 +31,43 @@
       {
         "song": [
           {
+            "name": "You"
+          },
+          {
+            "name": "Bones"
+          },
+          {
+            "name": "Ripcord"
+          },
+          {
+            "name": "Black Star"
+          },
+          {
             "name": "Creep"
+          },
+          {
+            "name": "My Iron Lung"
+          },
+          {
+            "name": "Prove Yourself"
+          },
+          {
+            "name": "The Bends"
+          },
+          {
+            "name": "Vegetable"
+          },
+          {
+            "name": "Inside My Head"
+          },
+          {
+            "name": "Just"
+          },
+          {
+            "name": "Stop Whispering"
+          },
+          {
+            "name": "Anyone Can Play Guitar"
           }
         ]
       }

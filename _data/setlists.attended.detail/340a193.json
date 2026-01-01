@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2026-01-01T04:06:07.837Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "340a193",
+    "eventDate": "10-12-2025",
+    "lastUpdated": "2025-12-10T19:57:40.348+0000",
+    "artist": {
+      "name": "Throwing Muses",
+      "mbid": "b1b9d5cc-7975-43e5-960e-670583da7bc8",
+      "tmid": null,
+      "disambiguation": ""
+    },
+    "venue": {
+      "name": "Double Whammy",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": null,
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/throwing-muses/2025/double-whammy-auckland-new-zealand-340a193.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Theremini"
+          },
+          {
+            "name": "Sunray Venus"
+          },
+          {
+            "name": "Dark Blue"
+          },
+          {
+            "name": "Bea"
+          },
+          {
+            "name": "Bywater"
+          },
+          {
+            "name": "Slippershell"
+          },
+          {
+            "name": "Colder"
+          },
+          {
+            "name": "Static"
+          },
+          {
+            "name": "Him Dancing"
+          },
+          {
+            "name": "Drugstore Drastic"
+          },
+          {
+            "name": "Lazy Eye"
+          },
+          {
+            "name": "Summer of Love"
+          },
+          {
+            "name": "Kay Catherine"
+          },
+          {
+            "name": "Libretto"
+          },
+          {
+            "name": "Opiates"
+          },
+          {
+            "name": "Soap and Water"
+          },
+          {
+            "name": "South Coast"
+          },
+          {
+            "name": "Albatross"
+          },
+          {
+            "name": "Limbo"
+          },
+          {
+            "name": "Counting Backwards"
+          },
+          {
+            "name": "Bo Diddley Bridge"
+          },
+          {
+            "name": "Sally's Beauty"
+          },
+          {
+            "name": "Moonlight Concessions"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Shark"
+          },
+          {
+            "name": "Bright Yellow Gun"
+          }
+        ]
+      }
+    ]
+  }
+}

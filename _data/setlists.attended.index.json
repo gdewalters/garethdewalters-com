@@ -1,9 +1,22 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2025-12-01T04:07:22.610Z",
+  "harvestedAt": "2026-01-01T04:06:07.837Z",
   "username": "gdewalters",
-  "count": 117,
+  "count": 118,
   "items": [
+    {
+      "id": "340a193",
+      "eventDate": "10-12-2025",
+      "artist": "Throwing Muses",
+      "venue": "Double Whammy",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "festival": null,
+      "tour": null,
+      "url": "https://www.setlist.fm/setlist/throwing-muses/2025/double-whammy-auckland-new-zealand-340a193.html",
+      "lastUpdated": "2025-12-10T19:57:40.348+0000"
+    },
     {
       "id": "73465651",
       "eventDate": "23-11-2025",
@@ -860,7 +873,7 @@
       "festival": null,
       "tour": "White Blood Cells",
       "url": "https://www.setlist.fm/setlist/the-white-stripes/2001/london-astoria-london-england-7bdcfe48.html",
-      "lastUpdated": "2025-03-12T06:43:48.588+0000"
+      "lastUpdated": "2025-12-03T20:14:58.529+0000"
     },
     {
       "id": "2bd6ec12",
@@ -1263,7 +1276,7 @@
       "festival": null,
       "tour": null,
       "url": "https://www.setlist.fm/setlist/dodgy/1995/worthy-farm-pilton-england-3bccecdc.html",
-      "lastUpdated": "2025-07-04T19:16:14.918+0000"
+      "lastUpdated": "2025-12-03T15:53:18.721+0000"
     },
     {
       "id": "2bd798ba",
@@ -1341,7 +1354,7 @@
       "festival": null,
       "tour": "1994 Tour",
       "url": "https://www.setlist.fm/setlist/radiohead/1994/powerstation-auckland-new-zealand-5bd24328.html",
-      "lastUpdated": "2020-05-06T18:38:02.561+0000"
+      "lastUpdated": "2025-11-30T07:39:25.959+0000"
     },
     {
       "id": "7393661d",
@@ -1430,9 +1443,9 @@
       "country": "New Zealand",
       "countryCode": "NZ",
       "festival": null,
-      "tour": "The Wish Tour (Australasian Leg)",
+      "tour": "Wish",
       "url": "https://www.setlist.fm/setlist/the-cure/1992/the-supertop-auckland-new-zealand-73d7ee5d.html",
-      "lastUpdated": "2020-05-15T01:10:09.255+0000"
+      "lastUpdated": "2025-12-29T03:54:33.423+0000"
     },
     {
       "id": "43f95797",
@@ -1526,5 +1539,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   ],
-  "__integrityHash": "b8e19c939572f06ae95f9a59890b6de590f2adac784143288cf350984e0bb684"
+  "__integrityHash": "bb8605da0564f2b229955b9bbd5dfc6d00d33c189e6a741304c348ca6b186bcb"
 }

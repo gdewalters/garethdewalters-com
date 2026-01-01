@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2025-12-01T04:07:22.610Z",
+  "harvestedAt": "2026-01-01T04:06:07.837Z",
   "byYear": {
     "1988": [
       "23c06097",
@@ -186,11 +186,16 @@
       "73ada60d"
     ],
     "2025": [
+      "340a193",
       "73465651",
       "1b533ddc"
     ]
   },
   "byArtist": {
+    "Throwing Muses": [
+      "340a193",
+      "3b905084"
+    ],
     "Pixies": [
       "73465651",
       "43d4b7d3",
@@ -459,9 +464,6 @@
     "Faith No More": [
       "73d83a21"
     ],
-    "Throwing Muses": [
-      "3b905084"
-    ],
     "3Ds": [
       "43f95797"
     ],
@@ -480,6 +482,11 @@
     ]
   },
   "byVenue": {
+    "Double Whammy, Auckland, NZ": [
+      "340a193",
+      "b5f8972",
+      "35f8977"
+    ],
     "Auckland Town Hall, Auckland, NZ": [
       "73465651",
       "4bad7346",
@@ -489,10 +496,6 @@
     ],
     "Forum Theatre, Melbourne, AU": [
       "1b533ddc"
-    ],
-    "Double Whammy, Auckland, NZ": [
-      "b5f8972",
-      "35f8977"
     ],
     "Whammy Bar, Auckland, NZ": [
       "135f8969",
@@ -671,6 +674,7 @@
   "byFestival": {},
   "byCountry": {
     "NZ": [
+      "340a193",
       "73465651",
       "b5f8972",
       "35f8977",
@@ -827,6 +831,19 @@
       "tour": "2025 Australia & New Zealand Tour",
       "url": "https://www.setlist.fm/setlist/pixies/2025/auckland-town-hall-auckland-new-zealand-73465651.html",
       "lastUpdated": "2025-11-23T11:11:26.939+0000"
+    },
+    "340a193": {
+      "id": "340a193",
+      "eventDate": "10-12-2025",
+      "artist": "Throwing Muses",
+      "venue": "Double Whammy",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "festival": null,
+      "tour": null,
+      "url": "https://www.setlist.fm/setlist/throwing-muses/2025/double-whammy-auckland-new-zealand-340a193.html",
+      "lastUpdated": "2025-12-10T19:57:40.348+0000"
     },
     "1b533ddc": {
       "id": "1b533ddc",
@@ -1658,7 +1675,7 @@
       "festival": null,
       "tour": "White Blood Cells",
       "url": "https://www.setlist.fm/setlist/the-white-stripes/2001/london-astoria-london-england-7bdcfe48.html",
-      "lastUpdated": "2025-03-12T06:43:48.588+0000"
+      "lastUpdated": "2025-12-03T20:14:58.529+0000"
     },
     "2bd6ec12": {
       "id": "2bd6ec12",
@@ -2061,7 +2078,7 @@
       "festival": null,
       "tour": null,
       "url": "https://www.setlist.fm/setlist/dodgy/1995/worthy-farm-pilton-england-3bccecdc.html",
-      "lastUpdated": "2025-07-04T19:16:14.918+0000"
+      "lastUpdated": "2025-12-03T15:53:18.721+0000"
     },
     "2bd798ba": {
       "id": "2bd798ba",
@@ -2139,7 +2156,7 @@
       "festival": null,
       "tour": "1994 Tour",
       "url": "https://www.setlist.fm/setlist/radiohead/1994/powerstation-auckland-new-zealand-5bd24328.html",
-      "lastUpdated": "2020-05-06T18:38:02.561+0000"
+      "lastUpdated": "2025-11-30T07:39:25.959+0000"
     },
     "7393661d": {
       "id": "7393661d",
@@ -2228,9 +2245,9 @@
       "country": "New Zealand",
       "countryCode": "NZ",
       "festival": null,
-      "tour": "The Wish Tour (Australasian Leg)",
+      "tour": "Wish",
       "url": "https://www.setlist.fm/setlist/the-cure/1992/the-supertop-auckland-new-zealand-73d7ee5d.html",
-      "lastUpdated": "2020-05-15T01:10:09.255+0000"
+      "lastUpdated": "2025-12-29T03:54:33.423+0000"
     },
     "43f95797": {
       "id": "43f95797",
@@ -2324,5 +2341,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   },
-  "__integrityHash": "148ed03d8bffd4cdf884647ca6b0594f835e0665167d9ec5347df29fb2e6a082"
+  "__integrityHash": "89d786196ce72594e5a0e5c742b92cace52bdf082fd145767d31013e25e2a11b"
 }

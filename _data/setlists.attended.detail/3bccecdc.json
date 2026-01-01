@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2025-08-30T02:44:50.364Z",
+  "harvestedAt": "2026-01-01T04:06:07.837Z",
   "username": "gdewalters",
   "setlist": {
     "id": "3bccecdc",
     "eventDate": "23-06-1995",
-    "lastUpdated": "2025-07-04T19:16:14.918+0000",
+    "lastUpdated": "2025-12-03T15:53:18.721+0000",
     "artist": {
       "name": "Dodgy",
       "mbid": "9e82fd1f-b102-4890-a5f1-ed0af912fe01",
@@ -30,6 +30,9 @@
     "sets": [
       {
         "song": [
+          {
+            "name": "Waiting for the Day"
+          },
           {
             "name": "Making the Most Of"
           },

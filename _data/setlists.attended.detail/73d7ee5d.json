@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2025-08-30T02:44:50.364Z",
+  "harvestedAt": "2026-01-01T04:06:07.837Z",
   "username": "gdewalters",
   "setlist": {
     "id": "73d7ee5d",
     "eventDate": "15-08-1992",
-    "lastUpdated": "2020-05-15T01:10:09.255+0000",
+    "lastUpdated": "2025-12-29T03:54:33.423+0000",
     "artist": {
       "name": "The Cure",
       "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
@@ -24,7 +24,7 @@
         "long": 174.7666667
       }
     },
-    "tour": "The Wish Tour (Australasian Leg)",
+    "tour": "Wish",
     "festival": null,
     "url": "https://www.setlist.fm/setlist/the-cure/1992/the-supertop-auckland-new-zealand-73d7ee5d.html",
     "sets": [
