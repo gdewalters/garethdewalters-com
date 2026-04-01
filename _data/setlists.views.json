@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2026-01-01T04:06:07.837Z",
+  "harvestedAt": "2026-04-01T05:17:21.740Z",
   "byYear": {
     "1988": [
       "23c06097",
@@ -1350,7 +1350,7 @@
       "festival": null,
       "tour": null,
       "url": "https://www.setlist.fm/setlist/bailterspace/2013/kings-arms-auckland-new-zealand-2beb583a.html",
-      "lastUpdated": "2023-05-03T17:21:55.930+0000"
+      "lastUpdated": "2026-03-24T08:13:01.679+0000"
     },
     "3e9e1ab": {
       "id": "3e9e1ab",
@@ -2341,5 +2341,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   },
-  "__integrityHash": "89d786196ce72594e5a0e5c742b92cace52bdf082fd145767d31013e25e2a11b"
+  "__integrityHash": "a6f267c9738038908e48c5effd795ea84fa638cc0af4434fa4a3b66be46a0a5d"
 }

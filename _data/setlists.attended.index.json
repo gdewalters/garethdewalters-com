@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2026-01-01T04:06:07.837Z",
+  "harvestedAt": "2026-04-01T05:17:21.740Z",
   "username": "gdewalters",
   "count": 118,
   "items": [
@@ -548,7 +548,7 @@
       "festival": null,
       "tour": null,
       "url": "https://www.setlist.fm/setlist/bailterspace/2013/kings-arms-auckland-new-zealand-2beb583a.html",
-      "lastUpdated": "2023-05-03T17:21:55.930+0000"
+      "lastUpdated": "2026-03-24T08:13:01.679+0000"
     },
     {
       "id": "3e9e1ab",
@@ -1539,5 +1539,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   ],
-  "__integrityHash": "bb8605da0564f2b229955b9bbd5dfc6d00d33c189e6a741304c348ca6b186bcb"
+  "__integrityHash": "14323fbf33e4ffad497d5dc0b803743783f210cfae9ee36585dfa6a99c89af77"
 }

@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2025-08-30T02:44:50.364Z",
+  "harvestedAt": "2026-04-01T05:17:21.740Z",
   "username": "gdewalters",
   "setlist": {
     "id": "2beb583a",
     "eventDate": "05-02-2013",
-    "lastUpdated": "2023-05-03T17:21:55.930+0000",
+    "lastUpdated": "2026-03-24T08:13:01.679+0000",
     "artist": {
       "name": "Bailterspace",
       "mbid": "74e750a2-e662-464c-b657-120f74e17fe6",
@@ -63,6 +63,9 @@
           },
           {
             "name": "Robot World"
+          },
+          {
+            "name": "Splat"
           }
         ]
       }
