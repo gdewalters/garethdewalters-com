@@ -1,9 +1,22 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2026-04-01T05:17:21.740Z",
+  "harvestedAt": "2026-07-01T07:04:42.992Z",
   "username": "gdewalters",
-  "count": 118,
+  "count": 119,
   "items": [
+    {
+      "id": "737626fd",
+      "eventDate": "06-06-2026",
+      "artist": "The Black Angels",
+      "venue": "Powerstation",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "festival": null,
+      "tour": "Passover 2026 Tour",
+      "url": "https://www.setlist.fm/setlist/the-black-angels/2026/powerstation-auckland-new-zealand-737626fd.html",
+      "lastUpdated": "2026-06-06T14:00:15.359+0000"
+    },
     {
       "id": "340a193",
       "eventDate": "10-12-2025",
@@ -1539,5 +1552,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   ],
-  "__integrityHash": "14323fbf33e4ffad497d5dc0b803743783f210cfae9ee36585dfa6a99c89af77"
+  "__integrityHash": "1586d88ff545ca81377ca4a551e312ca79dc823e21d834616251b0bd3d7560b3"
 }

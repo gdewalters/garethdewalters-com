@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2026-04-01T05:17:21.740Z",
+  "harvestedAt": "2026-07-01T07:04:42.992Z",
   "byYear": {
     "1988": [
       "23c06097",
@@ -189,9 +189,15 @@
       "340a193",
       "73465651",
       "1b533ddc"
+    ],
+    "2026": [
+      "737626fd"
     ]
   },
   "byArtist": {
+    "The Black Angels": [
+      "737626fd"
+    ],
     "Throwing Muses": [
       "340a193",
       "3b905084"
@@ -482,29 +488,8 @@
     ]
   },
   "byVenue": {
-    "Double Whammy, Auckland, NZ": [
-      "340a193",
-      "b5f8972",
-      "35f8977"
-    ],
-    "Auckland Town Hall, Auckland, NZ": [
-      "73465651",
-      "4bad7346",
-      "73d83a21",
-      "13c2093d",
-      "43fc2b17"
-    ],
-    "Forum Theatre, Melbourne, AU": [
-      "1b533ddc"
-    ],
-    "Whammy Bar, Auckland, NZ": [
-      "135f8969",
-      "7bee065c"
-    ],
-    "The Mothership, Auckland, NZ": [
-      "2352948b"
-    ],
     "Powerstation, Auckland, NZ": [
+      "737626fd",
       "1356f5d1",
       "7ba9ba54",
       "73ada60d",
@@ -528,6 +513,28 @@
       "4b917b42",
       "5bd24328",
       "3b905084"
+    ],
+    "Double Whammy, Auckland, NZ": [
+      "340a193",
+      "b5f8972",
+      "35f8977"
+    ],
+    "Auckland Town Hall, Auckland, NZ": [
+      "73465651",
+      "4bad7346",
+      "73d83a21",
+      "13c2093d",
+      "43fc2b17"
+    ],
+    "Forum Theatre, Melbourne, AU": [
+      "1b533ddc"
+    ],
+    "Whammy Bar, Auckland, NZ": [
+      "135f8969",
+      "7bee065c"
+    ],
+    "The Mothership, Auckland, NZ": [
+      "2352948b"
     ],
     "Civic Theatre, Auckland, NZ": [
       "3ba0913",
@@ -674,6 +681,7 @@
   "byFestival": {},
   "byCountry": {
     "NZ": [
+      "737626fd",
       "340a193",
       "73465651",
       "b5f8972",
@@ -831,6 +839,19 @@
       "tour": "2025 Australia & New Zealand Tour",
       "url": "https://www.setlist.fm/setlist/pixies/2025/auckland-town-hall-auckland-new-zealand-73465651.html",
       "lastUpdated": "2025-11-23T11:11:26.939+0000"
+    },
+    "737626fd": {
+      "id": "737626fd",
+      "eventDate": "06-06-2026",
+      "artist": "The Black Angels",
+      "venue": "Powerstation",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "festival": null,
+      "tour": "Passover 2026 Tour",
+      "url": "https://www.setlist.fm/setlist/the-black-angels/2026/powerstation-auckland-new-zealand-737626fd.html",
+      "lastUpdated": "2026-06-06T14:00:15.359+0000"
     },
     "340a193": {
       "id": "340a193",
@@ -2341,5 +2362,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   },
-  "__integrityHash": "a6f267c9738038908e48c5effd795ea84fa638cc0af4434fa4a3b66be46a0a5d"
+  "__integrityHash": "27cf9d61b377b50894c23a48121b8761022853749d666c3722bb74caac1ee16e"
 }

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2026-07-01T07:04:42.992Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "737626fd",
+    "eventDate": "06-06-2026",
+    "lastUpdated": "2026-06-06T14:00:15.359+0000",
+    "artist": {
+      "name": "The Black Angels",
+      "mbid": "49814f71-8fef-41ec-9af8-b6995c0bd601",
+      "tmid": null,
+      "disambiguation": "US psychedelic rock band since 2004"
+    },
+    "venue": {
+      "name": "Powerstation",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Passover 2026 Tour",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/the-black-angels/2026/powerstation-auckland-new-zealand-737626fd.html",
+    "sets": [
+      {
+        "name": "Passover",
+        "song": [
+          {
+            "name": "Young Men Dead"
+          },
+          {
+            "name": "The First Vietnamese War"
+          },
+          {
+            "name": "The Sniper at the Gates of Heaven"
+          },
+          {
+            "name": "The Prodigal Sun"
+          },
+          {
+            "name": "Black Grease"
+          },
+          {
+            "name": "Manipulation"
+          },
+          {
+            "name": "Empire"
+          },
+          {
+            "name": "Better Off Alone"
+          },
+          {
+            "name": "Bloodhounds on My Trail"
+          },
+          {
+            "name": "Call to Arms"
+          },
+          {
+            "name": "Mistress Brown (Fighting in Iraq)"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "song": [
+          {
+            "name": "Ronettes"
+          },
+          {
+            "name": "Bad Vibrations"
+          },
+          {
+            "name": "Push It"
+          },
+          {
+            "name": "Song 6"
+          },
+          {
+            "name": "Firefly"
+          },
+          {
+            "name": "Daisies"
+          },
+          {
+            "name": "Without a Trace"
+          },
+          {
+            "name": "Turkish"
+          },
+          {
+            "name": "Entrance Song"
+          }
+        ]
+      }
+    ]
+  }
+}
