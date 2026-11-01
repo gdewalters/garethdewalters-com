@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2026-07-01T07:04:42.992Z",
+  "harvestedAt": "2026-11-01T09:55:05.972Z",
   "byYear": {
     "1988": [
       "23c06097",
@@ -191,10 +191,15 @@
       "1b533ddc"
     ],
     "2026": [
+      "2b7228f2",
       "737626fd"
     ]
   },
   "byArtist": {
+    "James": [
+      "2b7228f2",
+      "2b944412"
+    ],
     "The Black Angels": [
       "737626fd"
     ],
@@ -394,9 +399,6 @@
     "Queens of the Stone Age": [
       "33d5c87d"
     ],
-    "James": [
-      "2b944412"
-    ],
     "Ween": [
       "53c03fe1"
     ],
@@ -488,6 +490,11 @@
     ]
   },
   "byVenue": {
+    "Civic Theatre, Auckland, NZ": [
+      "2b7228f2",
+      "3ba0913",
+      "4bcf87c6"
+    ],
     "Powerstation, Auckland, NZ": [
       "737626fd",
       "1356f5d1",
@@ -535,10 +542,6 @@
     ],
     "The Mothership, Auckland, NZ": [
       "2352948b"
-    ],
-    "Civic Theatre, Auckland, NZ": [
-      "3ba0913",
-      "4bcf87c6"
     ],
     "Studio The Venue, Auckland, NZ": [
       "23bf58f3"
@@ -681,6 +684,7 @@
   "byFestival": {},
   "byCountry": {
     "NZ": [
+      "2b7228f2",
       "737626fd",
       "340a193",
       "73465651",
@@ -839,6 +843,19 @@
       "tour": "2025 Australia & New Zealand Tour",
       "url": "https://www.setlist.fm/setlist/pixies/2025/auckland-town-hall-auckland-new-zealand-73465651.html",
       "lastUpdated": "2025-11-23T11:11:26.939+0000"
+    },
+    "2b7228f2": {
+      "id": "2b7228f2",
+      "eventDate": "15-10-2026",
+      "artist": "James",
+      "venue": "Civic Theatre",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "festival": null,
+      "tour": "Australia & New Zealand 2026",
+      "url": "https://www.setlist.fm/setlist/james/2026/civic-theatre-auckland-new-zealand-2b7228f2.html",
+      "lastUpdated": "2026-10-31T03:57:15.618+0000"
     },
     "737626fd": {
       "id": "737626fd",
@@ -2362,5 +2379,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   },
-  "__integrityHash": "27cf9d61b377b50894c23a48121b8761022853749d666c3722bb74caac1ee16e"
+  "__integrityHash": "591a1c4ef8455ca1f95b59527753073a83cb14f6b3cf5d561236fded15d05731"
 }

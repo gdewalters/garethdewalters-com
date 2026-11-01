@@ -1,9 +1,22 @@
 {
   "schemaVersion": 1,
-  "harvestedAt": "2026-07-01T07:04:42.992Z",
+  "harvestedAt": "2026-11-01T09:55:05.972Z",
   "username": "gdewalters",
-  "count": 119,
+  "count": 120,
   "items": [
+    {
+      "id": "2b7228f2",
+      "eventDate": "15-10-2026",
+      "artist": "James",
+      "venue": "Civic Theatre",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "festival": null,
+      "tour": "Australia & New Zealand 2026",
+      "url": "https://www.setlist.fm/setlist/james/2026/civic-theatre-auckland-new-zealand-2b7228f2.html",
+      "lastUpdated": "2026-10-31T03:57:15.618+0000"
+    },
     {
       "id": "737626fd",
       "eventDate": "06-06-2026",
@@ -1552,5 +1565,5 @@
       "lastUpdated": "2014-09-24T17:54:56.000+0000"
     }
   ],
-  "__integrityHash": "1586d88ff545ca81377ca4a551e312ca79dc823e21d834616251b0bd3d7560b3"
+  "__integrityHash": "f1c293658e584a26d78465311e9480d6e140947ec0972146497b0a4513e800ef"
 }

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "harvestedAt": "2026-11-01T09:55:05.972Z",
+  "username": "gdewalters",
+  "setlist": {
+    "id": "2b7228f2",
+    "eventDate": "15-10-2026",
+    "lastUpdated": "2026-10-31T03:57:15.618+0000",
+    "artist": {
+      "name": "James",
+      "mbid": "a2accb58-6099-4cb5-a3c8-f6332f364db5",
+      "tmid": null,
+      "disambiguation": "Manchester indie rock band"
+    },
+    "venue": {
+      "name": "Civic Theatre",
+      "city": "Auckland",
+      "state": "Auckland",
+      "stateCode": "E7",
+      "country": "New Zealand",
+      "countryCode": "NZ",
+      "coords": {
+        "lat": -36.8666667,
+        "long": 174.7666667
+      }
+    },
+    "tour": "Australia & New Zealand 2026",
+    "festival": null,
+    "url": "https://www.setlist.fm/setlist/james/2026/civic-theatre-auckland-new-zealand-2b7228f2.html",
+    "sets": [
+      {
+        "song": [
+          {
+            "name": "Zero"
+          },
+          {
+            "name": "Way Over Your Head"
+          },
+          {
+            "name": "Dream Thrum"
+          },
+          {
+            "name": "Everybody Knows"
+          },
+          {
+            "name": "Five-O"
+          },
+          {
+            "name": "Ring the Bells"
+          },
+          {
+            "name": "What's the World"
+          },
+          {
+            "name": "One of the Three"
+          },
+          {
+            "name": "Knuckle Too Far"
+          },
+          {
+            "name": "Shadow of a Giant"
+          },
+          {
+            "name": "Low Low Low"
+          },
+          {
+            "name": "Sound"
+          },
+          {
+            "name": "Getting Away With It (All Messed Up)"
+          },
+          {
+            "name": "Skindiving"
+          },
+          {
+            "name": "Lullaby"
+          },
+          {
+            "name": "P.S."
+          },
+          {
+            "name": "Say Something"
+          },
+          {
+            "name": "Beautiful Beaches"
+          },
+          {
+            "name": "Tomorrow"
+          }
+        ]
+      },
+      {
+        "encore": 1,
+        "song": [
+          {
+            "name": "Out to Get You"
+          },
+          {
+            "name": "Nantucket"
+          },
+          {
+            "name": "Sometimes (Lester Piggott)"
+          },
+          {
+            "name": "Laid"
+          }
+        ]
+      }
+    ]
+  }
+}
